@@ -1,0 +1,67 @@
+{
+  "intents": [
+    {
+      "intent": "saludo",
+      "examples": [
+        "Hola", "¿Cómo estás?", "Buenas tardes", "¡Hola! ¿Qué tal?", "¡Hey!", "¡Buenos días!",
+        "¿Qué pasa?", "¿Qué tal todo?", "¡Hola! ¿Cómo va todo?", "¡Qué onda!", "¡Qué hay de nuevo!",
+        "¡Saludos!", "¡Buenas noches!", "¡Qué tal, cómo va todo?", "¿Cómo te encuentras?", "¿Cómo va todo?",
+        "¡Hola! ¿Cómo te va?", "¡Qué tal, cómo estás?", "¡Qué bueno verte!", "¿Qué tal el día?", 
+        "¡Buenas! ¿Cómo estás?", "¡Hola, buen día!", "¡Ey! ¿Cómo andas?", "¡Qué tal por ahí?", 
+        "¡Qué pasa contigo!", "¿Todo bien?", "¡Hola! ¿Qué novedades?", "¡Qué tal todo en tu mundo?", 
+        "¡Buenas! ¿Cómo va la vida?", "¡Ey! ¿Qué hay?", "¿Todo tranquilo?", "¡Qué onda! ¿Todo bien?",
+        "¿Qué tal la semana?", "¡Hola, todo chévere?", "¡Hola, cómo va todo?", "¿Cómo va el día?",
+        "¡Hola! ¿Qué tal la familia?", "¡Saludos! ¿Cómo te va?", "¡Buenos días! ¿Qué tal?", "¿Cómo te encuentras hoy?",
+        "¡Hola! ¿Qué hay de nuevo?", "¿Cómo van las cosas?", "¡Hey! ¿Qué tal todo por ahí?", "¡Hola! ¿Todo bien?",
+        "¿Qué tal? ¿Todo en orden?", "¿Qué tal el fin de semana?", "¡Hola! ¿Cómo estás pasando el día?", 
+        "¡Qué tal todo por tu lado?", "¿Cómo te ha ido?", "¡Qué onda! ¿Todo tranquilo?", "¿Qué tal la jornada?",
+        "¡Hola, qué bueno verte!", "¡Hey! ¿Cómo va todo?", "¡Saludos! ¿Todo bien?", "¡Hola! ¿Qué tal la semana?",
+        "¿Qué tal la vida?", "¡Qué tal todo por tu lado?", "¿Cómo va todo por allá?", "¡Hola, ¿todo bien?",
+        "¡Qué hay de nuevo! ¿Cómo estás?", "¡Qué tal el día de hoy?", "¿Cómo te encuentras en este momento?", 
+        "¡Hola! ¿Cómo te sientes?", "¡Buenos días! ¿Cómo va todo?", "¡Buenas! ¿Todo bien?", "¡Hey, qué tal!",
+        "¡Saludos! ¿Cómo va la semana?", "¿Qué tal tu día?","¡Qué onda! ¿Cómo está todo?", "¿Todo en orden?",
+        "¡Qué tal! ¿Cómo te va?", "¡Hola! ¿Cómo te va en general?", "¿Qué pasa, cómo te encuentras?", 
+        "¡Hola! ¿Todo tranquilo?", "¿Cómo va todo por ahí?", "¡Qué tal todo, todo bien?", "¡Hola! ¿Todo chévere?",
+        "¡Qué pasa! ¿Cómo va todo?", "¡Buenas noches! ¿Cómo estás?", "¿Cómo va la vida?", "¡Hola! ¿Todo en orden?",
+        "¿Cómo va tu día?", "¡Hola! ¿Todo bien por ahí?", "¡Hola! ¿Cómo va todo hoy?", "¡Hola! ¿Cómo te va con eso?",
+        "¡Qué tal la mañana?", "¡Qué onda! ¿Qué tal todo?", "¡Hola! ¿Todo bien por ahí?", "¡Qué tal el día a día?",
+        "¡Hola! ¿Cómo va la jornada?", "¿Cómo va todo por ahí?", "¡Hola! ¿Qué tal la familia?", "¡Saludos! ¿Cómo te va?",
+        "¡Hola! ¿Cómo va todo hoy?", "¡Hola! ¿Todo tranquilo?", "¿Qué tal tu día?", "¡Hola! ¿Qué tal la mañana?",
+        "¡Qué onda! ¿Todo en orden?", "¡Hola! ¿Qué tal todo por aquí?", "¡Hey! ¿Qué tal todo?"
+      ],
+      "responses": [
+        "¡Hola! ¿En qué puedo ayudarte?", "¡Hola! ¿Cómo estás?", "¡Buenas! ¿En qué te puedo ayudar?", 
+        "¡Hola, un gusto saludarte!", "¡Qué bueno verte por aquí!", "¡Bienvenido! ¿En qué te puedo asistir?",
+        "¡Hola, cómo te va?", "¡Qué tal! ¿En qué te ayudo?", "¡Hola! ¿Todo bien?", "¡Saludos! ¿Cómo te puedo ayudar?",
+        "¡Hola! ¿Qué tal todo?", "¡Qué bueno verte! ¿En qué te ayudo?", "¡Qué tal! ¿Todo bien?", 
+        "¡Buenas! ¿Cómo te va?", "¡Hola! ¿Cómo va todo?", "¡Hola! ¿Qué tal el día?", "¡Qué tal! ¿Todo bien por ahí?",
+        "¡Hey! ¿En qué te ayudo?", "¡Qué tal! ¿Cómo te va hoy?", "¡Hola! ¿Todo tranquilo?", "¡Buenas! ¿En qué te puedo asistir?",
+        "¡Hola! ¿Qué tal tu día?", "¡Qué onda! ¿Cómo va todo?", "¡Hola, todo bien?", "¡Buenas tardes! ¿Cómo te encuentras?",
+        "¡Qué tal! ¿En qué te ayudo?", "¡Hola! ¿Qué tal las cosas?", "¡Qué tal todo? ¿Necesitas algo?", "¡Hola! ¿Cómo te sientes?",
+        "¡Hola! ¿En qué puedo asistirte hoy?", "¡Qué tal todo, todo bien?", "¡Hola! ¿Te puedo ayudar con algo?", 
+        "¡Qué pasa! ¿Te ayudo en algo?", "¡Hola! ¿Todo tranquilo por aquí?", "¡Qué tal! ¿Todo en orden?", "¡Qué onda! ¿Cómo va tu día?",
+        "¡Hola! ¿Cómo te va hoy?", "¡Hola! ¿Todo bien por aquí?", "¡Hola! ¿Te ayudo con algo?", "¡Buenas! ¿Cómo vas?",
+        "¡Hola! ¿En qué puedo ayudarte ahora?", "¡Qué tal todo! ¿Todo bien?", "¡Hola! ¿Cómo va todo por tu lado?", 
+        "¡Hola! ¿Te ayudo con algo más?", "¡Qué tal todo! ¿En qué te ayudo?", "¡Qué pasa! ¿Te ayudo con algo?", 
+        "¡Hola! ¿Todo en orden?", "¡Qué tal! ¿En qué puedo ayudarte?", "¡Qué onda! ¿Todo bien?", 
+        "¡Hola! ¿En qué te puedo asistir?", "¡Hola! ¿Todo bien por ahí?", "¡Qué tal! ¿Cómo te va?", "¡Hola! ¿Te puedo ayudar?",
+        "¡Saludos! ¿En qué te ayudo?", "¡Hola! ¿Cómo te sientes hoy?", "¡Qué tal! ¿En qué te ayudo?", 
+        "¡Hola! ¿Todo bien por allá?", "¡Hola! ¿Qué tal la vida?", "¡Qué onda! ¿Todo en orden?", "¡Qué tal! ¿Cómo estás hoy?",
+        "¡Hola! ¿Qué tal todo por tu lado?", "¡Buenas! ¿Cómo te va?", "¡Hola! ¿Todo bien?", "¡Qué pasa! ¿Cómo va tu día?",
+        "¡Qué tal! ¿En qué te puedo ayudar?", "¡Hola! ¿Qué tal tu semana?", "¡Hola! ¿Cómo te encuentras?", 
+        "¡Qué onda! ¿Cómo va todo?", "¡Hola! ¿Te puedo ayudar con algo más?", "¡Saludos! ¿Cómo va todo?",
+        "¡Hola! ¿Todo en orden?", "¡Qué tal! ¿Cómo va tu día?", "¡Buenas! ¿En qué puedo asistirte?", 
+        "¡Qué tal! ¿Todo tranquilo?", "¡Hola! ¿Todo bien por ahí?", "¡Hola! ¿Te puedo asistir?", "¡Hola! ¿Todo bien?",
+        "¡Hola! ¿Cómo te va?", "¡Hola! ¿Todo bien?", "¡Qué pasa! ¿Todo bien?", "¡Hola! ¿Te puedo ayudar?",
+        "¡Hola! ¿Cómo va tu día?", "¡Qué tal! ¿Todo bien por aquí?", "¡Qué tal! ¿Cómo va todo?", 
+        "¡Hola! ¿Te ayudo con algo?", "¡Hola! ¿Todo bien por allá?", "¡Hola! ¿Cómo va todo hoy?", 
+        "¡Qué tal! ¿Todo en orden?", "¡Hola! ¿Cómo te encuentras?", "¡Hola! ¿Qué tal todo por ahí?", 
+        "¡Hola! ¿Qué tal el día?", "¡Buenas! ¿En qué puedo ayudarte?", "¡Qué pasa! ¿Todo bien por aquí?", 
+        "¡Hola! ¿Cómo va todo?", "¡Hola! ¿Te ayudo con algo más?", "¡Hola! ¿Todo bien?", 
+        "¡Qué tal! ¿Cómo te va?", "¡Hola! ¿Todo tranquilo?", "¡Hola! ¿Te ayudo con algo?", "¡Hola! ¿Cómo estás?"
+      ]
+    }
+    
+    
+  ]
+}
