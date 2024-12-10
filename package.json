@@ -1,0 +1,15 @@
+{
+  "name": "ia1_proyecto_20",
+  "version": "1.0.0",
+  "description": "Repositorio para el Curso Inteligencia Artificial 1 Vacaciones Diciembre 2024",
+  "main": "chatbot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "compromise": "^14.14.3"
+  }
+}
