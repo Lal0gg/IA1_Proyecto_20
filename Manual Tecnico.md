@@ -23,23 +23,20 @@ Este proyecto consiste en el desarrollo de un chatbot que responde a consultas b
 La estructura del proyecto está organizada en distintos archivos que cumplen funciones específicas dentro del sistema. A continuación, se detallan los archivos clave del proyecto:
 
 * `data.json`: Contiene los ejemplos de preguntas y respuestas para cada intención (saludo, despedida, etc.).
-* `training.js`: Código que entrena el modelo utilizando los datos de `data.json`.
 * `chatbot.js`: Archivo principal donde el chatbot interactúa con el usuario y responde a las consultas.
-* `model.js`: Define las respuestas adicionales para la gestión de errores y aclaraciones del chatbot.
 * `package.json`: Contiene las dependencias y configuraciones del proyecto.
 * `App.jsx`: Archivo donde se implementa la interfaz de usuario de React.
-* `App.css`: Contiene los estilos CSS para la interfaz.
 * `index.html`: Archivo HTML que estructura la página y carga la aplicación React.
 
 ### 2.2 Diagrama de Flujo
 1. **Entrenamiento:**
-El archivo `training.js` procesa los datos de `data.json`, entrena el modelo y lo guarda en formato .keras.
+El modelo se entrena utilizando los datos de data.json. Este proceso se realiza previamente antes de la interacción con el usuario y no requiere intervención directa en el proyecto actual.
 2. **Interacción con el Usuario**:
-El archivo `chatbot.js` carga el modelo entrenado y responde las preguntas del usuario.
-El usuario interactúa con el chatbot a través de la interfaz web.
+* El archivo chatbot.js gestiona la interacción entre el usuario y el chatbot.
+* El modelo entrenado se utiliza para predecir la intención de las preguntas del usuario y generar respuestas adecuadas.
 3. **Respuesta de Intenciones**:
-El chatbot identifica la intención de la pregunta utilizando la función `predict_intent` en `chatbot.js`.
-Posteriormente, el chatbot responde con la respuesta correspondiente usando la función `get_response`.
+* El chatbot utiliza la función predict_intent en chatbot.js para detectar la intención de la consulta del usuario.
+* Luego, el chatbot responde utilizando la función get_response, que selecciona la respuesta adecuada de acuerdo con la intención detectada.
 
 
 
@@ -67,46 +64,109 @@ npm install compromise
 ```
     
 ## 4. Uso del Chatbot
-### 4.1 Entrenamiento del Modelo
-Para entrenar el modelo, ejecuta el archivo `training.js` en tu terminal:
 
-```bash
-node training.js
-```
-Este archivo procesará los datos de `data.json`, entrenará el modelo y lo guardará en formato `.keras`.
+### 4.1 Interacción con el Chatbot
+El chatbot te permitirá hacer preguntas y recibir respuestas basadas en el modelo entrenado. Simplemente escribe tu pregunta en el campo de texto y presiona "Enviar". La interfaz gráfica muestra tanto las preguntas como las respuestas en el chat.
 
-### 4.2 Interacción con el Chatbot
-Una vez que el modelo esté entrenado, puedes iniciar el chatbot ejecutando `chatbot.js`:
-
-```bash
-node chatbot.js
-```
-El chatbot cargará el modelo entrenado y comenzará a responder a las preguntas del usuario.
+### 4.2 Ejemplo de Interacción
+* Usuario: "Hola"
+* Chatbot: "¡Hola! ¿Todo bien?"
 
 ## 5. Detalles Técnicos
 ### 5.1 Modelo de Machine Learning
-El modelo utilizado es un modelo de clasificación de texto basado en redes neuronales entrenado con los datos de `data.json`. El modelo identifica la intención de la pregunta y responde con la respuesta correspondiente.
+El modelo es un modelo de clasificación de texto basado en redes neuronales. Se entrena utilizando los datos de data.json y se ajusta para detectar la intención de la pregunta del usuario.
 
-### 5.2 Uso de `compromise`
-La librería `compromise` se utiliza para el procesamiento de texto, como la tokenización y la lematización, lo que permite una mejor clasificación de las intenciones y una mayor precisión al analizar las consultas del usuario.
+El modelo es capaz de clasificar varias intenciones como:
 
-### 5.3 Funciones Principales
-* **`predict_intent(user_input)`**: Procesa la entrada del usuario y devuelve la intención detectada.
-* **`get_response(intent)`**: Retorna la respuesta correspondiente según la intención detectada.
+* **Saludo**: Cuando el usuario saluda al chatbot.
+* **Despedida**: Cuando el usuario se despide del chatbot.
+* **Consultas generales**: Preguntas relacionadas con temas académicos, generales o de interés.
+
+### 5.2 Funciones Principales en chatbot.js
+predict_intent(user_input): Esta función toma el mensaje del usuario, lo procesa y predice la intención del mensaje.
+
+```javascript
+function predict_intent(user_input) {
+    sequences = tokenizer.texts_to_sequences([user_input]);
+    padded_sequences = pad_sequences(sequences, { maxlen: 10 });
+
+    prediction = model.predict(padded_sequences);
+    intent_index = np.argmax(prediction);
+    confidence = np.max(prediction);
+    console.log(`Confianza: ${confidence}`);
+
+    if (confidence < 0.6) {
+        return "no_reconocido";
+    }
+
+    intent = label_encoder.inverse_transform([intent_index])[0];
+    return intent;
+}
+```
+**Explicación**: Esta función transforma la entrada del usuario en una secuencia numérica, la procesa con el modelo y calcula la confianza de la predicción. Si la confianza es baja (por debajo de 0.6), se devuelve la intención "no_reconocido", de lo contrario, se devuelve la intención predicha.
+
+**get_response(intent)**: Esta función devuelve la respuesta correspondiente según la intención predicha.
+
+```javascript
+function get_response(intent) {
+    with open("data/data.json", "r", encoding="utf-8") as file {
+        data = json.load(file);
+    }
+    
+    for (item in data["intents"]) {
+        if (item["intent"] === intent) {
+            return np.random.choice(item["responses"]);
+        }
+    }
+    
+    return "Lo siento, no te entendí.";
+}
+```
+**Explicación**: Esta función busca en el archivo data.json la intención correspondiente y devuelve una de las respuestas asociadas a esa intención. Si no se encuentra la intención, devuelve un mensaje predeterminado.
+
+### 5.3 data.json
+Este archivo contiene las intenciones y las respuestas del chatbot. Cada intención tiene ejemplos de preguntas y respuestas que el chatbot utiliza para responder a las consultas.
+
+Ejemplo de data.json:
+
+```json
+{
+  "intents": [
+    {
+      "intent": "saludo",
+      "examples": [
+        "Hola", "Buenas tardes", "¿Qué tal?"
+      ],
+      "responses": [
+        "¡Hola! ¿Cómo estás?", "¡Hola! ¿Todo bien?"
+      ]
+    },
+    {
+      "intent": "despedida",
+      "examples": [
+        "Adiós", "Hasta luego", "Nos vemos"
+      ],
+      "responses": [
+        "¡Hasta luego!", "¡Nos vemos pronto!"
+      ]
+    }
+  ]
+}
+```
+**Explicación**: Cada intención en data.json tiene una lista de ejemplos (preguntas que el chatbot puede recibir) y respuestas (respuestas posibles que el chatbot puede dar).
 
 
 ## 6. Mantenimiento y Actualización
 ### 6.1 Añadir Nuevas Intenciones
-Para añadir nuevas intenciones:
+Para añadir nuevas intenciones, debes seguir los siguientes pasos:
 
-1. Edita el archivo `data.json` y agrega nuevas intenciones con sus respectivos ejemplos y respuestas.
-2. Ejecuta `training.js` nuevamente para reentrenar el modelo con las nuevas intenciones.
-3. 
-### 6.2 Mejorar el Modelo
-* Añadir más ejemplos de preguntas y respuestas en `data.json` para mejorar la precisión.
-* Ajustar los parámetros del modelo en `training.js` para mejorar el rendimiento.
-### 6.3 Actualizar el Modelo
-Cuando actualices el archivo `data.json` o modifiques las intenciones, asegúrate de volver a entrenar el modelo ejecutando el script `training.js`.
+1. Edita el archivo data.json y agrega nuevas intenciones con sus ejemplos y respuestas.
+2. El chatbot procesará automáticamente estas nuevas intenciones sin necesidad de reentrenar el modelo, ya que las respuestas se seleccionan dinámicamente.
+### 6.2 Actualizar el Modelo
+Aunque el modelo no se actualiza automáticamente con las nuevas intenciones, si se desea mejorar la precisión del modelo o cambiar su comportamiento:
+
+1. Entrenar el modelo nuevamente con un conjunto de datos actualizado.
+2. Reemplazar el modelo existente con el nuevo modelo entrenado.
 
 ## 7. Errores Comunes
 
@@ -114,81 +174,3 @@ Cuando actualices el archivo `data.json` o modifiques las intenciones, asegúrat
     ```bash
     npm install compromise
     ```
-
-## 8. Explicación del Código
-### 8.1 `training.js` - Código para entrenar el modelo
-Este archivo es responsable de procesar los datos de entrada, entrenar el modelo de Machine Learning y guardarlo para su uso posterior. A continuación, se explica cada parte clave del archivo:
-
-**Carga de los datos (data.json)**
-```javascript
-// Cargar los datos desde data.json
-with open("data/data.json", "r", encoding="utf-8") as file:
-    data = json.load(file)
-    print(len(data["intents"]), "intenciones cargadas.");
-```
-**Explicación**: Se carga el archivo `data.json`, que contiene las intenciones y las respuestas. El archivo se carga como un objeto JSON para que sea fácil acceder a los datos.
-
-**Preprocesamiento de los datos**
-```javascript
-// Preprocesamiento de datos
-function preprocess_data(data) {
-    let X = [], y = [];
-    for (let intent of data["intents"]) {
-        for (let example of intent["examples"]) {
-            X.push(example);
-            y.push(intent["intent"]);
-        }
-    }
-    return [X, y];
-}
-
-let [X, y] = preprocess_data(data);
-```
-**Explicación**: La función `preprocess_data` separa los ejemplos de preguntas (`X`) y las intenciones correspondientes (`y`), listando cada ejemplo con su correspondiente clase de intención.
-
-**Codificación de las etiquetas**
-```javascript
-// Convertir las etiquetas (intenciones) a valores numéricos
-encoder = new LabelEncoder();
-y_encoded = encoder.fit_transform(y);
-y_onehot = to_categorical(y_encoded);
-```
-**Explicación**: Las intenciones en `y` son codificadas a números con `LabelEncoder` y luego se convierten en vectores **One-Hot** con `to_categorical` para ser procesados por el modelo.
-
-**Tokenización y Padding**
-```javascript
-// Tokenización y padding
-tokenizer = new Tokenizer({ num_words: 1000, oov_token: "<OOV>" });
-tokenizer.fit_on_texts(X);
-X_tokenized = tokenizer.texts_to_sequences(X);
-X_padded = pad_sequences(X_tokenized, { maxlen: 10 });
-```
-**Explicación**: Los textos de entrada se convierten a secuencias de números mediante `Tokenizer`. Luego se aplica `pad_sequences` para asegurarse de que todas las secuencias tengan la misma longitud.
-
-**Entrenamiento del Modelo**
-```javascript
-// Construcción del modelo
-model = new Sequential([
-    new Dense(16, { activation: 'relu', input_shape: [X_train.shape[1]] }),
-    new Dense(16, { activation: 'relu' }),
-    new Dense(y_onehot[0].length, { activation: 'softmax' })
-]);
-
-// Compilación y entrenamiento
-model.compile({ optimizer: 'adam', loss: 'categorical_crossentropy', metrics: ['accuracy'] });
-model.fit(X_train, y_train, { epochs: 20, batch_size: 8, validation_data: [X_test, y_test] });
-```
-**Explicación**: Se construye un modelo neuronal con dos capas ocultas de 16 neuronas, seguido de una capa de salida con una neurona por cada clase de intención. El modelo se entrena con los datos de entrada y etiquetas.
-
-**Guardado del Modelo y Otros Recursos**
-```javascript
-// Guardar el modelo, el tokenizer y el encoder
-model.save("model/modelo_python/chatbot_model.keras");
-with open("model/modelo_python/tokenizer.pkl", "wb") as tokenizer_file {
-    pickle.dump(tokenizer, tokenizer_file);
-}
-with open("model/modelo_python/label_encoder.pkl", "wb") as encoder_file {
-    pickle.dump(encoder, encoder_file);
-}
-```
-**Explicación**: El modelo, el tokenizador y el codificador de etiquetas se guardan en archivos para su uso posterior en el chatbot.
