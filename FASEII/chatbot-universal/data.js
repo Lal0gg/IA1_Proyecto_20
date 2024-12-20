@@ -6434,9 +6434,1399 @@ response: "A veces pienso que me esfuerzo tanto en no hacer nada, que ya es todo
   {
     "input": "What should I do to move forward?",
     "response": "To move forward, I recommend doing this first."
+  },
+  {
+    "input": "Gracias por ayudarme a mejorar",
+    "response": "De nada, es un placer ayudarte a mejorar. ¡Sigamos adelante!"
+  },
+  {
+    "input": "Thank you for helping me improve",
+    "response": "You're welcome, it's a pleasure to help you improve. Let's keep going!"
+  },
+  {
+    "input": "Te agradezco por tu apoyo constante y sincero",
+    "response": "Siempre estaré aquí para apoyarte. Gracias por confiar en mí."
+  },
+  {
+    "input": "I appreciate your constant and sincere support",
+    "response": "I will always be here to support you. Thank you for trusting me."
+  },
+  {
+    "input": "Gracias por darme la oportunidad de aprender",
+    "response": "Es un placer enseñarte y ver cómo creces. ¡Sigue así!"
+  },
+  {
+    "input": "Thank you for giving me the opportunity to learn",
+    "response": "It's a pleasure teaching you and watching you grow. Keep it up!"
+  },
+  {
+    "input": "Te agradezco mucho por tu comprensión",
+    "response": "Gracias a ti por tu paciencia y por entender la situación."
+  },
+  {
+    "input": "I really appreciate your understanding",
+    "response": "Thank you for your patience and for understanding the situation."
+  },
+  {
+    "input": "Gracias por tu atención",
+    "response": "Siempre estoy aquí para ayudarte. ¡Es un placer!"
+  },
+  {
+    "input": "Thank you for your attention",
+    "response": "I'm always here to help you. It's a pleasure!"
+  },
+  {
+    "input": "Te agradezco por tu tiempo y paciencia",
+    "response": "Gracias a ti por ser tan paciente. ¡Es un placer ayudarte!"
+  },
+  {
+    "input": "I appreciate your time and patience",
+    "response": "Thank you for being so patient. It's a pleasure to assist you!"
+  },
+  {
+    "input": "Gracias por ser tan generoso conmigo",
+    "response": "Es un honor poder ayudarte. Gracias por tu confianza."
+  },
+  {
+    "input": "Thank you for being so generous with me",
+    "response": "It's an honor to be able to help you. Thank you for your trust."
+  },
+  {
+    "input": "Te agradezco por todo lo que has hecho por nosotros",
+    "response": "Gracias a ti por permitirnos ser parte de este proyecto."
+  },
+  {
+    "input": "I thank you for everything you have done for us",
+    "response": "Thank you for allowing us to be part of this project."
+  },
+  {
+    "input": "Gracias por apoyarme en todo momento",
+    "response": "Siempre estaré aquí para ti, no dudes en pedir ayuda."
+  },
+  {
+    "input": "Thank you for supporting me at all times",
+    "response": "I will always be here for you, don't hesitate to ask for help."
+  },
+  {
+    "input": "Te agradezco mucho por tu ayuda",
+    "response": "De nada, me alegra haberte podido ayudar."
+  },
+  {
+    "input": "I really appreciate your help",
+    "response": "You're welcome, I'm glad I could help."
+  },
+  {
+    "input": "Gracias por tus sabias palabras",
+    "response": "Es un placer compartir lo que sé contigo."
+  },
+  {
+    "input": "Thank you for your wise words",
+    "response": "It's a pleasure to share what I know with you."
+  },
+  {
+    "input": "Te agradezco por tu compañía",
+    "response": "Es un placer acompañarte y ayudarte en lo que necesites."
+  },
+  {
+    "input": "Thank you for your company",
+    "response": "It's a pleasure to accompany you and assist you with anything you need."
+  },
+  {
+    "input": "Gracias por darme tu tiempo",
+    "response": "De nada, siempre estoy aquí para ayudarte."
+  },
+  {
+    "input": "Thank you for giving me your time",
+    "response": "You're welcome, I'm always here to help you."
+  },
+  {
+    "input": "Te agradezco por tu disposición",
+    "response": "Es un honor ayudarte en lo que pueda."
+  },
+  {
+    "input": "I appreciate your willingness",
+    "response": "It's an honor to assist you with anything I can."
+  },
+  {
+    "input": "Gracias por siempre estar ahí para mí",
+    "response": "Siempre estaré aquí cuando me necesites."
+  },
+  {
+    "input": "Thank you for always being there for me",
+    "response": "I will always be here whenever you need me."
+  },
+  {
+    "input": "Te agradezco mucho por todo lo que has hecho",
+    "response": "Es un placer ayudarte en todo lo que pueda."
+  },
+  {
+    "input": "I really appreciate everything you have done",
+    "response": "It's a pleasure to assist you in every way I can."
+  },
+  {
+    "input": "Te doy las gracias por ser tan comprensivo",
+    "response": "Gracias por tu empatía, es muy valiosa para mí."
+  },
+  {
+    "input": "I thank you for being so understanding",
+    "response": "Thank you for your empathy, it means a lot to me."
+  },
+  {
+    "input": "Gracias por tu amabilidad y paciencia",
+    "response": "Es un placer poder ayudarte con tanto cuidado."
+  },
+  {
+    "input": "Thank you for your kindness and patience",
+    "response": "It's a pleasure to help you with such care."
+  },
+  {
+    "input": "Te agradezco por ser tan generoso con tu tiempo",
+    "response": "Me alegra mucho que puedas confiar en mí para ayudarte."
+  },
+  {
+    "input": "I appreciate your generosity with your time",
+    "response": "I'm really happy that you trust me to help you."
+  },
+  {
+    "input": "Te agradezco por tu apoyo constante",
+    "response": "Siempre estaré aquí para ti."
+  },
+  {
+    "input": "I appreciate your constant support",
+    "response": "I will always be here for you."
+  },
+  {
+    "input": "Gracias por hacer esto posible",
+    "response": "Es un honor poder ayudarte a lograrlo."
+  },
+  {
+    "input": "Thank you for making this possible",
+    "response": "It's an honor to help you achieve it."
+  },
+  {
+    "input": "Te agradezco mucho por el esfuerzo",
+    "response": "Es un placer poder ayudarte con todo."
+  },
+  {
+    "input": "I really appreciate the effort",
+    "response": "It's a pleasure to assist you with everything."
+  },
+  {
+    "input": "Gracias por tu compromiso y dedicación",
+    "response": "Tu esfuerzo y dedicación no pasan desapercibidos, gracias."
+  },
+  {
+    "input": "Thank you for your commitment and dedication",
+    "response": "Your effort and dedication don't go unnoticed, thank you."
+  },
+  {
+    "input": "Te agradezco por tu trabajo",
+    "response": "Tu trabajo es muy valioso, gracias por tu esfuerzo."
+  },
+  {
+    "input": "I appreciate your work",
+    "response": "Your work is very valuable, thank you for your effort."
+  },
+  {
+    "input": "Te agradezco de corazón por tu apoyo",
+    "response": "Te agradezco mucho por todo lo que haces por mí."
+  },
+  {
+    "input": "I sincerely appreciate your support",
+    "response": "I really appreciate everything you do for me."
+  },
+  {
+    "input": "Gracias por tu tiempo y esfuerzo",
+    "response": "Es un placer ayudar siempre que lo necesites."
+  },
+  {
+    "input": "Thank you for your time and effort",
+    "response": "It's a pleasure to help whenever you need it."
+  },
+  {
+    "input": "Te agradezco mucho por todo",
+    "response": "Siempre estoy dispuesto a ayudarte con lo que necesites."
+  },
+  {
+    "input": "I really appreciate everything",
+    "response": "I'm always ready to help with whatever you need."
+  },
+  {
+    "input": "Gracias por hacer todo esto por mí",
+    "response": "Me complace mucho poder ayudarte."
+  },
+  {
+    "input": "Thank you for doing all this for me",
+    "response": "I'm very pleased to be able to assist you."
+  },
+  {
+    "input": "Gracias por tu buen corazón",
+    "response": "Tu generosidad es algo que valoro mucho."
+  },
+  {
+    "input": "Thank you for your good heart",
+    "response": "I really value your generosity."
+  },
+  {
+    "input": "Te agradezco por todo lo que has hecho por nosotros",
+    "response": "Estoy muy agradecido por todo lo que has hecho."
+  },
+  {
+    "input": "I thank you for everything you've done for us",
+    "response": "I'm very grateful for everything you've done."
+  },
+  {
+    "input": "Te doy las gracias por ser tan solidario",
+    "response": "Tu solidaridad es algo que siempre agradeceré."
+  },
+  {
+    "input": "I thank you for being so supportive",
+    "response": "Your solidarity is something I will always appreciate."
+  },
+  {
+    "input": "Gracias por tu generosidad y apoyo",
+    "response": "Tu apoyo ha sido invaluable para mí."
+  },
+  {
+    "input": "Thank you for your generosity and support",
+    "response": "Your support has been invaluable to me."
+  },
+  {
+    "input": "Te agradezco por ser tan considerado",
+    "response": "Tu consideración es algo que valoro mucho."
+  },
+  {
+    "input": "I appreciate you for being so considerate",
+    "response": "I really value your thoughtfulness."
+  },
+  {
+    "input": "Gracias por todo lo que me has enseñado",
+    "response": "Es un placer poder compartir lo que sé contigo."
+  },
+  {
+    "input": "Thank you for everything you've taught me",
+    "response": "It's a pleasure to share what I know with you."
+  },
+  {
+    "input": "Te agradezco por tu amabilidad y por todo lo que haces",
+    "response": "Siempre estaré aquí para ayudarte con lo que necesites."
+  },
+  {
+    "input": "I appreciate your kindness and everything you do",
+    "response": "I will always be here to help with whatever you need."
+  },
+  {
+    "input": "Te agradezco mucho por estar aquí",
+    "response": "Es un placer estar aquí para ti."
+  },
+  {
+    "input": "I really appreciate you being here",
+    "response": "It's a pleasure to be here for you."
+  },
+  {
+    "input": "Gracias por tu paciencia y apoyo",
+    "response": "Tu apoyo y paciencia son invaluables para mí."
+  },
+  {
+    "input": "Thank you for your patience and support",
+    "response": "Your support and patience are invaluable to me."
+  },
+  {
+    "input": "Te agradezco mucho por todo lo que me has brindado",
+    "response": "Siempre estaré agradecido por todo lo que has hecho por mí."
+  },
+  {
+    "input": "I really appreciate everything you've given me",
+    "response": "I'll always be grateful for everything you've done for me."
+  },
+  {
+    "input": "Gracias por tu dedicación y esfuerzo",
+    "response": "Tu dedicación es lo que hace posible todo esto. Gracias."
+  },
+  {
+    "input": "Thank you for your dedication and effort",
+    "response": "Your dedication is what makes all of this possible. Thank you."
+  },
+  {
+    "input": "Te agradezco por ser tan constante",
+    "response": "Tu constancia es lo que te llevará lejos. Gracias por tu esfuerzo."
+  },
+  {
+    "input": "I appreciate you for being so consistent",
+    "response": "Your consistency is what will take you far. Thank you for your effort."
+  },
+  {
+    "input": "Gracias por darme tu ayuda en todo momento",
+    "response": "Estoy aquí siempre que me necesites."
+  },
+  {
+    "input": "Thank you for helping me at all times",
+    "response": "I'm always here whenever you need me."
+  },
+  {
+    "input": "Te agradezco por todo lo que has aportado",
+    "response": "Tu aporte ha sido fundamental, gracias por todo."
+  },
+  {
+    "input": "I appreciate everything you've contributed",
+    "response": "Your contribution has been crucial, thank you for everything."
+  },
+  {
+    "input": "Gracias por tu apoyo continuo",
+    "response": "Siempre estaré aquí para apoyarte."
+  },
+  {
+    "input": "Thank you for your continuous support",
+    "response": "I'll always be here to support you."
+  },
+  {
+    "input": "Te agradezco mucho por lo que haces por mí",
+    "response": "Tu apoyo significa mucho para mí, gracias."
+  },
+  {
+    "input": "I really appreciate everything you do for me",
+    "response": "Your support means a lot to me, thank you."
+  },
+  {
+    "input": "Te agradezco sinceramente por tu dedicación",
+    "response": "Tu dedicación hace una gran diferencia, gracias."
+  },
+  {
+    "input": "I sincerely appreciate your dedication",
+    "response": "Your dedication makes a big difference, thank you."
+  },
+  {
+    "input": "Gracias por tu apoyo incondicional",
+    "response": "Tu apoyo incondicional es invaluable. Gracias."
+  },
+  {
+    "input": "Thank you for your unconditional support",
+    "response": "Your unconditional support is invaluable. Thank you."
+  },
+  {
+    "input": "Te agradezco por compartir tu tiempo",
+    "response": "Tu tiempo es muy valioso, gracias por compartirlo conmigo."
+  },
+  {
+    "input": "I appreciate you for sharing your time",
+    "response": "Your time is very valuable, thank you for sharing it with me."
+  },{
+    "input": "Gracias por tu paciencia",
+    "response": "De nada, siempre estoy aquí para ayudarte."
+  },
+  {
+    "input": "Thank you for your patience",
+    "response": "You're welcome, I'm always here to help you."
+  },
+  {
+    "input": "Gracias por tu generosidad",
+    "response": "Es un placer poder ayudarte. Gracias por tu confianza."
+  },
+  {
+    "input": "Thank you for your generosity",
+    "response": "It's a pleasure to help you. Thank you for your trust."
+  },
+  {
+    "input": "Te agradezco sinceramente",
+    "response": "Siempre es un placer ayudarte, gracias por tu amabilidad."
+  },
+  {
+    "input": "I sincerely appreciate you",
+    "response": "It's always a pleasure to assist you, thank you for your kindness."
+  },
+  {
+    "input": "Te agradezco mucho tu apoyo",
+    "response": "Estoy agradecido por poder ayudarte, tu apoyo es invaluable."
+  },
+  {
+    "input": "I really appreciate your support",
+    "response": "I'm grateful to be able to help you, your support is invaluable."
+  },
+  {
+    "input": "Muchísimas gracias",
+    "response": "De nada, siempre estoy aquí para lo que necesites."
+  },
+  {
+    "input": "Thank you very much",
+    "response": "You're welcome, I'm always here for anything you need."
+  },
+  {
+    "input": "Te agradezco profundamente",
+    "response": "Es un placer ayudarte, gracias por confiar en mí."
+  },
+  {
+    "input": "I deeply appreciate you",
+    "response": "It's a pleasure to assist you, thank you for trusting me."
+  },
+  {
+    "input": "Gracias por tu comprensión",
+    "response": "Aprecio mucho tu comprensión, es muy valiosa."
+  },
+  {
+    "input": "Thank you for your understanding",
+    "response": "I really appreciate your understanding, it means a lot."
+  },
+  {
+    "input": "Te agradezco que me hayas ayudado",
+    "response": "Siempre estaré aquí para ayudarte, es un placer."
+  },
+  {
+    "input": "I appreciate that you helped me",
+    "response": "I will always be here to assist you, it's a pleasure."
+  },
+  {
+    "input": "Gracias por todo lo que haces",
+    "response": "De nada, me alegra saber que te he sido útil."
+  },
+  {
+    "input": "Thank you for everything you do",
+    "response": "You're welcome, I'm glad I could be of help."
+  },
+  {
+    "input": "Te agradezco por ser tan amable",
+    "response": "Es un placer ayudarte, gracias por tu amabilidad."
+  },
+  {
+    "input": "I appreciate you for being so kind",
+    "response": "It's a pleasure to assist you, thank you for your kindness."
+  },
+  {
+    "input": "Gracias por tu solidaridad",
+    "response": "Tu solidaridad hace la diferencia. Gracias."
+  },
+  {
+    "input": "Thank you for your solidarity",
+    "response": "Your solidarity makes a difference. Thank you."
+  },
+  {
+    "input": "Gracias por la ayuda brindada",
+    "response": "Me alegra haberte podido ayudar, siempre estaré aquí."
+  },
+  {
+    "input": "Thank you for the help provided",
+    "response": "I'm glad I could help you, I'll always be here."
+  },
+  {
+    "input": "Muchísimas gracias por tu apoyo",
+    "response": "Tu apoyo ha sido fundamental. Gracias."
+  },
+  {
+    "input": "Thank you very much for your support",
+    "response": "Your support has been crucial. Thank you."
+  },
+  {
+    "input": "Te agradezco que me hayas escuchado",
+    "response": "Es un placer escucharte y ayudarte en lo que necesites."
+  },
+  {
+    "input": "I appreciate you listening to me",
+    "response": "It's a pleasure to listen to you and assist you with anything you need."
+  },
+  {
+    "input": "Gracias por ser tan comprensivo",
+    "response": "Tu comprensión significa mucho para mí, gracias."
+  },
+  {
+    "input": "Thank you for being so understanding",
+    "response": "Your understanding means a lot to me, thank you."
+  },
+  {
+    "input": "Gracias por el consejo",
+    "response": "Es un placer poder ofrecerte algún consejo útil."
+  },
+  {
+    "input": "Thank you for the advice",
+    "response": "It's a pleasure to offer you some helpful advice."
+  },
+  {
+    "input": "Gracias por todo tu esfuerzo",
+    "response": "Tu esfuerzo es muy apreciado, gracias."
+  },
+  {
+    "input": "Thank you for all your effort",
+    "response": "Your effort is greatly appreciated, thank you."
+  },
+  {
+    "input": "Te agradezco mucho por ser tan paciente",
+    "response": "Es un placer poder ayudarte con paciencia."
+  },
+  {
+    "input": "I really appreciate you for being so patient",
+    "response": "It's a pleasure to help you with patience."
+  },
+  {
+    "input": "Gracias por acompañarme en esto",
+    "response": "Es un placer acompañarte en cada paso del camino."
+  },
+  {
+    "input": "Thank you for accompanying me in this",
+    "response": "It's a pleasure to accompany you every step of the way."
+  },
+  {
+    "input": "Te agradezco todo lo que haces",
+    "response": "Siempre estaré aquí para ayudarte en todo lo que necesites."
+  },
+  {
+    "input": "I appreciate everything you do",
+    "response": "I'll always be here to assist you with anything you need."
+  },
+  {
+    "input": "Gracias por tu colaboración",
+    "response": "Tu colaboración es muy valiosa, gracias."
+  },
+  {
+    "input": "Thank you for your collaboration",
+    "response": "Your collaboration is very valuable, thank you."
+  },
+  {
+    "input": "Gracias por tu amabilidad",
+    "response": "Es un placer ayudarte, gracias por ser tan amable."
+  },
+  {
+    "input": "Thank you for your kindness",
+    "response": "It's a pleasure to help you, thank you for being so kind."
+  },
+  {
+    "input": "Te agradezco mucho tu tiempo",
+    "response": "Tu tiempo es muy valioso, gracias por compartirlo conmigo."
+  },
+  {
+    "input": "I really appreciate your time",
+    "response": "Your time is very valuable, thank you for sharing it with me."
+  },
+  {
+    "input": "Gracias por ofrecerme tu ayuda",
+    "response": "Es un placer poder ayudarte, gracias por tu disposición."
+  },
+  {
+    "input": "Thank you for offering me your help",
+    "response": "It's a pleasure to assist you, thank you for your willingness."
+  },
+  {
+    "input": "Gracias por ser tan generoso",
+    "response": "Tu generosidad es algo que valoro mucho, gracias."
+  },
+  {
+    "input": "Thank you for being so generous",
+    "response": "Your generosity is something I really value, thank you."
+  },
+  {
+    "input": "Te doy las gracias por tu apoyo incondicional",
+    "response": "Tu apoyo incondicional es invaluable. Gracias."
+  },
+  {
+    "input": "I thank you for your unconditional support",
+    "response": "Your unconditional support is invaluable. Thank you."
+  },
+  {
+    "input": "Te agradezco por tu sinceridad",
+    "response": "Tu sinceridad me ayuda mucho, gracias por ser honesto."
+  },
+  {
+    "input": "I appreciate your sincerity",
+    "response": "Your sincerity helps me a lot, thank you for being honest."
+  },
+  {
+    "input": "Gracias por siempre estar ahí",
+    "response": "Siempre estaré aquí para ti cuando me necesites."
+  },
+  {
+    "input": "Thank you for always being there",
+    "response": "I'll always be here for you whenever you need me."
+  },
+  {
+    "input": "Muchas gracias por tu esfuerzo",
+    "response": "Tu esfuerzo hace todo esto posible. Gracias."
+  },
+  {
+    "input": "Thank you very much for your effort",
+    "response": "Your effort makes all of this possible. Thank you."
+  },
+  {
+    "input": "Gracias por tu dedicación",
+    "response": "Tu dedicación es admirable, gracias por todo."
+  },
+  {
+    "input": "Thank you for your dedication",
+    "response": "Your dedication is admirable, thank you for everything."
+  },
+  {
+    "input": "Gracias por tu compromiso",
+    "response": "Tu compromiso es algo que valoro profundamente, gracias."
+  },
+  {
+    "input": "Thank you for your commitment",
+    "response": "Your commitment is something I deeply value, thank you."
+  },
+  {
+    "input": "Te agradezco por ser tan atento",
+    "response": "Tu atención es algo que aprecio mucho, gracias."
+  },
+  {
+    "input": "I appreciate you for being so attentive",
+    "response": "Your attentiveness is something I really appreciate, thank you."
+  },
+  {
+    "input": "Gracias por tu contribución",
+    "response": "Tu contribución ha sido invaluable, gracias."
+  },
+  {
+    "input": "Thank you for your contribution",
+    "response": "Your contribution has been invaluable, thank you."
+  },
+  {
+    "input": "Gracias por tu entrega",
+    "response": "Tu dedicación es lo que hace posible todo esto, gracias."
+  },
+  {
+    "input": "Thank you for your commitment",
+    "response": "Your dedication is what makes all this possible, thank you."
+  },
+  {
+    "input": "Te agradezco por tu esfuerzo y dedicación",
+    "response": "Gracias por todo lo que has hecho con tanto empeño."
+  },
+  {
+    "input": "I appreciate your effort and dedication",
+    "response": "Thank you for everything you've done with such dedication."
+  },
+  {
+    "input": "Muchas gracias por todo lo que has hecho por mí",
+    "response": "Estoy muy agradecido por todo lo que has hecho."
+  },
+  {
+    "input": "Thank you so much for everything you've done for me",
+    "response": "I'm really grateful for everything you've done."
+  },
+  {
+    "input": "Gracias por tu generosidad y apoyo",
+    "response": "Tu generosidad y apoyo son fundamentales, gracias."
+  },
+  {
+    "input": "Thank you for your generosity and support",
+    "response": "Your generosity and support are fundamental, thank you."
+  },
+  {
+    "input": "Te agradezco por confiar en mí",
+    "response": "Gracias por poner tu confianza en mí, lo valoro mucho."
+  },
+  {
+    "input": "I appreciate you for trusting me",
+    "response": "Thank you for placing your trust in me, I really value it."
+  },
+  {
+    "input": "Te agradezco de todo corazón por tu ayuda",
+    "response": "De todo corazón, gracias por tu ayuda."
+  },
+  {
+    "input": "I sincerely thank you for your help",
+    "response": "From the bottom of my heart, thank you for your help."
+  },
+  {
+    "input": "Gracias por ser tan amable y considerado",
+    "response": "Tu amabilidad y consideración me alegran mucho, gracias."
+  },
+  {
+    "input": "Thank you for being so kind and considerate",
+    "response": "Your kindness and consideration make me very happy, thank you."
+  },
+  {
+    "input": "Te agradezco por tu compasión",
+    "response": "Tu compasión significa mucho para mí, gracias."
+  },
+  {
+    "input": "I appreciate your compassion",
+    "response": "Your compassion means a lot to me, thank you."
+  },
+  {
+    "input": "Gracias por tu tiempo y paciencia",
+    "response": "Tu tiempo y paciencia son muy valiosos, gracias."
+  },
+  {
+    "input": "Thank you for your time and patience",
+    "response": "Your time and patience are very valuable, thank you."
+  },
+  {
+    "input": "Gracias por todo lo que me has enseñado",
+    "response": "Es un placer enseñarte lo que sé, gracias por aprender."
+  },
+  {
+    "input": "Thank you for everything you've taught me",
+    "response": "It's a pleasure to teach you what I know, thank you for learning."
+  },
+  {
+    "input": "Te doy las gracias por estar a mi lado",
+    "response": "Siempre estaré aquí para ti, gracias por tu apoyo."
+  },
+  {
+    "input": "I thank you for being by my side",
+    "response": "I will always be here for you, thank you for your support."
+  },
+  {
+    "input": "Gracias por tu trabajo y esfuerzo",
+    "response": "Tu trabajo y esfuerzo son muy valiosos, gracias."
+  },
+  {
+    "input": "Thank you for your work and effort",
+    "response": "Your work and effort are very valuable, thank you."
+  },
+  {
+    "input": "Te agradezco profundamente por todo lo que has hecho",
+    "response": "Te estoy muy agradecido por todo lo que has hecho."
+  },
+  {
+    "input": "I deeply appreciate everything you've done",
+    "response": "I'm very grateful for everything you've done."
+  },
+  {
+    "input": "Te agradezco por estar siempre dispuesto a ayudar",
+    "response": "Tu disposición para ayudar es algo que valoro mucho."
+  },
+  {
+    "input": "I appreciate you for always being willing to help",
+    "response": "Your willingness to help is something I really value."
+  },
+  {
+    "input": "Gracias por tu orientación",
+    "response": "Gracias por tu orientación, me ha sido muy útil."
+  },
+  {
+    "input": "Thank you for your guidance",
+    "response": "Thank you for your guidance, it's been very helpful to me."
+  },
+  {
+    "input": "Gracias por tu amabilidad y paciencia",
+    "response": "Es un placer ayudar, gracias por ser tan paciente."
+  },
+  {
+    "input": "Thank you for your kindness and patience",
+    "response": "It's a pleasure to help, thank you for being so patient."
+  },
+  {
+    "input": "Te agradezco mucho por tu apoyo constante",
+    "response": "Tu apoyo constante es algo que valoro mucho, gracias."
+  },
+  {
+    "input": "I really appreciate your constant support",
+    "response": "Your constant support is something I really value, thank you."
+  },
+  {
+    "input": "Te agradezco por tu ayuda incansable",
+    "response": "Tu ayuda incansable ha sido invaluable para mí."
+  },
+  {
+    "input": "I appreciate you for your tireless help",
+    "response": "Your tireless help has been invaluable to me."
+  },
+  {
+    "input": "Gracias por tu comprensión y paciencia",
+    "response": "Tu comprensión y paciencia me han ayudado mucho, gracias."
+  },
+  {
+    "input": "Thank you for your understanding and patience",
+    "response": "Your understanding and patience have helped me a lot, thank you."
+  },
+  {
+    "input": "Te agradezco por tu apoyo durante este tiempo",
+    "response": "Tu apoyo ha sido fundamental durante este tiempo, gracias."
+  },
+  {
+    "input": "I appreciate you for your support during this time",
+    "response": "Your support has been crucial during this time, thank you."
+  },
+  {
+    "input": "Gracias por estar ahí cuando más te necesité",
+    "response": "Siempre estaré aquí para ti cuando me necesites."
+  },
+  {
+    "input": "Thank you for being there when I needed you most",
+    "response": "I'll always be here for you when you need me."
+  },
+  {
+    "input": "Gracias por todo lo que has hecho por mí",
+    "response": "Es un placer poder ayudarte en todo lo que pueda."
+  },
+  {
+    "input": "Thank you for everything you've done for me",
+    "response": "It's a pleasure to help you with anything I can."
+  },
+  {
+    "input": "Te agradezco por no rendirte conmigo",
+    "response": "Tu perseverancia y paciencia son muy apreciadas."
+  },
+  {
+    "input": "I appreciate you for not giving up on me",
+    "response": "Your perseverance and patience are greatly appreciated."
+  },
+  {
+    "input": "Gracias por todo tu esfuerzo y dedicación",
+    "response": "Tu esfuerzo y dedicación han sido muy valiosos, gracias."
+  },
+  {
+    "input": "Thank you for all your effort and dedication",
+    "response": "Your effort and dedication have been very valuable, thank you."
+  },
+  {
+    "input": "Te agradezco de todo corazón por estar a mi lado",
+    "response": "Tu apoyo es invaluable para mí, gracias de corazón."
+  },
+  {
+    "input": "I sincerely thank you for being by my side",
+    "response": "Your support is invaluable to me, thank you from the bottom of my heart."
+  }
+,{
+    "input": "Gracias",
+    "response": "¡De nada! Siempre es un placer ayudarte."
+  },
+  {
+    "input": "Thank you",
+    "response": "You're welcome! It's always a pleasure to help you."
+  },
+  {
+    "input": "Muchas gracias",
+    "response": "¡Con gusto! Me alegra haberte podido ayudar."
+  },
+  {
+    "input": "Many thanks",
+    "response": "You're welcome! I'm glad I could help."
+  },
+  {
+    "input": "Te lo agradezco",
+    "response": "Me alegra haber podido asistirte. Gracias por tu confianza."
+  },
+  {
+    "input": "I appreciate it",
+    "response": "I'm glad I could assist you. Thanks for your trust."
+  },
+  {
+    "input": "Gracias por tu ayuda",
+    "response": "Es un placer ayudarte. ¡No dudes en volver si necesitas más ayuda!"
+  },
+  {
+    "input": "Thank you for your help",
+    "response": "It's a pleasure to help you. Don't hesitate to reach out if you need more assistance!"
+  },
+  {
+    "input": "Mil gracias",
+    "response": "No hay de qué, ¡siempre estaré aquí para ayudarte!"
+  },
+  {
+    "input": "A thousand thanks",
+    "response": "You're very welcome, I'll always be here to help you!"
+  },
+  {
+    "input": "Te agradezco mucho",
+    "response": "Tu agradecimiento significa mucho para mí, gracias a ti."
+  },
+  {
+    "input": "I appreciate it a lot",
+    "response": "Your appreciation means a lot to me, thank you."
+  },
+  {
+    "input": "Te doy las gracias",
+    "response": "Gracias por confiar en mí, ¡siempre estaré aquí para ayudarte!"
+  },
+  {
+    "input": "I give you thanks",
+    "response": "Thank you for trusting me, I’ll always be here to assist you!"
+  },
+  {
+    "input": "Muchas gracias por todo",
+    "response": "¡Con gusto! Me alegra saber que pude ser de ayuda."
+  },
+  {
+    "input": "Many thanks for everything",
+    "response": "You're welcome! I'm glad I could be of help."
+  },
+  {
+    "input": "Te estoy muy agradecido",
+    "response": "Es un placer poder ayudarte, gracias por tu amabilidad."
+  },
+  {
+    "input": "I am very grateful to you",
+    "response": "It's a pleasure to help you, thank you for your kindness."
+  },
+  {
+    "input": "Gracias de todo corazón",
+    "response": "¡De nada! Me alegra haber podido ayudarte sinceramente."
+  },
+  {
+    "input": "Thank you from the bottom of my heart",
+    "response": "You're welcome! I'm glad I could help you sincerely."
+  },
+  {
+    "input": "Gracias por todo lo que has hecho",
+    "response": "Siempre estaré aquí para ayudarte, es un placer."
+  },
+  {
+    "input": "Thank you for everything you've done",
+    "response": "I'll always be here to help you, it's a pleasure."
+  },
+  {
+    "input": "Estoy muy agradecido",
+    "response": "Gracias a ti por confiar en mí para ayudarte."
+  },
+  {
+    "input": "I am very grateful",
+    "response": "Thank you for trusting me to assist you."
+  },
+  {
+    "input": "Te lo agradezco mucho",
+    "response": "Siempre estaré aquí para ayudarte, no dudes en pedírmelo."
+  },
+  {
+    "input": "I appreciate it a lot",
+    "response": "I'll always be here to help you, don't hesitate to ask."
+  },
+  {
+    "input": "Gracias por tu tiempo",
+    "response": "Tu tiempo es valioso, gracias por compartirlo conmigo."
+  },
+  {
+    "input": "Thank you for your time",
+    "response": "Your time is valuable, thank you for sharing it with me."
+  },
+  {
+    "input": "Agradezco mucho tu ayuda",
+    "response": "Es un placer poder ayudarte siempre que lo necesites."
+  },
+  {
+    "input": "I really appreciate your help",
+    "response": "It's a pleasure to help you whenever you need it."
+  },
+  {
+    "input": "Te estoy infinitamente agradecido",
+    "response": "No hay de qué, siempre estoy aquí para ayudarte."
+  },
+  {
+    "input": "I am infinitely grateful to you",
+    "response": "You're welcome, I'm always here to help."
+  },
+  {
+    "input": "Te agradezco enormemente",
+    "response": "Me alegra haber podido asistirte, es un placer."
+  },
+  {
+    "input": "I appreciate it enormously",
+    "response": "I'm glad I could assist you, it's a pleasure."
+  },
+  {
+    "input": "No sé cómo agradecerte",
+    "response": "No tienes que agradecerme, es un placer ayudarte."
+  },
+  {
+    "input": "I don't know how to thank you",
+    "response": "You don't need to thank me, it's a pleasure to help you."
+  },
+  {
+    "input": "Te agradezco de corazón",
+    "response": "De todo corazón, siempre estaré aquí para ti."
+  },
+  {
+    "input": "I thank you from the bottom of my heart",
+    "response": "From the bottom of my heart, I'll always be here for you."
+  },
+  {
+    "input": "Gracias por todo lo que has hecho por mí",
+    "response": "Es un placer poder ayudarte, gracias por tu confianza."
+  },
+  {
+    "input": "Thank you for everything you've done for me",
+    "response": "It's a pleasure to help you, thank you for your trust."
+  },
+  {
+    "input": "Gracias por el apoyo",
+    "response": "Tu apoyo es invaluable, gracias por confiar en mí."
+  },
+  {
+    "input": "Thank you for the support",
+    "response": "Your support is invaluable, thank you for trusting me."
+  },
+  {
+    "input": "Gracias por estar ahí",
+    "response": "Siempre estaré aquí para ti, gracias por tu apoyo."
+  },
+  {
+    "input": "Thank you for being there",
+    "response": "I'll always be here for you, thank you for your support."
+  },
+  {
+    "input": "¿Cómo puedo proteger mi cuenta?",
+    "response": "Para proteger tu cuenta, utiliza contraseñas fuertes, activa la autenticación de dos factores y mantén tu software actualizado."
+  },
+  {
+    "input": "How can I protect my account?",
+    "response": "To protect your account, use strong passwords, enable two-factor authentication, and keep your software up to date."
+  },
+  {
+    "input": "¿Qué puedo hacer para mejorar la seguridad de mi cuenta?",
+    "response": "Mejora la seguridad de tu cuenta utilizando contraseñas únicas, activando la autenticación de dos factores y evitando compartir tus credenciales."
+  },
+  {
+    "input": "What can I do to improve the security of my account?",
+    "response": "Improve the security of your account by using unique passwords, enabling two-factor authentication, and avoiding sharing your credentials."
+  },
+  {
+    "input": "¿Cómo proteger mi contraseña?",
+    "response": "Protege tu contraseña utilizando combinaciones complejas de letras, números y caracteres especiales, y nunca compartas tu contraseña con nadie."
+  },
+  {
+    "input": "How can I protect my password?",
+    "response": "Protect your password by using complex combinations of letters, numbers, and special characters, and never share your password with anyone."
+  },
+  {
+    "input": "¿Cuáles son las mejores prácticas de seguridad en línea?",
+    "response": "Las mejores prácticas incluyen usar contraseñas seguras, habilitar la autenticación de dos factores y tener precaución al compartir información personal."
+  },
+  {
+    "input": "What are the best online security practices?",
+    "response": "Best practices include using secure passwords, enabling two-factor authentication, and being cautious when sharing personal information."
+  },
+  {
+    "input": "¿Qué debo hacer si creo que mi cuenta ha sido hackeada?",
+    "response": "Si crees que tu cuenta ha sido hackeada, cambia tu contraseña inmediatamente, revisa la actividad de tu cuenta y contacta con el soporte del servicio."
+  },
+  {
+    "input": "What should I do if I think my account has been hacked?",
+    "response": "If you think your account has been hacked, change your password immediately, review your account activity, and contact the service's support."
+  },
+  {
+    "input": "¿Cómo puedo evitar que me roben la contraseña?",
+    "response": "Evita el robo de contraseñas utilizando contraseñas únicas y complejas, activando la autenticación de dos factores y no haciendo clic en enlaces sospechosos."
+  },
+  {
+    "input": "How can I prevent my password from being stolen?",
+    "response": "Prevent password theft by using unique and complex passwords, enabling two-factor authentication, and avoiding clicking on suspicious links."
+  },
+  {
+    "input": "¿Es seguro usar la misma contraseña para varios sitios?",
+    "response": "No es seguro usar la misma contraseña para varios sitios. Es recomendable utilizar contraseñas únicas para cada servicio."
+  },
+  {
+    "input": "Is it safe to use the same password for multiple sites?",
+    "response": "It is not safe to use the same password for multiple sites. It is recommended to use unique passwords for each service."
+  },
+  {
+    "input": "¿Cómo puedo verificar si mi cuenta está segura?",
+    "response": "Verifica si tu cuenta está segura revisando la configuración de seguridad, activando la autenticación de dos factores y monitorizando la actividad sospechosa."
+  },
+  {
+    "input": "How can I check if my account is secure?",
+    "response": "Check if your account is secure by reviewing security settings, enabling two-factor authentication, and monitoring suspicious activity."
+  },
+  {
+    "input": "¿Qué es la autenticación de dos factores y cómo la activo?",
+    "response": "La autenticación de dos factores añade una capa adicional de seguridad, requiriendo algo que sabes (contraseña) y algo que tienes (código temporal). Actívala en la configuración de tu cuenta."
+  },
+  {
+    "input": "What is two-factor authentication and how do I enable it?",
+    "response": "Two-factor authentication adds an extra layer of security, requiring something you know (password) and something you have (temporary code). Enable it in your account settings."
+  },
+  {
+    "input": "¿Debo usar una VPN para proteger mi privacidad?",
+    "response": "Sí, usar una VPN puede ayudarte a proteger tu privacidad en línea al cifrar tu conexión y ocultar tu dirección IP."
+  },
+  {
+    "input": "Should I use a VPN to protect my privacy?",
+    "response": "Yes, using a VPN can help protect your online privacy by encrypting your connection and hiding your IP address."
+  },
+  {
+    "input": "¿Cómo evito caer en estafas en línea?",
+    "response": "Evita caer en estafas en línea no haciendo clic en enlaces sospechosos, verificando la autenticidad de los sitios web y no compartiendo información personal con desconocidos."
+  },
+  {
+    "input": "How can I avoid falling for online scams?",
+    "response": "Avoid falling for online scams by not clicking on suspicious links, verifying the authenticity of websites, and not sharing personal information with strangers."
+  },
+  {
+    "input": "¿Es seguro usar Wi-Fi público?",
+    "response": "El Wi-Fi público no es completamente seguro. Si es necesario usarlo, utiliza una VPN para cifrar tu conexión y proteger tus datos."
+  },
+  {
+    "input": "Is it safe to use public Wi-Fi?",
+    "response": "Public Wi-Fi is not completely safe. If necessary, use a VPN to encrypt your connection and protect your data."
+  },
+  {
+    "input": "¿Cómo sé si un correo electrónico es phishing?",
+    "response": "Revisa si el correo electrónico contiene enlaces sospechosos, errores ortográficos o te pide información personal. No hagas clic en los enlaces si no estás seguro de su autenticidad."
+  },
+  {
+    "input": "How can I tell if an email is phishing?",
+    "response": "Check if the email contains suspicious links, spelling errors, or asks for personal information. Do not click on the links if you're unsure of their authenticity."
+  },
+  {
+    "input": "¿Qué debo hacer si pierdo mi teléfono con acceso a mis cuentas?",
+    "response": "Si pierdes tu teléfono con acceso a tus cuentas, contacta con tu proveedor de servicios para bloquearlo, cambia tus contraseñas y activa la autenticación de dos factores si no lo habías hecho antes."
+  },
+  {
+    "input": "What should I do if I lose my phone with access to my accounts?",
+    "response": "If you lose your phone with access to your accounts, contact your service provider to block it, change your passwords, and enable two-factor authentication if you haven't already."
+  },
+  {
+    "input": "¿Cómo puedo saber si mi cuenta fue comprometida?",
+    "response": "Revisa tu actividad reciente y las configuraciones de seguridad de tu cuenta. Si notas algo sospechoso, cambia tu contraseña y contacta con el soporte del servicio."
+  },
+  {
+    "input": "How can I tell if my account was compromised?",
+    "response": "Review your recent activity and security settings. If you notice anything suspicious, change your password and contact the service support."
+  },
+  {
+    "input": "¿Cómo proteger mis datos personales en redes sociales?",
+    "response": "Protege tus datos personales en redes sociales configurando la privacidad de tus cuentas, limitando lo que compartes y revisando las configuraciones de seguridad."
+  },
+  {
+    "input": "How can I protect my personal data on social networks?",
+    "response": "Protect your personal data on social networks by setting up your account privacy, limiting what you share, and reviewing security settings."
+  },
+  {
+    "input": "¿Es seguro hacer compras en línea?",
+    "response": "Las compras en línea son seguras si compras en sitios web confiables, usas métodos de pago seguros y proteges tus datos personales."
+  },
+  {
+    "input": "Is it safe to shop online?",
+    "response": "Online shopping is safe if you buy from trusted websites, use secure payment methods, and protect your personal data."
+  },
+  {
+    "input": "¿Cómo hago que mi contraseña sea más segura?",
+    "response": "Haz que tu contraseña sea más segura utilizando una combinación de letras, números y caracteres especiales, y evita usar palabras comunes o información personal."
+  },
+  {
+    "input": "How can I make my password more secure?",
+    "response": "Make your password more secure by using a combination of letters, numbers, and special characters, and avoid using common words or personal information."
+  },
+  {
+    "input": "¿Qué debo hacer si alguien me hackea mi cuenta?",
+    "response": "Si alguien hackea tu cuenta, cambia la contraseña inmediatamente, revisa la actividad de la cuenta y contacta al soporte del servicio."
+  },
+  {
+    "input": "What should I do if someone hacks my account?",
+    "response": "If someone hacks your account, change the password immediately, review the account activity, and contact the service support."
+  },
+  {
+    "input": "¿Cómo evitar el robo de identidad en línea?",
+    "response": "Evita el robo de identidad en línea usando contraseñas seguras, no compartiendo información personal y vigilando la actividad sospechosa en tus cuentas."
+  },
+  {
+    "input": "How to prevent online identity theft?",
+    "response": "Prevent online identity theft by using secure passwords, not sharing personal information, and monitoring suspicious activity in your accounts."
+  },
+  {
+    "input": "¿Qué debo hacer si veo actividad sospechosa en mi cuenta?",
+    "response": "Si ves actividad sospechosa, cambia tu contraseña inmediatamente y contacta con el soporte del servicio para investigar el problema."
+  },
+  {
+    "input": "What should I do if I see suspicious activity in my account?",
+    "response": "If you see suspicious activity, change your password immediately and contact service support to investigate the issue."
+  },
+  {
+    "input": "¿Por qué es importante cambiar mis contraseñas regularmente?",
+    "response": "Es importante cambiar tus contraseñas regularmente para minimizar el riesgo de que un atacante acceda a tus cuentas y datos personales."
+  },
+  {
+    "input": "Why is it important to change my passwords regularly?",
+    "response": "It is important to change your passwords regularly to minimize the risk of an attacker gaining access to your accounts and personal data."
+  },
+  {
+    "input": "¿Cuál es la política de privacidad?",
+    "response": "La política de privacidad establece cómo se recopilan, usan y protegen tus datos personales, y cómo puedes controlar tu información."
+  },
+  {
+    "input": "What is the privacy policy?",
+    "response": "The privacy policy outlines how your personal data is collected, used, and protected, and how you can control your information."
+  },
+  {
+    "input": "¿Cómo manejan mis datos personales?",
+    "response": "Tus datos personales se manejan de acuerdo con nuestra política de privacidad, asegurando que se utilicen de manera segura y transparente."
+  },
+  {
+    "input": "How do they handle my personal data?",
+    "response": "Your personal data is handled according to our privacy policy, ensuring it is used securely and transparently."
+  },
+  {
+    "input": "¿Qué información recopilan de mí?",
+    "response": "Recopilamos información básica como tu nombre, correo electrónico y actividad en el sitio para brindarte una mejor experiencia."
+  },
+  {
+    "input": "What information do they collect from me?",
+    "response": "We collect basic information such as your name, email address, and activity on the site to provide you with a better experience."
+  },
+  {
+    "input": "¿Comparten mis datos con terceros?",
+    "response": "No compartimos tus datos con terceros sin tu consentimiento, salvo en los casos que lo requiera la ley."
+  },
+  {
+    "input": "Do they share my data with third parties?",
+    "response": "We do not share your data with third parties without your consent, except as required by law."
+  },
+  {
+    "input": "¿Cómo protegen mi información personal?",
+    "response": "Utilizamos medidas de seguridad avanzadas, como cifrado y autenticación, para proteger tu información personal."
+  },
+  {
+    "input": "How do they protect my personal information?",
+    "response": "We use advanced security measures such as encryption and authentication to protect your personal information."
+  },
+  {
+    "input": "¿Qué hacen con mis datos después de que los recopilan?",
+    "response": "Una vez recopilados, tus datos se utilizan para mejorar nuestros servicios y proporcionarte una experiencia personalizada."
+  },
+  {
+    "input": "What do they do with my data after collecting it?",
+    "response": "Once collected, your data is used to improve our services and provide you with a personalized experience."
+  },
+  {
+    "input": "¿Cómo puedo eliminar mis datos de su sistema?",
+    "response": "Puedes solicitar la eliminación de tus datos a través de la configuración de privacidad en tu cuenta o contactando con nuestro soporte."
+  },
+  {
+    "input": "How can I delete my data from their system?",
+    "response": "You can request the deletion of your data through the privacy settings in your account or by contacting our support."
+  },
+  {
+    "input": "¿Cuánto tiempo conservan mis datos?",
+    "response": "Conservamos tus datos solo el tiempo necesario para cumplir con los fines establecidos en nuestra política de privacidad."
+  },
+  {
+    "input": "How long do they keep my data?",
+    "response": "We keep your data only as long as necessary to fulfill the purposes outlined in our privacy policy."
+  },
+  {
+    "input": "¿Puedo acceder a los datos que tienen sobre mí?",
+    "response": "Sí, puedes solicitar acceso a los datos que tenemos sobre ti a través de la configuración de tu cuenta o solicitando la información a nuestro soporte."
+  },
+  {
+    "input": "Can I access the data you have about me?",
+    "response": "Yes, you can request access to the data we have about you through your account settings or by requesting the information from our support."
+  },
+  {
+    "input": "¿Cómo actualizan su política de privacidad?",
+    "response": "Actualizamos nuestra política de privacidad cuando es necesario, y te notificaremos sobre los cambios a través de correo electrónico o en nuestro sitio web."
+  },
+  {
+    "input": "How do they update their privacy policy?",
+    "response": "We update our privacy policy when necessary, and we will notify you about the changes via email or on our website."
+  },
+  {
+    "input": "¿Mis datos están seguros?",
+    "response": "Sí, tus datos están seguros gracias a las medidas de protección que hemos implementado para garantizar su privacidad."
+  },
+  {
+    "input": "Is my data secure?",
+    "response": "Yes, your data is secure thanks to the protection measures we have implemented to ensure its privacy."
+  },
+  {
+    "input": "¿Qué hago si quiero cambiar la configuración de privacidad?",
+    "response": "Puedes cambiar la configuración de privacidad en cualquier momento desde tu cuenta o contactando con nuestro equipo de soporte."
+  },
+  {
+    "input": "What do I do if I want to change my privacy settings?",
+    "response": "You can change your privacy settings at any time from your account or by contacting our support team."
+  },
+  {
+    "input": "¿Puedo optar por no compartir ciertos datos?",
+    "response": "Sí, puedes optar por no compartir ciertos datos desde la configuración de privacidad en tu cuenta."
+  },
+  {
+    "input": "Can I opt out of sharing certain data?",
+    "response": "Yes, you can opt out of sharing certain data from your privacy settings in your account."
+  },
+  {
+    "input": "¿Cómo me notifican sobre cambios en la política de privacidad?",
+    "response": "Te notificaremos sobre cualquier cambio en nuestra política de privacidad a través de correo electrónico o en el sitio web."
+  },
+  {
+    "input": "How do they notify me about changes to the privacy policy?",
+    "response": "We will notify you about any changes to our privacy policy via email or on our website."
+  },
+  {
+    "input": "¿Cuáles son sus prácticas de privacidad?",
+    "response": "Nuestras prácticas de privacidad incluyen la recolección responsable de datos, su uso seguro y el derecho a acceder, corregir o eliminar tu información."
+  },
+  {
+    "input": "What are their privacy practices?",
+    "response": "Our privacy practices include the responsible collection of data, its secure use, and the right to access, correct, or delete your information."
+  },
+  {
+    "input": "¿Puedo solicitar la eliminación de mi información personal?",
+    "response": "Sí, puedes solicitar la eliminación de tu información personal contactando con nuestro soporte o ajustando la configuración en tu cuenta."
+  },
+  {
+    "input": "Can I request the deletion of my personal information?",
+    "response": "Yes, you can request the deletion of your personal information by contacting our support or adjusting the settings in your account."
+  },
+  {
+    "input": "¿Cómo me protegen de filtraciones de datos?",
+    "response": "Utilizamos cifrado y otras medidas de seguridad para proteger tu información personal y prevenir filtraciones de datos."
+  },
+  {
+    "input": "How do they protect me from data breaches?",
+    "response": "We use encryption and other security measures to protect your personal information and prevent data breaches."
+  },
+  {
+    "input": "¿Recopilan datos de menores de edad?",
+    "response": "No recopilamos datos de menores de edad sin el consentimiento de los padres o tutores."
+  },
+  {
+    "input": "Do you collect data from minors?",
+    "response": "We do not collect data from minors without parental or guardian consent."
+  },
+  {
+    "input": "¿Mi información se comparte con anunciantes?",
+    "response": "No compartimos tu información personal con anunciantes sin tu consentimiento."
+  },
+  {
+    "input": "Is my information shared with advertisers?",
+    "response": "We do not share your personal information with advertisers without your consent."
+  },
+  {
+    "input": "¿Cómo gestionan las cookies en su sitio web?",
+    "response": "Utilizamos cookies para mejorar la experiencia del usuario. Puedes gestionar tus preferencias de cookies desde la configuración de tu navegador."
+  },
+  {
+    "input": "How do they manage cookies on their website?",
+    "response": "We use cookies to enhance the user experience. You can manage your cookie preferences through your browser settings."
+  },
+  {
+    "input": "¿Qué debo hacer si sospecho que mis datos han sido comprometidos?",
+    "response": "Si sospechas que tus datos han sido comprometidos, contacta con el soporte del servicio inmediatamente y toma medidas para cambiar tus contraseñas."
+  },
+  {
+    "input": "What should I do if I suspect my data has been compromised?",
+    "response": "If you suspect your data has been compromised, contact the service support immediately and take steps to change your passwords."
+  },
+  {
+    "input": "¿Cómo utilizan mis datos para fines publicitarios?",
+    "response": "Utilizamos tus datos para mostrar anuncios personalizados basados en tus intereses, pero siempre con tu consentimiento."
+  },
+  {
+    "input": "How do they use my data for advertising purposes?",
+    "response": "We use your data to show personalized ads based on your interests, but always with your consent."
+  },
+  {
+    "input": "¿Cuáles son mis derechos en relación con mi información personal?",
+    "response": "Tienes el derecho a acceder, corregir, eliminar o restringir el uso de tu información personal en cualquier momento."
+  },
+  {
+    "input": "What are my rights regarding my personal information?",
+    "response": "You have the right to access, correct, delete, or restrict the use of your personal information at any time."
+  },
+  {
+    "input": "¿Cómo puedo controlar qué datos comparto?",
+    "response": "Puedes controlar qué datos compartes a través de las configuraciones de privacidad en tu cuenta."
+  },
+  {
+    "input": "How can I control what data I share?",
+    "response": "You can control what data you share through the privacy settings in your account."
+  },
+  {
+    "input": "¿Qué sucede si elimino mi cuenta?",
+    "response": "Si eliminas tu cuenta, se eliminará tu información personal de nuestro sistema, pero podemos retener algunos datos por motivos legales."
+  },
+  {
+    "input": "What happens if I delete my account?",
+    "response": "If you delete your account, your personal information will be removed from our system, but we may retain some data for legal reasons."
   }
   
-
   
                      
   
