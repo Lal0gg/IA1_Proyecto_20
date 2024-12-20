@@ -79,7 +79,7 @@ const App = () => {
         <div className="modal-overlay" onClick={handleModalToggle}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <div className='modal-text'>
-              <h4> USACgpt es un chatbot que te ayudará a resolver dudas acerca de:</h4>
+              <h4> USACgpt es un chatbot que te ayudará a resolver dudas acerca de :</h4>
               <ul>
                 <li>Conversaciones Casuales</li>
                 <li>Recomendaciones de frases</li>
