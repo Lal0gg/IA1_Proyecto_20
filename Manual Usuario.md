@@ -10,11 +10,9 @@
 UsacGPT es un chatbot diseñado para responder preguntas sobre una variedad de temas como geografía, ciencia, entretenimiento, y más. A través de una interfaz intuitiva y fácil de usar, el usuario puede interactuar con el bot en un entorno amigable y fluido. Este manual proporciona una guía detallada para usar UsacGPT de manera efectiva.
 
 ## 2. Acceso a la Interfaz del Chatbot
-Para acceder al chatbot, abre el navegador web y dirígete a la página proporcionada por tu administrador. La interfaz está diseñada para ser intuitiva y fácil de usar, y te permitirá interactuar de manera fluida con el chatbot. En la interfaz, verás un diseño similar al siguiente:
+La interfaz del chatbot está compuesta por una ventana principal donde podrás ver los mensajes tanto del usuario como del chatbot. Los elementos clave en la interfaz son:
 
-![image](https://hackmd.io/_uploads/SJhnO58V1g.png)
-
-
+![image](https://hackmd.io/_uploads/S1GvIuMS1x.png)
 
 La interfaz está compuesta por:
 
@@ -41,6 +39,19 @@ Cuando el chatbot entiende tu consulta, generará una respuesta en forma de burb
 * **Consultas académicas**: Puedes hacer preguntas sobre temas académicos como cursos, especialidades y más.
 * C**onsultas generales**: Pregunta sobre información general como la fecha, eventos, o preguntas curiosas.
 * **Recomendaciones**: Si necesitas sugerencias de libros, series o películas, el chatbot puede proporcionarte opciones basadas en tus intereses.
+### Acceso a la Interfaz del Chatbot
+Para acceder al chatbot, abre el navegador web y dirígete a la página proporcionada por tu administrador. La interfaz está diseñada para ser intuitiva y fácil de usar, permitiendo una interacción fluida con el chatbot. Aquí se muestra una captura de cómo se ve la interfaz:
+
+Interfaz del Chatbot
+
+![image](https://hackmd.io/_uploads/HkZKuOfHye.png)
+
+Adicional, cuando se selecciona el titulo puedes visualizar una breve explicación acerca de lo que puedes consultar y ademas puedes consultar en ingles.
+
+
+![image](https://hackmd.io/_uploads/rkz5ouMS1g.png)
+
+
 ### 4.2 Ejemplos de Preguntas y Respuestas
 **Saludo**
     * Pregunta: "Hola"
@@ -96,6 +107,38 @@ Cuando la entrada del usuario es vaga o incompleta, el chatbot puede responder c
 
 * "¿Podrías darme más detalles?"
 * "¿Puedes ser más específico sobre lo que buscas?"
+
+
+### 7.3 Bienvenida y Descripción del Servicio
+Cuando accedes al chatbot, el sistema te presenta un mensaje inicial, como se muestra a continuación:
+
+
+El chatbot te proporciona una pequeña descripción de sus funciones y los tipos de preguntas que puede responder, tales como:
+
+* Conversaciones casuales
+* Recomendaciones de frases
+* Preguntas de cultura general
+* Información general
+
+Además, te informa que está disponible para responder también en inglés.
+
+### 7.4 Ejemplo de Interacción
+Cuando el chatbot empieza a interactuar contigo, puede responder preguntas tanto en español como en inglés. La interfaz se adapta a lo que escribas, como se muestra en este ejemplo:
+
+
+
+El chatbot responde a preguntas de manera fluida en ambos idiomas, permitiéndote mantener una conversación continua sin importar el idioma en el que escribas.
+
+#### Ejemplo:
+
+* Usuario (burbujas azules): "Hello! How are you?"
+* Chatbot (burbujas grises): "¡Hola! ¿Cómo estás?"
+* Usuario (burbujas azules): "I’m doing well, thank you!"
+* Chatbot (burbujas grises): "¡Me alegra escuchar eso! ¿Y tú?"
+
+Esto permite que el usuario tenga una experiencia multilingüe según sus preferencias.
+
+
 ## 8. Errores Comunes
 ### 8.1 ¿El chatbot no responde adecuadamente?
 Si el chatbot no está entendiendo tus preguntas correctamente:
@@ -106,5 +149,13 @@ Si el chatbot no está entendiendo tus preguntas correctamente:
 ### 8.2 ¿No encuentras respuestas relacionadas?
 Si el chatbot no tiene una respuesta directa, podría ofrecerte algunas alternativas o preguntas para continuar la conversación.
 
-## 9. Actualizaciones y Nuevas Funciones
-El chatbot está en constante evolución. Si necesitas agregar más funcionalidades o nuevas intenciones, es necesario actualizar el archivo de `data.json` con más ejemplos de preguntas y respuestas, y luego actualizar el modelo si es necesario.
+## 9. Errores Comunes
+### 9.1 El chatbot no responde adecuadamente
+Si el chatbot no está entendiendo correctamente tus preguntas:
+
+- Asegúrate de que la consulta esté bien escrita.
+- Intenta ser más específico.
+- Si el chatbot sigue sin comprender, puede ofrecer respuestas como "Lo siento, no te entendí".
+
+### 9.2 Consultas en múltiples idiomas
+Si escribes en un idioma diferente al habitual y el chatbot no responde adecuadamente, asegúrate de que el idioma esté configurado correctamente. Si el problema persiste, intenta escribir de nuevo en el idioma de preferencia.
