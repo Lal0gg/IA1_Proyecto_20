@@ -6,171 +6,387 @@
 * Eduardo Josué González Cifuentes - 201900647
 * Jeackelin Sofía Montenegro Chamalé - 201612120
 
-## 1. Descripción General del Proyecto
+## 1. Introducción
 
-### 1.1 Propósito
-Este proyecto consiste en el desarrollo de un chatbot que responde a consultas básicas en idioma español. El chatbot es capaz de responder preguntas sobre materias, especializaciones, proyectos, oportunidades laborales, entre otros temas, utilizando un modelo entrenado en base a ejemplos de preguntas y respuestas.
+Este es un proyecto que implementa un **Chatbot interactivo** utilizando **React**, **JavaScript**, y **CSS**. El objetivo de la aplicación es permitir la interacción con un modelo de chatbot basado en entradas y respuestas, proporcionando una interfaz amigable para que los usuarios puedan interactuar con el sistema.
 
-### 1.2 Funcionalidad
-- Maneja varias intenciones como "saludo", "despedida", "consultas académicas", entre otras.
-- Utiliza un modelo de Machine Learning entrenado en un conjunto de datos en formato JSON.
+## 2. Estructura del Proyecto
 
+El proyecto contiene los siguientes archivos y carpetas clave:
 
+### Archivos principales:
+- **index.html**: La página principal que sirve de punto de entrada a la aplicación.
+- **App.css**: Contiene los estilos principales de la aplicación.
+- **App.jsx**: El componente principal que maneja la lógica del chatbot.
+- **index.css**: Estilos globales de la aplicación.
+- **main.jsx**: Archivo de entrada donde se inicializa la aplicación React.
 
-## 2. Arquitectura del Proyecto
+### Dependencias:
+- **package.json**: Contiene todas las dependencias necesarias para el proyecto.
 
-### 2.1 Estructura de Archivos
-La estructura del proyecto está organizada en distintos archivos que cumplen funciones específicas dentro del sistema. A continuación, se detallan los archivos clave del proyecto:
+## 3. Instalación y Configuración Inicial
 
-* `data.json`: Contiene los ejemplos de preguntas y respuestas para cada intención (saludo, despedida, etc.).
-* `chatbot.js`: Archivo principal donde el chatbot interactúa con el usuario y responde a las consultas.
-* `package.json`: Contiene las dependencias y configuraciones del proyecto.
-* `App.jsx`: Archivo donde se implementa la interfaz de usuario de React.
-* `index.html`: Archivo HTML que estructura la página y carga la aplicación React.
+### Paso 1: Clonar el Repositorio
 
-### 2.2 Diagrama de Flujo
-1. **Entrenamiento:**
-El modelo se entrena utilizando los datos de data.json. Este proceso se realiza previamente antes de la interacción con el usuario y no requiere intervención directa en el proyecto actual.
-2. **Interacción con el Usuario**:
-* El archivo chatbot.js gestiona la interacción entre el usuario y el chatbot.
-* El modelo entrenado se utiliza para predecir la intención de las preguntas del usuario y generar respuestas adecuadas.
-3. **Respuesta de Intenciones**:
-* El chatbot utiliza la función predict_intent en chatbot.js para detectar la intención de la consulta del usuario.
-* Luego, el chatbot responde utilizando la función get_response, que selecciona la respuesta adecuada de acuerdo con la intención detectada.
-
-
-
-## 3. Instalación y Configuración
-### 3.1 Requisitos Previos
-* **Node.js:** Se requiere tener Node.js instalado para ejecutar los archivos `.js`.
-* **npm:** Necesario para instalar las dependencias del proyecto.
-* **React:** Se requiere un entorno de desarrollo de React (utilizando Vite en este caso).
-### 3.2 Instalación del Proyecto
-Clonar el repositorio:
+Primero, clona el repositorio en tu máquina local usando Git:
 
 ```bash
-git clone <URL_del_repositorio>
-cd <nombre_del_repositorio>
+git clone <url-del-repositorio>
 ```
-Instalar las dependencias: Asegúrate de tener npm instalado en tu máquina. Luego, ejecuta el siguiente comando para instalar las dependencias necesarias:
+
+### Paso 2: Instalacion de dependencias
+
+Una vez clonado el repositorio, navega al directorio del proyecto y ejecuta el siguiente comando para instalar todas las dependencias::
 
 ```bash
 npm install
 ```
-Instalar las dependencias adicionales:
+
+### Paso 3: Ejecutar la aplicación
+
+Para ejecutar el proyecto, usa el siguiente comando::
 
 ```bash
-npm install compromise
+npm start
 ```
-    
-## 4. Uso del Chatbot
+Esto abrirá el proyecto en tu navegador por defecto.
 
-### 4.1 Interacción con el Chatbot
-El chatbot te permitirá hacer preguntas y recibir respuestas basadas en el modelo entrenado. Simplemente escribe tu pregunta en el campo de texto y presiona "Enviar". La interfaz gráfica muestra tanto las preguntas como las respuestas en el chat.
+## 4. Descripción de Archivos y Funcionalidad
 
-### 4.2 Ejemplo de Interacción
-* Usuario: "Hola"
-* Chatbot: "¡Hola! ¿Todo bien?"
+### index.html
+Este archivo es el punto de entrada de tu aplicación web. En él se define la estructura básica de la página y se inserta el archivo bundle.js, que contiene todo el código compilado de la aplicación React. A continuación, te explico lo que generalmente contiene un archivo index.html en una aplicación React:.
 
-## 5. Detalles Técnicos
-### 5.1 Modelo de Machine Learning
-El modelo es un modelo de clasificación de texto basado en redes neuronales. Se entrena utilizando los datos de data.json y se ajusta para detectar la intención de la pregunta del usuario.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot React</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="root"></div> <!-- Aquí es donde React renderiza la aplicación -->
+  <script src="bundle.js"></script> <!-- El archivo compilado de React -->
+</body>
+</html>
+```
 
-El modelo es capaz de clasificar varias intenciones como:
+#### Explicacion
+- `<div id="root"></div>`: Este es el contenedor donde React inserta la aplicación. React buscará este div para montar el árbol de componentes de la aplicación.
+- `<script src="bundle.js"></script>`: El archivo bundle.js es generado por Webpack (o un bundler similar) que agrupa todos los archivos JS y los deja listos para ser cargados en el navegador.
 
-* **Saludo**: Cuando el usuario saluda al chatbot.
-* **Despedida**: Cuando el usuario se despide del chatbot.
-* **Consultas generales**: Preguntas relacionadas con temas académicos, generales o de interés.
+### App.css
+Este archivo contiene los estilos CSS específicos para el componente principal App.jsx. Generalmente, se usa para definir el diseño y la apariencia del chatbot.
 
-### 5.2 Funciones Principales en chatbot.js
-predict_intent(user_input): Esta función toma el mensaje del usuario, lo procesa y predice la intención del mensaje.
 
-```javascript
-function predict_intent(user_input) {
-    sequences = tokenizer.texts_to_sequences([user_input]);
-    padded_sequences = pad_sequences(sequences, { maxlen: 10 });
+```html
+/* App.css */
+.chat-container {
+  background-color: #f9f9f9;
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
 
-    prediction = model.predict(padded_sequences);
-    intent_index = np.argmax(prediction);
-    confidence = np.max(prediction);
-    console.log(`Confianza: ${confidence}`);
+.chat-header {
+  font-size: 18px;
+  font-weight: bold;
+}
 
-    if (confidence < 0.6) {
-        return "no_reconocido";
-    }
+.chat-messages {
+  margin-top: 20px;
+  height: 300px;
+  overflow-y: scroll;
+}
 
-    intent = label_encoder.inverse_transform([intent_index])[0];
-    return intent;
+.input-container {
+  margin-top: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
 }
 ```
-**Explicación**: Esta función transforma la entrada del usuario en una secuencia numérica, la procesa con el modelo y calcula la confianza de la predicción. Si la confianza es baja (por debajo de 0.6), se devuelve la intención "no_reconocido", de lo contrario, se devuelve la intención predicha.
 
-**get_response(intent)**: Esta función devuelve la respuesta correspondiente según la intención predicha.
+#### Explicacion
+- .chat-container: Define el contenedor principal del chatbot, incluyendo color de fondo, tamaño y márgenes.
+- .chat-header: Estiliza el encabezado del chatbot.
+- .chat-messages: Establece el área donde se mostrarán los mensajes y se les permite hacer scroll.
+- .input-container: Da estilo al área donde el usuario introduce el texto, asegurándose de que se vea bien y ocupe el ancho completo.
 
-```javascript
-function get_response(intent) {
-    with open("data/data.json", "r", encoding="utf-8") as file {
-        data = json.load(file);
-    }
-    
-    for (item in data["intents"]) {
-        if (item["intent"] === intent) {
-            return np.random.choice(item["responses"]);
-        }
-    }
-    
-    return "Lo siento, no te entendí.";
+### App.jsx
+Este es el archivo más importante del proyecto, ya que contiene el componente principal de React donde se gestiona la lógica del chatbot y la interfaz de usuario. Aquí te dejo un ejemplo simplificado:
+
+```jsx
+import React, { useState } from "react";
+import "./App.css";
+
+const App = () => {
+  const [messages, setMessages] = useState([]); // Estado para guardar los mensajes
+  const [userInput, setUserInput] = useState(""); // Estado para el input del usuario
+
+  const handleSendMessage = () => {
+    // Función que maneja el envío de un mensaje
+    const newMessage = { input: userInput, response: getResponse(userInput) };
+    setMessages([...messages, newMessage]);
+    setUserInput("");
+  };
+
+  const getResponse = (userMessage) => {
+    // Función que genera una respuesta según el mensaje del usuario
+    const responses = {
+      "Hello": "Hi there! How can I help you?",
+      "How are you?": "I'm good, thanks for asking!",
+      // Aquí se agregan más respuestas según las entradas
+    };
+    return responses[userMessage] || "Sorry, I didn't understand that.";
+  };
+
+  return (
+    <div className="chat-container">
+      <div className="chat-header">Chatbot</div>
+      <div className="chat-messages">
+        {messages.map((message, index) => (
+          <div key={index}>
+            <b>You: </b>{message.input}
+            <br />
+            <b>Bot: </b>{message.response}
+            <hr />
+          </div>
+        ))}
+      </div>
+      <div className="input-container">
+        <input
+          type="text"
+          value={userInput}
+          onChange={(e) => setUserInput(e.target.value)}
+          placeholder="Type your message here"
+        />
+        <button onClick={handleSendMessage}>Send</button>
+      </div>
+    </div>
+  );
+};
+
+export default App;
+```
+
+#### Explicacion
+- useState: React Hook que se usa para gestionar el estado. Aquí se usan dos estados: uno para almacenar los mensajes (messages) y otro para almacenar la entrada del usuario (userInput).
+- handleSendMessage: Esta función se activa cuando el usuario hace clic en el botón de enviar. Agrega el mensaje del usuario y la respuesta del chatbot a la lista de mensajes.
+- getResponse: Esta función es responsable de generar una respuesta en función del mensaje del usuario. Si el mensaje del usuario coincide con una entrada predefinida (como "Hello" o "How are you?"), se devuelve una respuesta predefinida. Si no se encuentra una respuesta, se devuelve un mensaje por defecto ("Sorry, I didn't understand that.").
+- Interfaz de usuario: El componente renderiza la interfaz del chatbot, mostrando los mensajes previos del usuario y del bot, y un campo de entrada donde el usuario puede escribir un mensaje.
+
+### index.css
+Este archivo contiene los estilos globales de la aplicación. Aquí puedes definir los estilos generales que no pertenecen a un componente específico, como el fondo de la página o los márgenes globales.
+
+```css
+/* index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 ```
-**Explicación**: Esta función busca en el archivo data.json la intención correspondiente y devuelve una de las respuestas asociadas a esa intención. Si no se encuentra la intención, devuelve un mensaje predeterminado.
 
-### 5.3 data.json
-Este archivo contiene las intenciones y las respuestas del chatbot. Cada intención tiene ejemplos de preguntas y respuestas que el chatbot utiliza para responder a las consultas.
+#### Explicacion
+- body: Aquí se aplican los estilos globales, como la fuente, color de fondo y el uso de flexbox para centrar el contenido vertical y horizontalmente en la página.
 
-Ejemplo de data.json:
+
+### main.jsx
+Este archivo es el punto de entrada de la aplicación. React usará este archivo para renderizar el componente principal App.jsx en el DOM.
+
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./index.css";
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+```
+
+#### Explicacion
+- React.StrictMode: Ayuda a detectar problemas en la aplicación durante el desarrollo. No afecta a la aplicación en producción.
+- ReactDOM.render: Este método toma el componente App y lo renderiza en el elemento con el id="root", que se encuentra en index.html.
+
+### package.json
+Este archivo contiene la configuración de tu proyecto, incluyendo las dependencias y los scripts para ejecutar el proyecto.
 
 ```json
 {
-  "intents": [
-    {
-      "intent": "saludo",
-      "examples": [
-        "Hola", "Buenas tardes", "¿Qué tal?"
-      ],
-      "responses": [
-        "¡Hola! ¿Cómo estás?", "¡Hola! ¿Todo bien?"
-      ]
-    },
-    {
-      "intent": "despedida",
-      "examples": [
-        "Adiós", "Hasta luego", "Nos vemos"
-      ],
-      "responses": [
-        "¡Hasta luego!", "¡Nos vemos pronto!"
-      ]
-    }
-  ]
+  "name": "chatbot-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC"
 }
 ```
-**Explicación**: Cada intención en data.json tiene una lista de ejemplos (preguntas que el chatbot puede recibir) y respuestas (respuestas posibles que el chatbot puede dar).
+#### Explicacion
+- dependencies: Aquí se encuentran las dependencias necesarias para que el proyecto funcione. React y React-DOM son las bibliotecas principales.
+- scripts: Estos son los comandos que puedes ejecutar desde la terminal:
+- npm start: Inicia el servidor de desarrollo y abre la aplicación en el navegador.
+- npm build: Prepara la aplicación para producción.
+- npm test: Ejecuta las pruebas.
+- npm eject: Expone la configuración de Webpack y otros archivos de configuración.
 
 
-## 6. Mantenimiento y Actualización
-### 6.1 Añadir Nuevas Intenciones
-Para añadir nuevas intenciones, debes seguir los siguientes pasos:
+#### Explicacion
+Este archivo se encarga de la renderización del componente principal App.jsx en el DOM. Es el punto de inicio para React y es donde la aplicación se inicializa.
 
-1. Edita el archivo data.json y agrega nuevas intenciones con sus ejemplos y respuestas.
-2. El chatbot procesará automáticamente estas nuevas intenciones sin necesidad de reentrenar el modelo, ya que las respuestas se seleccionan dinámicamente.
-### 6.2 Actualizar el Modelo
-Aunque el modelo no se actualiza automáticamente con las nuevas intenciones, si se desea mejorar la precisión del modelo o cambiar su comportamiento:
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import "./index.css";
 
-1. Entrenar el modelo nuevamente con un conjunto de datos actualizado.
-2. Reemplazar el modelo existente con el nuevo modelo entrenado.
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
+```
+### chatbot.js
+#### 1. Carga de Dependencias y Modelos
 
-## 7. Errores Comunes
+```jsx
+require('@tensorflow/tfjs-node');
+const use = require('@tensorflow-models/universal-sentence-encoder');
+const fs = require('fs');
+const path = './chatbot-model.json';
+```
 
-* Problemas con `compromise`: Si no se puede cargar `compromise`, asegúrate de que esté correctamente instalado ejecutando:
-    ```bash
-    npm install compromise
-    ```
+- TensorFlow.js (@tensorflow/tfjs-node): Esta librería permite la ejecución de modelos de machine learning en Node.js. Se usa aquí para trabajar con modelos de embbedings.
+- Universal Sentence Encoder (@tensorflow-models/universal-sentence-encoder): Este modelo de TensorFlow convierte las frases en vectores de números (embeddings) que pueden ser comparados.
+- fs (File System): Se utiliza para leer archivos en el sistema de archivos (en este caso, el modelo del chatbot).
+
+#### 2. Carga del Modelo de Chatbot
+```jsx
+const loadChatbotModel = async () => {
+  if (path.endsWith('.json')) {
+    const rawData = fs.readFileSync(path, 'utf8');
+    return JSON.parse(rawData);
+  } else {
+    const { chatbotModel } = require('./chatbot-model.js');
+    return chatbotModel;
+  }
+};
+```
+- Se verifica si el archivo del modelo de chatbot es un archivo JSON.
+- Si es un archivo .json, lo lee y lo convierte a un objeto JavaScript.
+- Si no es un archivo JSON, importa el modelo desde un archivo local (chatbot-model.js).
+
+#### 3. Encontrar la Mejor Respuesta Basada en Similitud
+```jsx
+const findBestResponse = async (userInput, chatbotModel, encoderModel) => {
+  const userEmbedding = await encoderModel.embed([userInput]);
+  const userEmbeddingArray = userEmbedding.arraySync()[0];
+
+  const similarityScores = chatbotModel.inputs.map(inputEmbedding => {
+    return inputEmbedding.reduce((sum, value, i) => sum + value * userEmbeddingArray[i], 0);
+  });
+
+  const bestMatchIndex = similarityScores.indexOf(Math.max(...similarityScores));
+  return chatbotModel.responses[bestMatchIndex];
+};
+```
+- Obtención de Embeddings del Usuario: Primero, el input del usuario se convierte en un vector de números (embedding) usando el modelo Universal Sentence Encoder.
+- Similitud de Coseno: Luego, calcula la similitud entre el embedding del usuario y los embeddings predefinidos de las posibles respuestas del chatbot, utilizando el producto punto.
+- Selección de la Mejor Respuesta: Se encuentra la respuesta cuyo embedding tiene la mayor similitud con el input del usuario.
+
+#### 4. Ejecutar el Chatbot en la Consola
+```jsx
+const runChatbot = async () => {
+  try {
+    console.log("Cargando modelo de embeddings...");
+    const encoderModel = await use.load();
+    console.log("Modelo de embeddings cargado exitosamente.");
+
+    console.log("Cargando modelo del chatbot...");
+    const chatbotModel = await loadChatbotModel();
+    console.log("Modelo del chatbot cargado exitosamente.");
+
+    const readline = require('readline');
+    const rl = readline.createInterface({
+      input: process.stdin,
+      output: process.stdout
+    });
+
+    console.log("\n¡Chatbot listo para interactuar! Escribe tu mensaje o 'salir' para terminar.");
+
+    rl.on('line', async (input) => {
+      if (input.toLowerCase() === 'salir') {
+        console.log("¡Adiós!");
+        rl.close();
+      } else {
+        const response = await findBestResponse(input, chatbotModel, encoderModel);
+        console.log(`Chatbot: ${response}`);
+      }
+    });
+  } catch (error) {
+    console.error("Error al ejecutar el chatbot:", error);
+  }
+};
+```
+- Carga de Modelos: Se cargan los modelos de embeddings (encoderModel) y el modelo de chatbot (chatbotModel).
+- Interfaz de Usuario en la Consola: Se configura una interfaz para leer entradas desde la terminal utilizando el módulo readline. El chatbot espera que el usuario ingrese texto, luego responde con la mejor respuesta calculada.
+- Interacción: El chatbot sigue funcionando hasta que el usuario escriba salir. Si el usuario ingresa algo distinto, el chatbot buscará la respuesta más adecuada y la mostrará.
+
+#### 5. Ejecutar el Chatbot
+
+```jsx
+runChatbot();
+```
+
+Finalmente, se llama a la función runChatbot() para iniciar la interacción del chatbot con el usuario.
+
+## 5. Funcionalidades del Proyecto
+La aplicación permite al usuario interactuar con un chatbot, el cual responde a las preguntas según las entradas proporcionadas. A continuación se detallan las funcionalidades principales:
+
+- Interacción con el chatbot: El chatbot responde a preguntas predefinidas y proporciona respuestas relevantes.
+- Entrada de texto: Los usuarios pueden escribir preguntas y recibir respuestas en tiempo real.
+## 6. Personalización
+Para personalizar la aplicación, puedes realizar los siguientes cambios:
+
+1. Modificar el componente App.jsx:
+    - Puedes agregar más preguntas y respuestas al chatbot.
+    - Cambiar la lógica para que el chatbot realice tareas más complejas.
+
+2. Actualizar los estilos:
+    - Edita el archivo App.css para cambiar los estilos visuales del chatbot.
+    - Modifica index.css para cambiar los estilos globales.
+
+## 7. Buenas Prácticas
+
+- Usar un control de versiones: Es recomendable usar Git para llevar un control de cambios en tu proyecto.
+- Componentes React: Siempre que sea posible, divide la lógica en componentes pequeños y reutilizables.
+- Revisar dependencias: Mantén actualizadas las dependencias de tu proyecto para garantizar su seguridad y funcionamiento correcto.
+
+## 8. Consideraciones Finales
+Este proyecto es una base para la creación de chatbots interactivos en una interfaz web utilizando React. A medida que el proyecto crezca, puedes añadir más características, como integración con APIs externas, bases de datos, o inteligencia artificial avanzada.
