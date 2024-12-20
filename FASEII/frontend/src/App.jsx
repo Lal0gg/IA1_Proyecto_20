@@ -9,6 +9,8 @@ const App = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
   const [encoderModel, setEncoderModel] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
 
   // Cargar el modelo de embeddings al cargar la aplicación
   useEffect(() => {
@@ -21,6 +23,10 @@ const App = () => {
 
     loadModels();
   }, []);
+
+  const handleModalToggle = () => {
+    setIsModalOpen(!isModalOpen);
+  };
 
   const preprocessText = (text) => {
     return text.toLowerCase().replace(/[^a-záéíóúüñ\s]/gi, '').trim();
@@ -67,7 +73,25 @@ const App = () => {
 
   return (
     <>
-      <h1>UsacGpt</h1>
+      <h1 onClick={handleModalToggle} className="title">USACgpt</h1>
+
+      {isModalOpen && (
+        <div className="modal-overlay" onClick={handleModalToggle}>
+          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+            <div className='modal-text'>
+              <h4> USACgpt es un chatbot que te ayudará a resolver dudas acerca de:</h4>
+              <ul>
+                <li>Conversaciones Casuales</li>
+                <li>Recomendaciones de frases</li>
+                <li>Preguntas de cultura general</li>
+                <li>Información general</li>
+              </ul>
+              <h4>Además que todo estoy también lo hace en inglés :D</h4>
+            </div>
+            <button onClick={handleModalToggle}>Cerrar</button>
+          </div>
+        </div>
+      )}
       <div className="chatbot">
         <div className="chat-window">
           {messages.map((msg, index) => (
