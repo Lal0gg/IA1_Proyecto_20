@@ -1,0 +1,786 @@
+{
+  "intents": [
+    {
+      "intent": "saludo",
+      "examples": [
+        "Hola", "¡Hola! ¿Qué tal?", "¡Buenos días!", "¡Buenas tardes!", "¡Buenas noches!",
+    "¡Hey!", "¡Qué tal!", "¿Qué pasa?", "¡Qué onda!", "¿Cómo estás?",
+    "¿Cómo te va?", "¡Qué hay de nuevo!", "¡Hola, buen día!", "¿Cómo va todo?",
+    "¡Qué tal todo!", "¡Saludos!", "¡Ey! ¿Cómo andas?", "¡Qué pasa contigo!",
+    "¿Cómo va la vida?", "¡Qué tal por ahí?", "¿Todo bien?", "¡Qué tal todo por tu lado?",
+    "¿Cómo estás pasando el día?", "¡Hola! ¿Qué tal la familia?", "¡Hola, ¿cómo te va?",
+    "¡Qué tal la semana?", "¡Qué tal! ¿Cómo te encuentras?", "¿Qué tal el día?", 
+    "¡Hola, buen día! ¿Cómo estás?", "¿Todo bien por ahí?", "¡Qué tal! ¿Cómo te encuentras?",
+    "¡Hola, todo chévere?", "¡Qué tal todo por allá?", "¡Qué onda! ¿Todo bien?",
+    "¿Qué tal tu día?", "¡Hola, cómo va todo?", "¡Qué tal tu semana?", "¡Qué tal todo por ahí?",
+    "¡Qué tal la vida?", "¿Cómo vas?", "¡Hola! ¿Cómo va el día?", "¡Qué onda! ¿Todo bien?",
+    "¿Todo tranquilo?", "¡Qué pasa! ¿Cómo te va?", "¡Hola! ¿Cómo te sientes?",
+    "¡Hola, qué bueno verte!", "¡Hola! ¿Qué tal todo en tu mundo?", "¡Ey! ¿Cómo vas?",
+    "¡Qué tal todo en tu mundo?", "¡Hola! ¿Todo bien?", "¿Cómo te encuentras hoy?",
+    "¿Cómo vas por allá?", "¡Qué tal el día de hoy?", "¡Hola! ¿Todo bien por ahí?",
+    "¡Saludos! ¿Cómo estás?", "¡Qué tal por ahí?", "¿Todo bien por allá?", "¡Qué tal la jornada?",
+    "¡Hola! ¿Cómo te encuentras?", "¡Hola, qué bueno verte!", "¡Qué tal, cómo te va?",
+    "¡Ey! ¿Cómo va todo?", "¿Qué tal el fin de semana?", "¡Qué tal por allá?",
+    "¡Hola! ¿Cómo va la vida?", "¡Qué tal todo por aquí?", "¡Nos vemos, cómo estás?",
+    "¡Qué tal la vida hoy?", "¡Qué tal todo el día?", "¿Qué tal todo? ¿Todo bien?",
+    "¡Hola! ¿Cómo estás pasando el día?", "¡Hola! ¿Qué tal todo por aquí?", "¡Hola! ¿Cómo andas?",
+    "¿Cómo te va el día?", "¡Qué tal todo, todo bien?", "¡Qué pasa! ¿Cómo va todo?",
+    "¡Hola! ¿Qué tal todo por tu lado?", "¡Qué tal todo! ¿Todo bien?", "¡Qué tal la familia?",
+    "¡Hola! ¿Qué novedades?", "¡Qué tal! ¿Cómo va todo?", "¡Hola! ¿Cómo estás pasando el día?",
+    "¿Cómo va el día hoy?", "¡Hola! ¿Todo tranquilo por ahí?", "¡Qué tal! ¿Cómo te va?",
+    "¿Qué tal el fin de semana? ¿Todo bien?", "¡Qué tal! ¿Todo bien por ahí?",
+    "¡Hola! ¿Todo chévere?", "¡Hola! ¿Qué tal todo hoy?", "¡Qué tal el día hoy?",
+    "¡Hola! ¿Todo bien por aquí?", "¡Ey! ¿Todo bien por ahí?", "¡Hola! ¿Todo tranquilo?",
+    "¡Hola! ¿Todo en orden?", "¡Qué tal la mañana?", "¡Hola! ¿Todo bien por tu lado?",
+    "¡Hola! ¿Todo bien por allá?", "¡Hola! ¿Cómo te sientes hoy?", "¿Cómo te encuentras ahora?",
+    "¡Hola! ¿Cómo te va hoy?", "¡Hola! ¿Cómo te va con todo?", "¡Qué tal todo por ahí?",
+    "¡Hola! ¿Cómo va todo por tu lado?", "¡Qué tal! ¿Todo en orden?", "¡Hola! ¿Cómo va todo hoy?",
+    "¿Todo bien por ahí?", "¡Hola! ¿Cómo va todo?", "¡Qué tal! ¿Cómo va tu día?",
+    "¡Hola! ¿Todo tranquilo?", "¡Qué tal! ¿Todo bien?", "¡Qué tal! ¿Cómo te va?",
+    "¡Hola! ¿Qué tal el día?", "¡Qué tal! ¿Cómo va tu jornada?", "¡Hola! ¿Qué tal todo?",
+    "¡Hola! ¿Cómo va la vida por tu lado?", "¡Hola! ¿Cómo va todo por allá?", "¿Qué tal tu día?",
+    "¡Hola! ¿Qué tal todo por allá?", "¡Hola! ¿Cómo te va?", "¡Hola! ¿Todo bien?",
+    "¡Qué tal! ¿Cómo va todo?", "¡Hola! ¿Todo bien por aquí?", "¡Qué tal la jornada?",
+    "¡Hola! ¿Cómo te sientes hoy?", "¡Hola! ¿Cómo va todo por tu lado?", "¡Hola! ¿Todo en orden?",
+    "¡Qué tal! ¿Cómo estás?", "¡Hola! ¿Qué tal todo?", "¡Hola! ¿Todo bien por aquí?",
+    "¡Hola! ¿Qué tal todo por aquí?", "¡Qué tal! ¿Cómo te encuentras?", "¡Hola! ¿Qué tal tu día?",
+    "¡Hola! ¿Cómo vas?", "¡Qué tal! ¿Todo bien por tu lado?", "¡Hola! ¿Cómo te va?",
+    "¡Qué tal! ¿Todo bien hoy?", "¡Hola! ¿Todo tranquilo?", "¡Qué pasa! ¿Cómo estás?",
+    "¡Hola! ¿Cómo te va el día?", "¡Qué tal! ¿Cómo va todo por allá?", "¡Hola! ¿Cómo estás hoy?",
+    "¡Hola! ¿Todo bien por aquí?", "¡Hola! ¿Qué tal el día?", "¡Hola! ¿Qué tal por allá?",
+    "¡Hola! ¿Cómo te encuentras?", "¡Hola! ¿Todo bien? ¡Qué tal!", "¡Hola! ¿Cómo va todo?",
+    "¡Qué tal! ¿Todo tranquilo?", "¡Hola! ¿Cómo va todo?", "¡Hola! ¿Qué tal por ahí?",
+    "¡Hola! ¿Cómo va todo?", "¡Qué tal todo?", "¡Hola! ¿Todo tranquilo?", "¡Qué tal todo?",
+    "¡Hola! ¿Qué tal todo?", "¡Hola! ¿Qué tal todo hoy?", "¡Hola! ¿Cómo va el día?",
+    "¡Hola! ¿Cómo va todo por allá?", "¡Hola! ¿Cómo va la vida?", "¡Hola! ¿Todo tranquilo?"
+  ],
+      "responses": [
+         "¡Hola! ¿En qué puedo ayudarte?", "¡Hola! ¿Cómo estás?", "¡Buenas! ¿En qué te puedo ayudar?",
+    "¡Hola, un gusto saludarte!", "¡Qué bueno verte por aquí!", "¡Bienvenido! ¿En qué te puedo asistir?",
+    "¡Hola, cómo te va?", "¡Qué tal! ¿En qué te ayudo?", "¡Hola! ¿Todo bien?", "¡Saludos! ¿Cómo te puedo ayudar?",
+    "¡Hola! ¿Qué tal todo?", "¡Qué bueno verte! ¿En qué te ayudo?", "¡Qué tal! ¿Todo bien?",
+    "¡Buenas! ¿Cómo te va?", "¡Hola! ¿Cómo va todo?", "¡Hola! ¿Qué tal el día?", "¡Qué tal! ¿Todo bien por ahí?",
+    "¡Hey! ¿En qué te ayudo?", "¡Qué tal! ¿Cómo te va hoy?", "¡Hola! ¿Todo tranquilo?", "¡Buenas! ¿En qué te puedo asistir?",
+    "¡Hola! ¿Qué tal tu día?", "¡Qué onda! ¿Cómo va todo?", "¡Hola, todo bien?", "¡Buenas tardes! ¿Cómo te encuentras?",
+    "¡Qué tal! ¿En qué te ayudo?", "¡Hola! ¿Qué tal las cosas?", "¡Qué tal todo? ¿Necesitas algo?", "¡Hola! ¿Cómo te sientes?",
+    "¡Hola! ¿En qué puedo asistirte hoy?", "¡Qué tal todo, todo bien?", "¡Hola! ¿Te puedo ayudar con algo?",
+    "¡Qué pasa! ¿Te ayudo en algo?", "¡Hola! ¿Todo tranquilo por aquí?", "¡Qué tal! ¿Todo en orden?", "¡Qué onda! ¿Cómo va tu día?",
+    "¡Hola! ¿Cómo te va hoy?", "¡Hola! ¿Todo bien por aquí?", "¡Hola! ¿Te ayudo con algo?", "¡Buenas! ¿Cómo vas?",
+    "¡Hola! ¿En qué puedo ayudarte ahora?", "¡Qué tal todo! ¿Todo bien?", "¡Hola! ¿Cómo va todo por tu lado?",
+    "¡Hola! ¿Te ayudo con algo más?", "¡Qué tal todo! ¿En qué te ayudo?", "¡Qué pasa! ¿Te ayudo con algo?",
+    "¡Hola! ¿Todo en orden?", "¡Qué tal! ¿En qué puedo ayudarte?", "¡Qué onda! ¿Todo bien?",
+    "¡Hola! ¿En qué te puedo asistir?", "¡Hola! ¿Todo bien por ahí?", "¡Qué tal! ¿Cómo te va?", "¡Hola! ¿Te puedo ayudar?",
+    "¡Saludos! ¿En qué te ayudo?", "¡Hola! ¿Cómo te sientes hoy?", "¡Qué tal! ¿En qué te ayudo?",
+    "¡Hola! ¿Todo bien por allá?", "¡Hola! ¿Qué tal la vida?", "¡Qué onda! ¿Todo en orden?", "¡Qué tal! ¿Cómo estás hoy?",
+    "¡Hola! ¿Qué tal todo por tu lado?", "¡Buenas! ¿Cómo te va?", "¡Hola! ¿Todo bien?", "¡Qué pasa! ¿Cómo va tu día?",
+    "¡Qué tal! ¿En qué te puedo ayudar?", "¡Hola! ¿Qué tal tu semana?", "¡Hola! ¿Cómo te encuentras?",
+    "¡Qué onda! ¿Cómo va todo?", "¡Hola! ¿Te puedo ayudar con algo más?", "¡Saludos! ¿Cómo va todo?",
+    "¡Hola! ¿Todo en orden?", "¡Qué tal! ¿Cómo va tu día?", "¡Buenas! ¿En qué puedo asistirte?",
+    "¡Qué tal! ¿Todo tranquilo?", "¡Hola! ¿Todo bien por ahí?", "¡Hola! ¿Te puedo asistir?", "¡Hola! ¿Todo bien?",
+    "¡Hola! ¿Cómo te va?", "¡Hola! ¿Todo bien?", "¡Qué pasa! ¿Todo bien?", "¡Hola! ¿Te puedo ayudar?",
+    "¡Hola! ¿Cómo va tu día?", "¡Qué tal! ¿Todo bien por aquí?", "¡Qué tal! ¿Cómo va todo?",
+    "¡Hola! ¿Te ayudo con algo?", "¡Hola! ¿Todo bien por allá?", "¡Hola! ¿Cómo va todo hoy?",
+    "¡Qué tal! ¿Todo en orden?", "¡Hola! ¿Cómo te encuentras?", "¡Hola! ¿Qué tal todo por ahí?",
+    "¡Hola! ¿Qué tal el día?", "¡Buenas! ¿En qué puedo ayudarte?", "¡Qué pasa! ¿Todo bien por aquí?",
+    "¡Hola! ¿Cómo va todo?", "¡Hola! ¿Te ayudo con algo más?", "¡Hola! ¿Todo bien?",
+    "¡Qué tal! ¿Cómo te va?", "¡Hola! ¿Todo tranquilo?", "¡Hola! ¿Te ayudo con algo?", "¡Hola! ¿Cómo estás?"
+  ]
+    },
+    {
+      "intent": "despedida",
+      "examples": [
+        "Adiós", "Hasta luego", "Nos vemos", "Chao", "¡Cuídate!",
+    "Hasta pronto", "Hasta la vista", "Nos vemos luego", "Adiós, que tengas buen día",
+    "¡Nos vemos!", "¡Hasta la próxima!", "Hasta la próxima vez", "¡Que tengas un buen día!",
+    "¡Hasta luego, cuídate!", "¡Hasta la próxima oportunidad!", "Nos vemos en otro momento",
+    "¡Adiós! Que te vaya bien", "¡Nos vemos pronto, amigo!", "¡Quédate bien!",
+    "¡Cuídate mucho!", "¡Nos vemos! Que te vaya bien", "Adiós, ¡que tengas un buen viaje!",
+    "Nos vemos más tarde", "¡Hasta luego, que descanses!", "¡Hasta el próximo encuentro!",
+    "¡Nos vemos mañana!", "¡Hasta luego, nos vemos pronto!", "¡Cuídate mucho, amigo!",
+    "¡Hasta pronto, que te vaya bien!", "¡Adiós! Te mando un abrazo", "¡Nos vemos, cuídate mucho!",
+    "¡Hasta pronto, amigo!", "¡Nos vemos después!", "¡Nos vemos, cuídate!", "¡Nos vemos en otra ocasión!",
+    "¡Hasta siempre!", "¡Quédate bien, adiós!", "¡Nos vemos muy pronto!", "¡Que tengas buen día!",
+    "¡Adiós! Nos vemos pronto", "¡Adiós, que todo te salga bien!", "Nos vemos luego, cuídate",
+    "¡Hasta luego, que todo te vaya bien!", "¡Nos vemos pronto, cuídate mucho!",
+    "¡Hasta luego, cuídate mucho!", "¡Chao, que te vaya bien!", "¡Adiós, que descanses!",
+    "¡Adiós, que tengas una excelente jornada!", "¡Hasta pronto, nos vemos luego!", "¡Nos vemos, cuídate!",
+    "¡Adiós, que todo te salga excelente!", "¡Nos vemos pronto, que te vaya bien!", "¡Cuídate mucho!",
+    "¡Nos vemos, buen día!", "¡Nos vemos pronto, cuídate!", "¡Nos vemos, un abrazo!",
+    "¡Hasta la próxima! Cuídate", "¡Hasta pronto, cuídate mucho!", "Nos vemos pronto, adiós",
+    "¡Hasta luego! Nos vemos después", "¡Cuídate! Hasta luego", "Nos vemos más tarde, cuídate",
+    "¡Nos vemos, que descanses!", "¡Nos vemos pronto, que estés bien!", "¡Nos vemos! Cuídate",
+    "¡Nos vemos! Te deseo lo mejor", "¡Hasta la vista! Nos vemos", "¡Hasta pronto, que todo te salga bien!",
+    "¡Nos vemos después! Cuídate mucho", "¡Hasta pronto, que tengas un gran día!",
+    "¡Adiós, que todo te vaya bien!", "¡Hasta luego, que todo te salga bien!",
+    "¡Nos vemos pronto! Cuídate mucho", "¡Nos vemos después de un rato!", "¡Nos vemos, hasta pronto!",
+    "¡Hasta luego! Te deseo lo mejor", "¡Hasta pronto! Cuídate mucho", "¡Nos vemos pronto, que estés bien!",
+    "¡Hasta luego! Que todo te salga bien", "¡Nos vemos pronto! Cuídate", "¡Hasta pronto! Nos vemos",
+    "Nos vemos pronto, cuídate mucho", "¡Hasta pronto! Te mando un abrazo", "¡Nos vemos luego!",
+    "¡Adiós, que tengas buen día!", "¡Hasta luego! Que descanses", "¡Nos vemos pronto! Hasta la próxima",
+    "¡Hasta luego! Que todo salga bien", "¡Nos vemos! Cuídate mucho", "¡Hasta la próxima!",
+    "¡Nos vemos! Te deseo lo mejor", "¡Nos vemos pronto! Cuídate", "¡Hasta luego, que te vaya bien!",
+    "Nos vemos más tarde, ¡cuídate!", "¡Nos vemos después! Que te vaya bien", "¡Hasta luego, cuídate mucho!",
+    "Nos vemos luego, cuídate mucho", "¡Hasta pronto, cuídate!", "¡Hasta luego, que todo te salga bien!",
+    "¡Nos vemos después! Que te vaya bien", "¡Hasta pronto, cuídate mucho!", "¡Nos vemos, que descanses!",
+    "¡Nos vemos! Cuídate mucho", "Nos vemos pronto, ¡cuídate mucho!", "¡Hasta luego, que te vaya bien!",
+    "¡Hasta la próxima vez!", "¡Nos vemos! Que te vaya bien", "¡Adiós, que todo te salga bien!",
+    "¡Hasta pronto! Nos vemos más tarde", "¡Nos vemos pronto, que descanses!", "¡Nos vemos después!",
+    "Nos vemos, cuídate mucho", "¡Nos vemos! Cuídate mucho", "¡Hasta luego, que todo te vaya bien!",
+    "¡Nos vemos, que descanses!", "¡Hasta pronto, nos vemos más tarde!", "¡Nos vemos, cuídate mucho!",
+    "¡Hasta luego! Que todo te vaya bien", "Nos vemos más tarde", "¡Nos vemos, que todo salga bien!",
+    "¡Hasta luego, nos vemos pronto!", "¡Nos vemos, cuídate mucho!", "¡Nos vemos más tarde!",
+    "¡Nos vemos luego, que descanses!", "¡Hasta luego, que descanses!", "¡Nos vemos después!",
+    "¡Nos vemos pronto! Cuídate", "¡Nos vemos, hasta la próxima!", "¡Hasta luego, que todo te salga bien!",
+    "¡Nos vemos! Que te vaya bien", "¡Nos vemos después de un rato!", "¡Nos vemos! Cuídate mucho",
+    "¡Nos vemos, que todo te salga excelente!", "¡Hasta pronto! Nos vemos pronto", "¡Nos vemos! Cuídate",
+    "Nos vemos más tarde, que todo salga bien", "¡Nos vemos! Hasta luego", "¡Nos vemos, que todo te vaya bien!",
+    "¡Nos vemos pronto, que descanses!", "¡Hasta luego, cuídate!", "¡Nos vemos después de un rato!",
+    "¡Nos vemos, cuídate mucho!", "¡Hasta luego, que descanses!", "¡Nos vemos después, que te vaya bien!",
+    "¡Nos vemos pronto, hasta la próxima!", "¡Nos vemos! Cuídate", "¡Nos vemos! Te mando un abrazo",
+    "¡Nos vemos pronto, que descanses!", "¡Nos vemos! Cuídate mucho", "¡Nos vemos pronto!"
+  ],
+      "responses": [
+        "¡Hasta pronto!", "¡Que tengas un buen día!", "¡Nos vemos pronto!", "¡Cuídate!", "¡Hasta luego!", "¡Nos vemos!",
+        "¡Hasta la próxima!", "¡Chao! Cuídate", "¡Nos vemos pronto!", "¡Hasta la vista!", "¡Adiós, que tengas buen día!"
+      ]
+    },
+    {
+      "intent": "pregunta_tiempo",
+      "examples": [
+        "¿Qué hora es?", "¿Cómo está el clima?", "¿Qué día es hoy?", "¿Qué tiempo hace?",
+    "¿Cómo está el clima en este momento?", "¿Qué hora tienes?", "¿Me puedes decir la hora?",
+    "¿Está lloviendo?", "¿Hace calor hoy?", "¿Qué hora es en este momento?", "¿Cuál es la temperatura?",
+    "¿Cómo está el clima hoy?", "¿Está soleado?", "¿Está nevando?", "¿Qué hora es en este lugar?",
+    "¿Hace frío hoy?", "¿Qué temperatura hace?", "¿Qué día es hoy?", "¿Cómo está el día?",
+    "¿Está nublado?", "¿Qué temperatura tenemos hoy?", "¿A qué hora es?", "¿Qué hora es en España?",
+    "¿Está soleado o nublado?", "¿Hace buen tiempo?", "¿Está lloviendo ahora?", "¿A qué hora amanece?",
+    "¿Cuándo será el atardecer?", "¿Cómo va el clima hoy?", "¿Está nublado hoy?", "¿Cuál es la hora?",
+    "¿Hace frío por la mañana?", "¿Qué clima tenemos?", "¿Hace calor o frío?", "¿Qué hora es en Nueva York?",
+    "¿A qué hora empieza a oscurecer?", "¿Hace buen clima hoy?", "¿Qué hora es en Londres?", "¿Qué tiempo hará mañana?",
+    "¿Está fresco el día de hoy?", "¿Va a llover mañana?", "¿Cómo está la temperatura?", "¿Qué hora es en Argentina?",
+    "¿Qué hora es en mi zona?", "¿Hace calor en la ciudad?", "¿Qué tiempo tenemos hoy?", "¿Hace frío en la mañana?",
+    "¿Cómo se ve el clima para hoy?", "¿Qué temperatura hay ahora?", "¿Cuántos grados hace?", "¿A qué hora empieza el día?",
+    "¿Va a llover más tarde?", "¿Qué temperatura habrá mañana?", "¿Hace calor por la tarde?", "¿Qué hora es en la tarde?",
+    "¿Cuál es la hora en Japón?", "¿Cómo va el clima para mañana?", "¿Está despejado hoy?", "¿Qué tiempo habrá en la tarde?",
+    "¿Qué clima habrá esta noche?", "¿A qué hora oscurece?", "¿Cuál es el pronóstico del tiempo?", "¿Hace mucho frío?",
+    "¿Cómo está el tiempo en la playa?", "¿A qué hora va a llover?", "¿Qué hora es en Berlín?", "¿Hace calor a mediodía?",
+    "¿Está lloviendo esta mañana?", "¿Cómo está el clima en la tarde?", "¿Cómo está el clima ahora?", "¿Qué hora será?",
+    "¿Cuánto falta para el amanecer?", "¿Hace mucho calor hoy?", "¿Está oscuro ya?", "¿Qué tiempo va a hacer esta noche?",
+    "¿Hace frío por la tarde?", "¿Cuántos grados hay ahora?", "¿A qué hora empieza a lloviznar?", "¿Qué temperatura hace ahora?",
+    "¿Hace buen tiempo para salir?", "¿A qué hora sale el sol?", "¿Qué hora será en Buenos Aires?", "¿Cuál es la temperatura ahora?",
+    "¿Hace calor o frío esta noche?", "¿A qué hora amanece mañana?", "¿Hace calor en la tarde?", "¿Va a llover esta semana?",
+    "¿Hace buen tiempo para hacer ejercicio?", "¿Cómo va el clima para mañana?", "¿Qué hora es en el otro lado del mundo?",
+    "¿Va a nevar mañana?", "¿Cómo está el tiempo en la tarde?", "¿Cuántos grados hay?", "¿Cómo está el clima esta tarde?",
+    "¿Hace frío por la noche?", "¿A qué hora se pone el sol?", "¿Qué temperatura tiene el día?", "¿Hace calor esta tarde?",
+    "¿Qué clima habrá en las montañas?", "¿Cómo está el día en la ciudad?", "¿Qué tiempo hace en la noche?", "¿Cómo estará el tiempo?",
+    "¿Está nublado o soleado?", "¿Qué hora es en el centro del país?", "¿Qué temperatura estará mañana?", "¿Cómo está el tiempo esta mañana?",
+    "¿Va a hacer frío por la mañana?", "¿Qué tiempo hará hoy en la tarde?", "¿Cuál es el clima en el campo?", "¿Qué hora es en este momento?",
+    "¿Está soleado en la ciudad?", "¿Hace frío hoy por la tarde?", "¿Va a llover en las próximas horas?", "¿Está despejado esta noche?",
+    "¿Hace frío o calor por la noche?", "¿Qué tiempo hará en la zona costera?", "¿Cómo está el clima esta mañana?", "¿Hace calor en la mañana?",
+    "¿Qué hora es en este país?", "¿Hace buen tiempo por la mañana?", "¿Qué clima habrá en la playa?", "¿Cuántos grados hay por la tarde?",
+    "¿A qué hora amanece mañana?", "¿Está lluvioso por la tarde?", "¿Hace mucho calor por la noche?", "¿Qué tiempo hace esta mañana?",
+    "¿Qué hora es en México?", "¿Hace buen clima esta mañana?", "¿Está cálido o frío?", "¿Cómo va el clima para hoy?",
+    "¿Cómo está el clima en la ciudad?", "¿Hace calor por la mañana?", "¿Va a nevar hoy?", "¿Qué hora es en Argentina?",
+    "¿Está nublado en la ciudad?", "¿Cuántos grados hay por la mañana?", "¿Hace frío por la tarde?", "¿Qué hora es en Miami?",
+    "¿Hace calor en la ciudad?", "¿Está fresco hoy?", "¿Va a llover el próximo día?", "¿Hace frío en la tarde?",
+    "¿A qué hora se hace de noche?", "¿Hace calor en la zona costera?", "¿Cuál es la hora exacta?", "¿Va a llover este fin de semana?",
+    "¿Hace buen tiempo por la tarde?", "¿Está soleado por la tarde?", "¿Qué hora es en Madrid?", "¿Hace frío o calor?",
+    "¿Cuántos grados hace en la playa?", "¿Está nublado por la mañana?", "¿Cómo estará el clima?", "¿Va a llover hoy?",
+    "¿A qué hora amanece?", "¿Qué hora será más tarde?", "¿Hace calor en la playa?", "¿Está despejado en la tarde?",
+    "¿Qué hora será en Italia?", "¿Está lloviendo a esta hora?", "¿Hace mucho calor en la playa?", "¿Está frío en la noche?",
+    "¿Qué hora es en la tarde?", "¿Qué temperatura hará mañana?", "¿Hace frío por la mañana?", "¿Va a llover mañana por la tarde?",
+    "¿Qué tiempo hay por la noche?", "¿Va a llover esta tarde?", "¿Cuántos grados hay por la mañana?", "¿Hace buen tiempo por allá?",
+    "¿Va a nevar mañana por la tarde?", "¿Cómo está el clima por allá?", "¿Qué temperatura hará hoy?", "¿Está nublado por allá?",
+    "¿Hace frío o calor esta tarde?", "¿Cómo estará el clima mañana?", "¿Qué hora es en el mediodía?", "¿Cómo va el clima?",
+    "¿Cuántos grados hace en la tarde?", "¿Va a llover esta semana?", "¿Cómo estará el tiempo el día de mañana?",
+    "¿Qué hora será hoy?", "¿A qué hora anochece?", "¿Cómo se ve el clima?", "¿Cómo está el día en el campo?",
+    "¿Va a llover esta noche?", "¿Cómo está el tiempo para mañana?", "¿Está despejado ahora?", "¿Qué hora es en Brasil?",
+    "¿Cómo se ve el clima para hoy?", "¿Cuántos grados hace en este lugar?", "¿Cómo está el tiempo en la ciudad?",
+    "¿Hace frío o calor esta mañana?", "¿Va a nevar hoy?", "¿Cómo está el tiempo por allá?", "¿Qué hora es en Chile?",
+    "¿Qué hora es en Japón?", "¿Está lloviendo en la ciudad?", "¿Va a hacer frío por la tarde?", "¿Cómo estará el clima para hoy?"
+  ],
+      "responses": [
+        "Lo siento, no tengo acceso al clima ahora mismo.", "No sé la hora, pero ¡siempre es buen momento para charlar!",
+        "No tengo acceso al clima, pero ¡espero que tengas un buen día!", "Lo siento, no tengo información sobre el clima.",
+        "¡Lo siento! No tengo acceso al clima ahora mismo. Pero siempre hace buen tiempo para hablar contigo."
+      ]
+    },
+    {
+      "intent": "agradecimiento",
+      "examples": [
+         "Gracias", "Muchas gracias", "Te lo agradezco", "Gracias por tu ayuda", "Mil gracias",
+    "Te agradezco mucho", "Te doy las gracias", "Muchas gracias por todo", "Te estoy muy agradecido",
+    "Gracias de todo corazón", "Gracias por todo lo que has hecho", "Estoy muy agradecido", "Te lo agradezco mucho",
+    "Gracias por tu tiempo", "Agradezco mucho tu ayuda", "Te estoy infinitamente agradecido", "Te agradezco enormemente",
+    "No sé cómo agradecerte", "Te agradezco de corazón", "Gracias por todo lo que has hecho por mí",
+    "Gracias por el apoyo", "Gracias por estar ahí", "Te doy las gracias por tu ayuda", "Gracias por tu paciencia",
+    "Gracias por tu generosidad", "Te agradezco sinceramente", "Te agradezco mucho tu apoyo", "Muchísimas gracias",
+    "Te agradezco profundamente", "Gracias por tu comprensión", "Te agradezco que me hayas ayudado", "Gracias por todo lo que haces",
+    "Te agradezco por ser tan amable", "Gracias por tu solidaridad", "Gracias por la ayuda brindada", "Muchísimas gracias por tu apoyo",
+    "Te agradezco que me hayas escuchado", "Gracias por ser tan comprensivo", "Gracias por el consejo", "Gracias por todo tu esfuerzo",
+    "Te agradezco mucho por ser tan paciente", "Gracias por acompañarme en esto", "Te agradezco todo lo que haces", "Gracias por tu colaboración",
+    "Gracias por tu amabilidad", "Te agradezco mucho tu tiempo", "Gracias por ofrecerme tu ayuda", "Gracias por ser tan generoso",
+    "Te doy las gracias por tu apoyo incondicional", "Te agradezco por tu sinceridad", "Gracias por siempre estar ahí", "Muchas gracias por tu esfuerzo",
+    "Gracias por tu dedicación", "Gracias por tu compromiso", "Te agradezco por ser tan atento", "Gracias por tu contribución",
+    "Gracias por tu entrega", "Te agradezco por tu esfuerzo y dedicación", "Muchas gracias por todo lo que has hecho por mí",
+    "Gracias por tu generosidad y apoyo", "Te agradezco por confiar en mí", "Te agradezco de todo corazón por tu ayuda",
+    "Gracias por ser tan amable y considerado", "Te agradezco por tu compasión", "Gracias por tu tiempo y paciencia", "Gracias por todo lo que me has enseñado",
+    "Te doy las gracias por estar a mi lado", "Gracias por tu trabajo y esfuerzo", "Te agradezco profundamente por todo lo que has hecho",
+    "Te agradezco por estar siempre dispuesto a ayudar", "Gracias por tu orientación", "Gracias por tu amabilidad y paciencia",
+    "Te agradezco mucho por tu apoyo constante", "Te agradezco por tu ayuda incansable", "Gracias por tu comprensión y paciencia",
+    "Te agradezco por tu apoyo durante este tiempo", "Gracias por estar ahí cuando más te necesité", "Gracias por todo lo que has hecho por mí",
+    "Te agradezco por no rendirte conmigo", "Gracias por todo tu esfuerzo y dedicación", "Te agradezco de todo corazón por estar a mi lado",
+    "Gracias por ayudarme a mejorar", "Te agradezco por tu apoyo constante y sincero", "Gracias por darme la oportunidad de aprender",
+    "Te agradezco mucho por tu comprensión", "Gracias por tu atención", "Te agradezco por tu tiempo y paciencia", "Gracias por ser tan generoso conmigo",
+    "Te agradezco por todo lo que has hecho por nosotros", "Gracias por apoyarme en todo momento", "Te agradezco mucho por tu ayuda",
+    "Gracias por tus sabias palabras", "Te agradezco por tu compañía", "Gracias por darme tu tiempo", "Te agradezco por tu disposición",
+    "Gracias por siempre estar ahí para mí", "Te agradezco mucho por todo lo que has hecho", "Te doy las gracias por ser tan comprensivo",
+    "Gracias por tu amabilidad y paciencia", "Te agradezco por ser tan generoso con tu tiempo", "Te agradezco por tu apoyo constante",
+    "Gracias por hacer esto posible", "Te agradezco mucho por el esfuerzo", "Gracias por tu compromiso y dedicación", "Te agradezco por tu trabajo",
+    "Te agradezco de corazón por tu apoyo", "Gracias por tu tiempo y esfuerzo", "Te agradezco mucho por todo", "Gracias por hacer todo esto por mí",
+    "Gracias por tu buen corazón", "Te agradezco por todo lo que has hecho por nosotros", "Te doy las gracias por ser tan solidario",
+    "Gracias por tu generosidad y apoyo", "Te agradezco por ser tan considerado", "Gracias por todo lo que me has enseñado",
+    "Te agradezco por tu amabilidad y por todo lo que haces", "Te agradezco mucho por estar aquí", "Gracias por tu paciencia y apoyo",
+    "Te agradezco mucho por todo lo que me has brindado", "Gracias por tu dedicación y esfuerzo", "Te agradezco por ser tan constante",
+    "Gracias por darme tu ayuda en todo momento", "Te agradezco por todo lo que has aportado", "Gracias por tu apoyo continuo",
+    "Te agradezco mucho por lo que haces por mí", "Te agradezco sinceramente por tu dedicación", "Gracias por tu apoyo incondicional",
+    "Te agradezco por compartir tu tiempo", "Gracias por tu comprensión y apoyo", "Te agradezco por cada paso que has dado por mí",
+    "Te agradezco profundamente por todo tu esfuerzo", "Gracias por todo lo que haces para que las cosas salgan bien", "Te agradezco de corazón",
+    "Te agradezco mucho por tu tiempo y por ser tan generoso", "Gracias por tu generosidad y paciencia", "Te agradezco por no rendirte",
+    "Gracias por ser tan generoso", "Te agradezco por ser tan amable", "Gracias por todo el esfuerzo que has puesto", "Te agradezco por tus sabias palabras",
+    "Gracias por tu amor y apoyo", "Te agradezco por cada oportunidad", "Gracias por ser un gran apoyo para mí", "Te agradezco mucho por todo",
+    "Gracias por ser tan atento", "Te agradezco por ser tan comprensivo", "Gracias por darme tu apoyo", "Te agradezco por ser tan dedicado",
+    "Gracias por tu confianza y apoyo", "Te agradezco por siempre estar disponible", "Gracias por tu amistad", "Te agradezco por ser mi mentor",
+    "Gracias por ayudarme a crecer", "Te agradezco por tu ayuda sincera", "Gracias por estar siempre dispuesto a ayudar", "Te agradezco por tu apoyo moral",
+    "Gracias por tu esfuerzo", "Te agradezco por ayudarme en todo", "Gracias por tu disposición", "Te agradezco por tus buenos consejos",
+    "Gracias por estar a mi lado siempre", "Te agradezco por tu bondad", "Gracias por darme la oportunidad de aprender", "Te agradezco mucho por todo tu trabajo",
+    "Gracias por compartir tu tiempo conmigo", "Te agradezco por tu actitud positiva", "Gracias por estar siempre ahí para apoyarme", "Te agradezco mucho por ser tan amable",
+    "Gracias por todo lo que haces por mí y por otros", "Te agradezco por tu apoyo sin igual", "Gracias por brindarme tu ayuda incondicional",
+    "Te agradezco por compartir tus conocimientos", "Gracias por tu apoyo emocional", "Te agradezco por estar disponible cuando te necesité", "Gracias por tu sinceridad",
+    "Te agradezco por darme el tiempo que necesitaba", "Gracias por el cariño", "Te agradezco por tu empatía", "Gracias por tu buen juicio",
+    "Te agradezco por tu paciencia y por siempre estar disponible", "Gracias por ser siempre tan confiable", "Te agradezco por ser una fuente constante de apoyo"
+  ],
+      "responses": [
+        "¡Con gusto!", "¡De nada!", "¡Es un placer ayudarte!", "¡Encantado de poder ayudarte!", "¡Es un placer!",
+        "¡Con mucho gusto!", "¡De nada! ¡Siempre estoy aquí para ayudar!", "¡Me alegra haber podido ayudarte!", 
+        "¡Con mucho gusto! Cualquier otra cosa, no dudes en preguntar."
+      ]
+    },
+    {
+      "intent": "no_reconocido",
+      "examples": [
+        "helado", "perro", "fútbol", "cualquier palabra no entrenada", "banana", "zapato", "teclado", "playa", 
+        "vacaciones", "película", "música", "cohete", "avión", "dinosaurio", "libro", "pelota", "camión", 
+        "automóvil", "televisión", "piedra", "luna", "sol", "árbol", "gato", "feliz", "oscuro", "rayo", "cielo", "tiempo",
+        "mujer", "hombre", "familia", "computadora", "mesa", "silla", "lavadora", "carro", "peluche", "ventilador",
+        "reloj", "espejo", "televisor", "gafas", "luz", "camisa", "pantalón", "chaqueta", "luna", "agua", "película", 
+        "deporte", "fútbol", "guitarra", "pintura", "código", "python"
+      ],
+      "responses": [
+        "Lo siento, no te entendí", "No sé cómo responder a eso", "¿Podrías reformular la pregunta?", 
+        "No tengo una respuesta para eso", "Lo siento, no sé de qué hablas", "No sé de qué estás hablando", 
+        "Lo siento, esa palabra no está registrada en mis datos", "No tengo respuesta para esa palabra"
+      ]
+    },
+	{
+  "intent": "ayuda",
+  "examples": [
+    "¿Me puedes ayudar?", "Necesito ayuda", "¿Cómo puedo hacer esto?", "¿Qué puedes hacer por mí?", "Ayúdame por favor",
+    "¿Puedes ayudarme?", "¿Qué debo hacer ahora?", "¿Cómo puedo solucionarlo?", "Tengo un problema, ayúdame", "No sé qué hacer, ayúdame",
+    "¿Me puedes asistir?", "Necesito tu ayuda", "¿Puedo contar contigo para esto?", "¿Qué debo hacer?", "¿Cómo puedo solucionar esto?",
+    "¿Tienes alguna sugerencia?", "¿Me das una mano con esto?", "¿Tienes algún consejo?", "Ayúdame con esto", "No sé por dónde empezar, ayúdame",
+    "¿Cómo puedo mejorar esto?", "¿Qué debo hacer para avanzar?", "¿Me puedes orientar?", "No entiendo bien, ¿me ayudas?", "¿Puedes explicarme cómo hacerlo?",
+    "¿Cómo puedo lograrlo?", "Necesito una solución rápida", "¿Tienes alguna recomendación?", "Ayuda por favor", "¿Me puedes dar una recomendación?",
+    "¿Qué hago ahora?", "No sé qué hacer, ¿puedes ayudarme?", "No entiendo, ¿me lo puedes explicar?", "¿Puedes explicarme mejor?", "¿Tienes alguna guía?",
+    "¿Cómo empiezo?", "No sé qué pasos seguir, ¿me ayudas?", "Ayúdame con esto, por favor", "Tengo una duda, ¿me ayudas?", "¿Cómo puedo solucionar este problema?",
+    "¿Qué pasos debo seguir?", "Tengo una pregunta, ¿puedes ayudarme?", "¿Cómo puedo mejorar esta situación?", "¿Tienes algún consejo para mí?", "Necesito que me guíes",
+    "¿Qué más puedo hacer?", "¿Qué puedo intentar?", "¿Cómo me ayudas con esto?", "¿Qué opciones tengo?", "¿Qué puedo hacer a continuación?",
+    "¿Tienes alguna idea?", "¿Me puedes decir cómo proceder?", "¿Qué opciones tengo para resolver esto?", "¿Cómo empiezo con esto?", "¿Me ayudas a entender esto?",
+    "¿Me puedes orientar sobre lo que tengo que hacer?", "No sé cómo hacerlo, ¿me ayudas?", "No estoy seguro, ¿me puedes guiar?", "¿Puedes indicarme los pasos?",
+    "¿Qué pasos debo seguir para solucionarlo?", "No tengo claro lo que debo hacer, ¿me ayudas?", "Tengo muchas dudas, ¿me puedes ayudar?", "¿Cómo se hace esto?",
+    "¿Cómo puedo hacerlo más fácilmente?", "¿Qué debo hacer primero?", "¿Hay alguna forma fácil de hacerlo?", "¿Tienes alguna sugerencia para mí?", "Ayuda, no sé cómo hacerlo",
+    "No entiendo nada, ¿me ayudas?", "¿Cómo puedo hacerlo paso a paso?", "¿Tienes alguna instrucción para esto?", "¿Cómo puedo hacer esto de manera más eficiente?",
+    "Necesito un poco de ayuda con esto", "Tengo dudas sobre esto, ¿puedes ayudarme?", "¿Cómo resuelvo este problema?", "¿Qué puedo hacer para mejorar?", "Ayúdame a entender esto",
+    "¿Puedes explicarme los pasos?", "No sé por dónde empezar, ¿me puedes guiar?", "¿Cómo se hace este proceso?", "Tengo dudas, ¿puedes ayudarme a resolverlas?",
+    "¿Qué debería hacer a continuación?", "No sé qué hacer después, ¿me puedes ayudar?", "¿Me puedes ayudar con este proceso?", "No estoy seguro de qué hacer, ¿me ayudas?",
+    "No entiendo, ¿me puedes explicar de nuevo?", "Tengo muchas preguntas, ¿me ayudas?", "Ayúdame a resolver esto, por favor", "¿Me ayudas con los pasos?", "No sé si esto está bien, ¿me ayudas?",
+    "No sé si lo estoy haciendo bien, ¿puedes ayudarme?", "¿Cómo puedo hacerlo correctamente?", "¿Me puedes indicar qué hacer?", "Ayúdame a saber qué hacer", "¿Cómo puedo comenzar?"
+  ],
+  "responses": [
+    "Claro, ¿cómo puedo ayudarte?", "Estoy aquí para ayudarte, ¿qué necesitas?", "Por supuesto, ¿en qué te ayudo?", "¡Estoy listo para ayudarte! ¿Qué necesitas?",
+    "Claro, dime qué problema tienes y te ayudo", "Estoy aquí para lo que necesites, ¿cómo te ayudo?", "¡Por supuesto! ¿Cómo te ayudo con eso?", "Claro, dime cómo te ayudo",
+    "No hay problema, ¿qué necesitas?", "Te ayudaré con eso, ¿en qué puedo asistirte?", "¡Con gusto! ¿Cómo puedo ayudarte?", "Estoy listo para ayudarte, ¿qué necesitas?",
+    "Claro, ¿qué dudas tienes?", "¿Qué problema tienes? Estoy aquí para ayudarte", "No te preocupes, te ayudo con eso", "Estoy aquí para lo que necesites",
+    "Déjame ayudarte con eso, ¿qué necesitas?", "¡Con gusto! Dime cómo puedo ayudarte", "¿Cómo puedo ayudarte a resolver esto?", "Estoy aquí para hacer las cosas más fáciles para ti",
+    "Te ayudaré, no te preocupes", "Dime qué necesitas y te ayudo", "Déjame saber cómo puedo ayudarte", "¡Estoy a tu disposición!", "Cuenta conmigo, ¿en qué te ayudo?",
+    "Claro, puedo guiarte con eso", "No te preocupes, lo resolveremos juntos", "¡Vamos a hacerlo juntos! ¿Cómo te ayudo?", "Dime los detalles y te ayudo a solucionarlo",
+    "Puedo ayudarte con eso, solo dime cómo", "Con gusto, ¿qué necesitas hacer?", "Te explico todo paso a paso, solo dime qué necesitas", "Te ayudo con eso, ¿en qué puedo asistirte?",
+    "No te preocupes, ¡te lo explico!", "Estoy aquí para guiarte", "Te ayudaré a entender cómo hacerlo", "¡Vamos paso a paso! ¿Qué necesitas?", "Dime cómo te ayudo, ¡estoy listo!",
+    "Claro, solo tienes que seguir estos pasos", "Te guiaré por el proceso", "No te preocupes, te lo explico con gusto", "Aquí estoy para ayudarte en lo que necesites",
+    "Lo resolveremos, dime qué necesitas hacer", "Te explico cómo hacerlo", "Solo dime lo que necesitas, ¡te ayudo!", "¡Aquí estoy para apoyarte con todo!",
+    "Estoy para lo que necesites, solo dime cómo te ayudo", "No te preocupes, estaré contigo en todo el proceso", "Estoy aquí para resolver tus dudas", "Dime cómo te ayudo, ¡te guiaré paso a paso!"
+  ]
+},
+{
+  "intent": "informacion_general_bot",
+  "examples": [
+    "¿Quién eres?", "¿Qué eres?", "¿Qué puedes hacer?", "¿Cómo te llamas?", "¿Quién está hablando conmigo?",
+    "¿Cómo me puedes ayudar?", "¿Qué puedes hacer por mí?", "¿Cómo funciona esto?", "¿Qué sabes hacer?", "¿Para qué sirves?",
+    "¿Qué servicios ofreces?", "¿Puedes ayudarme?", "¿Qué tareas puedes realizar?", "¿Tienes algún propósito?", "¿Cómo me puedes asistir?",
+    "¿En qué puedes ayudarme?", "¿Por qué debería hablar contigo?", "¿Cuáles son tus funciones?", "¿De qué trata este chat?",
+    "¿Cómo puedo interactuar contigo?", "¿Puedes hacer algo por mí?", "¿Qué objetivo tienes?", "¿Qué servicios brindas?",
+    "¿Puedes responderme?", "¿Eres un bot?", "¿Eres una inteligencia artificial?", "¿Cómo me ayudas?", "¿Para qué estás diseñado?",
+    "¿Tienes nombre?", "¿Quién me está respondiendo?", "¿Qué tan inteligente eres?", "¿Cómo me puedes ayudar en mi problema?",
+    "¿Qué tan útil eres?", "¿Puedes ayudarme con cualquier cosa?", "¿Cómo funciona este chatbot?", "¿Cuál es tu propósito?",
+    "¿Puedes conversar conmigo?", "¿En qué me puedes asistir?", "¿Quién está detrás de ti?", "¿Qué sabes hacer exactamente?",
+    "¿Tienes alguna función?", "¿Qué tipo de cosas sabes hacer?", "¿Por qué puedo confiar en ti?", "¿En qué tareas puedes ayudarme?",
+    "¿Qué tareas realizas?", "¿Cómo puedes facilitarme la vida?", "¿En qué te especializas?", "¿Cuáles son tus habilidades?",
+    "¿Puedes hacer alguna acción por mí?", "¿Qué tipo de preguntas puedes responder?", "¿Puedes hacer cosas por mí?", "¿Qué tanto sabes?",
+    "¿Cómo puedes ayudarme a resolver problemas?", "¿Eres capaz de hacer todo?", "¿Qué puedes hacer exactamente?", "¿Puedes ayudarme en todo?",
+    "¿Cuáles son tus capacidades?", "¿Cómo interactúas con las personas?", "¿En qué tipo de cosas puedes ayudarme?", "¿Me puedes ayudar a entender algo?",
+    "¿Cuál es tu función principal?", "¿Qué tal puedes ayudarme?", "¿Qué tipo de respuestas puedes dar?", "¿Puedes hacer búsquedas?",
+    "¿Sabes ayudarme con mis dudas?", "¿Puedes hacer tareas simples?", "¿Puedes explicarme algo?", "¿Cómo me puedes ayudar en mi día a día?",
+    "¿Qué habilidades tienes?", "¿Eres solo un asistente virtual?", "¿Qué tan útil eres en situaciones específicas?", "¿Qué puedes hacer con mis datos?",
+    "¿Puedes aprender cosas nuevas?", "¿Tienes un propósito en particular?", "¿Cómo puedo interactuar contigo?", "¿Estás capacitado para todo?",
+    "¿Sabes todo lo que necesito?", "¿Qué temas puedes abordar?", "¿Qué tal eres para resolver dudas?", "¿Sabes responder preguntas complejas?",
+    "¿Cómo puedo obtener más ayuda de ti?", "¿Estás programado para todo tipo de preguntas?", "¿Puedo pedirte cualquier cosa?", "¿Tienes algún límite?",
+    "¿Cuáles son los temas que dominas?", "¿Tienes conocimiento en todos los temas?", "¿Qué pasa si no sabes algo?", "¿Puedes hacer tareas más difíciles?",
+    "¿Me puedes guiar en el uso de algo?", "¿Cómo me asistes?", "¿Qué tan rápido puedes ayudarme?", "¿Qué tan preciso eres?", "¿Eres útil para preguntas generales?",
+    "¿Tienes alguna especialidad?", "¿Puedes aprender de mis preguntas?", "¿Qué diferencias hay entre un chatbot y tú?", "¿Puedo confiar en lo que dices?",
+    "¿Por qué debería hablar contigo?", "¿Qué puedes hacer con información que te doy?", "¿Cómo me puedes ayudar en mis tareas?", "¿Qué sabes hacer por mí?",
+    "¿Me puedes ayudar a organizar mis cosas?", "¿Tienes alguna relación con Google?", "¿Qué tal eres para ayudarme a resolver problemas?", "¿Cuánto tiempo puedo hablar contigo?",
+    "¿Sabes gestionar mis tareas?", "¿Puedes hacer llamadas o algo parecido?", "¿Cuál es tu objetivo principal?", "¿En qué te diferencias de otros bots?",
+    "¿Qué tan útil es tu ayuda?", "¿Cómo puedo aprovechar tus respuestas?", "¿Puedo pedirte consejos?", "¿Me puedes dar recomendaciones?", "¿Cómo me puedes guiar?",
+    "¿Qué habilidades tienes para ayudarme?", "¿Puedes entender todo lo que te digo?", "¿Sabes resolver dudas técnicas?", "¿Puedes guiarme en mis estudios?", "¿En qué te especializas?",
+    "¿Puedo hablar contigo sobre cualquier cosa?", "¿Qué puedes hacer cuando no sabes la respuesta?", "¿Estás preparado para responder preguntas difíciles?", "¿Cómo me ayudas con temas complejos?",
+    "¿Sabes todo lo que necesitas para ayudarme?", "¿Cuáles son tus mejores capacidades?", "¿Te puedes adaptar a lo que te pido?", "¿Sabes cómo resolver problemas técnicos?",
+    "¿Me puedes enseñar algo?", "¿Puedes ayudarme a hacer una investigación?", "¿Puedes hacer mis tareas?", "¿Cómo sabes qué responder?", "¿Por qué puedes ayudarme?",
+    "¿Cómo sabes qué tipo de ayuda ofrecer?", "¿Sabes lo que es importante para mí?", "¿Qué tareas específicas puedes realizar?", "¿Te ayuda lo que te digo?", "¿Me puedes dar información precisa?",
+    "¿Sabes cómo hacer cosas por mí?", "¿Te entrenaron para responder preguntas?", "¿Qué tienes en cuenta para dar una respuesta?", "¿Me puedes enseñar algo nuevo?", "¿Sabes cómo resolver mis dudas?"
+  ],
+  "responses": [
+    "Soy un chatbot diseñado para ayudarte con tus dudas", "Soy un asistente virtual que puede responder preguntas", "Puedo ayudarte con preguntas simples y algunas tareas",
+    "Soy un sistema de inteligencia artificial entrenado para responder tus preguntas", "Soy un bot creado para ayudarte con diversas cosas", "Estoy aquí para ayudarte con lo que necesites",
+    "Soy un chatbot capaz de responder a tus preguntas y ayudarte en lo que necesites", "Soy un asistente inteligente para facilitarte tareas simples", "Puedo ayudarte con preguntas relacionadas con varios temas",
+    "Soy tu asistente virtual, listo para ayudarte", "Soy un bot creado para ofrecerte respuestas rápidas", "Te puedo ayudar con lo que necesites, solo pregunta",
+    "Soy un sistema automatizado para resolver tus dudas", "Puedes preguntarme lo que quieras, te ayudaré lo mejor que pueda", "Mi propósito es ayudarte con información útil",
+    "Estoy aquí para asistirte con cualquier pregunta", "Soy una inteligencia artificial que puede aprender y ayudarte", "Soy un asistente virtual que te guiará en tus preguntas",
+    "Puedo ayudarte a resolver tus dudas y tareas simples", "Estoy diseñado para responder tus preguntas y ayudarte con tus problemas", "Mi trabajo es proporcionarte respuestas rápidas y precisas",
+    "Soy un asistente virtual disponible las 24 horas", "Estoy aquí para ofrecerte información, responder preguntas y ayudarte", "Soy tu asistente en línea, siempre listo para ayudarte",
+    "Te ayudo con cualquier pregunta que tengas, solo pregunta", "Soy una IA creada para ayudarte a encontrar lo que necesitas", "Estoy aquí para facilitarte las tareas", "Puedo ofrecerte información útil de manera rápida",
+    "Mi función es ayudarte con diversas preguntas", "Soy un chatbot diseñado para resolver problemas básicos", "Puedo ayudarte con diferentes tipos de información", "Te ayudo con cosas simples y rápidas",
+    "Mi objetivo es hacerte la vida más fácil con respuestas rápidas", "Soy tu asistente personal para resolver dudas", "Puedo darte información sobre diversos temas, solo pregúntame",
+    "Estoy aquí para ayudarte a resolver cualquier inconveniente", "Mi propósito es ayudarte a obtener información y respuestas", "Soy una inteligencia artificial para responder a tus preguntas",
+    "Te puedo ayudar con temas generales y más", "Soy un bot hecho para ayudarte a resolver problemas", "Puedo responder tus preguntas de forma rápida y precisa", "Soy un asistente creado para facilitarte tareas",
+    "Te ofrezco respuestas rápidas y útiles", "Soy una herramienta para ofrecerte la información que necesitas", "Estoy aquí para ayudarte en todo lo que necesites",
+    "Puedo darte respuestas a preguntas frecuentes y más", "Mi misión es facilitarte respuestas rápidas y útiles", "Soy un asistente virtual creado para ofrecer soluciones", "Te ayudo a encontrar información rápida y útil"
+  ]
+},
+{
+  "intent": "salud",
+  "examples": [
+    "¿Cómo estás?", "¿Cómo te encuentras?", "¿Cómo va todo?", "¿Qué tal?", "¿Cómo te sientes?", "¿Todo bien?", "¿Qué tal tu día?",
+    "¿Cómo va la vida?", "¿Cómo te va?", "¿Cómo te sientes hoy?", "¿Cómo estás pasando el día?", "¿Todo en orden?", "¿Qué tal el día?",
+    "¿Cómo te encuentras hoy?", "¿Estás bien?", "¿Todo tranquilo?", "¿Cómo va la jornada?", "¿Cómo va tu día?", "¿Cómo te va con eso?",
+    "¿Qué tal el día de hoy?", "¿Cómo estás en este momento?", "¿Cómo va todo por allá?", "¿Cómo te ha ido?", "¿Cómo te encuentras?",
+    "¿Cómo te va hoy?", "¿Cómo va todo por tu lado?", "¿Cómo te sientes con todo esto?", "¿Te encuentras bien?", "¿Todo bien por ahí?",
+    "¿Cómo te va en general?", "¿Cómo va todo por aquí?", "¿Todo tranquilo por allá?", "¿Qué tal la semana?", "¿Cómo van las cosas?",
+    "¿Cómo ha estado tu día?", "¿Todo en orden por ahí?", "¿Cómo va el fin de semana?", "¿Qué tal la familia?", "¿Cómo está todo por tu lado?",
+    "¿Cómo va tu salud?", "¿Cómo estás hoy en general?", "¿Cómo va todo contigo?", "¿Cómo va tu estado de ánimo?", "¿Te sientes bien?",
+    "¿Cómo está tu día hasta ahora?", "¿Todo bien en tu día?", "¿Te encuentras relajado?", "¿Todo en orden en tu vida?", "¿Cómo te sientes en este momento?",
+    "¿Todo bajo control?", "¿Cómo va todo por allá?", "¿Todo bien con tu familia?", "¿Cómo te va a nivel personal?", "¿Qué tal tu día hoy?",
+    "¿Te encuentras enérgico?", "¿Todo tranquilo en la jornada?", "¿Cómo va todo en tu mundo?", "¿Te sientes relajado?", "¿Cómo te ha ido hoy?",
+    "¿Cómo va la vida hoy?", "¿Cómo te va con los proyectos?", "¿Todo bajo control por tu parte?", "¿Cómo va todo en el trabajo?", "¿Cómo te va con tu salud?",
+    "¿Estás saludable?", "¿Te sientes descansado?", "¿Todo bien con tu energía?", "¿Te encuentras descansado?", "¿Todo tranquilo en el día?",
+    "¿Cómo se ve tu salud?", "¿Cómo te va con el estrés?", "¿Todo tranquilo en el trabajo?", "¿Cómo estás llevando la semana?", "¿Cómo te va con el ritmo de vida?",
+    "¿Te encuentras equilibrado?", "¿Cómo va todo en tu mundo?", "¿Cómo te sientes después de tanto trabajo?", "¿Estás de buen ánimo?", "¿Qué tal la salud mental?",
+    "¿Cómo va tu bienestar?", "¿Todo en orden con tu salud?", "¿Te has sentido saludable últimamente?", "¿Cómo va todo en tu cuerpo?", "¿Todo bien con tu estado físico?",
+    "¿Te encuentras bien de salud?", "¿Estás cuidando tu salud?", "¿Te sientes enérgico?", "¿Cómo está tu cuerpo hoy?", "¿Te sientes fuerte?", "¿Cómo va todo por dentro?",
+    "¿Te sientes cansado?", "¿Te encuentras con energía?", "¿Cómo se ve tu bienestar?", "¿Te sientes agotado?", "¿Cómo va tu ánimo?", "¿Te sientes motivado?",
+    "¿Cómo va tu equilibrio emocional?", "¿Todo tranquilo en la mente?", "¿Te has sentido descansado?", "¿Cómo está tu salud física?", "¿Te encuentras bien anímicamente?",
+    "¿Te sientes renovado?", "¿Cómo te sientes con respecto al trabajo?", "¿Cómo va tu mente?", "¿Te encuentras mentalmente descansado?", "¿Cómo va todo con tus emociones?",
+    "¿Estás llevando una vida equilibrada?", "¿Cómo te sientes físicamente?", "¿Todo bien con tu salud mental?", "¿Te encuentras en equilibrio?", "¿Cómo te va con la salud emocional?",
+    "¿Cómo estás con tus emociones?", "¿Te sientes relajado?", "¿Cómo va todo a nivel emocional?", "¿Te encuentras bien psicológicamente?", "¿Cómo va todo en tu mente?",
+    "¿Te sientes feliz?", "¿Te encuentras emocionalmente estable?", "¿Todo en paz con tu mente?", "¿Te sientes positivo?", "¿Cómo se ve tu estado emocional?",
+    "¿Te encuentras equilibrado emocionalmente?", "¿Te sientes lleno de energía?", "¿Cómo va tu equilibrio de vida?", "¿Todo bien con tus emociones?", "¿Te sientes satisfecho?",
+    "¿Te encuentras sin estrés?", "¿Todo bien con tu bienestar mental?", "¿Cómo se ve tu bienestar emocional?", "¿Cómo va todo en tu interior?", "¿Te encuentras libre de estrés?",
+    "¿Te sientes animado?", "¿Te encuentras motivado?", "¿Cómo está tu energía?", "¿Cómo va tu bienestar general?", "¿Te sientes relajado mentalmente?",
+    "¿Te encuentras en buena forma?", "¿Te sientes activo?", "¿Cómo está tu motivación?", "¿Cómo va tu energía hoy?", "¿Te encuentras con buen ánimo?",
+    "¿Te sientes agotado?", "¿Cómo va tu salud física y mental?", "¿Todo bien en tu estado físico?", "¿Cómo está tu estado anímico?", "¿Te sientes tranquilo?",
+    "¿Te sientes equilibrado hoy?", "¿Cómo estás en términos de bienestar?", "¿Todo bien con tu cuerpo y mente?", "¿Te sientes con energía?", "¿Te encuentras descansado hoy?"
+  ],
+  "responses": [
+    "Estoy bien, gracias por preguntar", "Me siento genial, ¿y tú?", "Todo está perfecto, ¿y tú?", "Estoy de maravilla, ¿cómo te encuentras?", "Me siento genial, ¿y tú?",
+    "Todo tranquilo por aquí", "Todo en orden, gracias", "Estoy bien, ¿y tú cómo estás?", "Me siento excelente, ¿y tú?", "Estoy en perfecto estado",
+    "Todo está bien por mi parte, gracias", "Estoy bien, ¿y tú cómo te encuentras?", "Gracias por preguntar, estoy genial", "Todo perfecto por aquí, ¿cómo estás tú?",
+    "Estoy bastante bien, gracias", "Todo tranquilo por aquí, ¿y tú?", "Me siento bien, gracias", "Todo bien, gracias", "Todo tranquilo y bien por mi parte",
+    "Gracias por preguntar, me siento muy bien", "Todo va bien, gracias", "Todo tranquilo, gracias", "Me siento genial, gracias", "Todo bien por aquí",
+    "Gracias, me encuentro muy bien", "Me siento bien, ¿y tú?", "Todo va perfectamente", "Gracias, todo tranquilo por aquí", "Estoy genial, gracias por preguntar",
+    "Todo en orden, gracias", "Todo perfecto, ¿y tú?", "Todo va genial por aquí", "Estoy perfecto, gracias", "Me siento bien, ¿y tú?",
+    "Todo tranquilo, gracias", "Me siento bien, ¿y tú?", "Todo bien por mi parte", "Todo perfecto, gracias por preguntar", "Estoy bien, ¿y tú?",
+    "Estoy en buena forma, gracias", "Me siento con mucha energía", "Todo bien por aquí", "Gracias, todo en orden", "Todo excelente por mi parte",
+    "Gracias por preguntar, todo tranquilo", "Todo perfecto, ¿y tú?", "Me siento con mucha energía", "Todo en orden, gracias por preguntar", "Estoy bien, gracias por preguntar"
+  ]
+},
+{
+  "intent": "feedback",
+  "examples": [
+    "Me gusta", "No me gusta", "Buen trabajo", "Excelente", "No fue útil", "No me gustó", "Fue muy útil", "Gracias, me ayudaste mucho",
+    "Excelente respuesta", "Me encantó", "Muy bien", "Muy útil", "No estuvo mal", "Me ayudaste bastante", "Fue todo claro", "La respuesta no fue útil",
+    "Gracias por la ayuda", "¿Me puedes ayudar mejor?", "Fue una respuesta correcta", "Muy bueno", "Me gustó mucho", "No fue lo que esperaba",
+    "Muy útil la información", "No me sirvió", "No pude entender la respuesta", "Muy mala respuesta", "La respuesta fue buena", "No resolvieron mi duda",
+    "La respuesta fue útil", "Me siento satisfecho con la respuesta", "No me convence la respuesta", "¿Podrías mejorar esto?", "Muy clara la respuesta",
+    "Gracias, fue útil", "Eso fue muy útil", "No sé si me ayudó mucho", "No fue lo que esperaba", "La respuesta fue poco clara", "Fue muy rápida la respuesta",
+    "No me ayudaste en lo que esperaba", "¿Puedes explicar un poco más?", "No estoy seguro de la respuesta", "Me confundí con la respuesta",
+    "Me quedé con más dudas", "Lo explicaste bien, gracias", "¿Podrías darme más detalles?", "Gracias, pero no estoy completamente seguro", "Excelente explicación",
+    "Gracias por tu ayuda, aunque no era lo que esperaba", "No fue tan útil como pensé", "Buen intento, pero no fue suficiente", "Gracias por intentar",
+    "Me ayudaste, pero podría ser mejor", "Me agradó la respuesta", "No entendí la respuesta", "Buen servicio, pero puede mejorar", "Muy bien explicado",
+    "Excelente, pero faltó algo", "La respuesta fue a medias", "Me gusta cómo explicas", "No entendí bien la solución", "Fue más o menos útil",
+    "No fue suficiente la información", "Excelente, pero necesito más detalles", "No era exactamente lo que buscaba", "Estuvo bien, pero puedo buscar más",
+    "Muy útil, gracias", "No estaba tan claro", "Fue claro, gracias", "Gracias, aunque no todo fue claro", "Buen trabajo, pero puedo necesitar más detalles",
+    "Fue genial, pero puedes dar más información", "Sigo con dudas, pero estuvo bien", "No estaba seguro de lo que dijiste", "La respuesta fue muy general",
+    "Eso me ayuda, pero quiero saber más", "La respuesta fue un poco vaga", "No está claro lo que dijiste", "Lo que dijiste fue bueno, pero quiero más detalles",
+    "Me siento confundido por la respuesta", "Muy bueno, pero mejor si me das más ejemplos", "Bien, pero puedes mejorar la explicación", "Lo que me dijiste está claro",
+    "Me ayudó un poco", "Fue una buena explicación", "No era exactamente lo que necesitaba", "Me diste una buena respuesta, pero no era mi pregunta",
+    "¿Podrías ser más específico?", "La respuesta fue buena, pero no tan clara", "Lo entendí, pero quiero más detalles", "Lo que dijiste me sirvió mucho",
+    "Me ayudaste, pero necesito más ejemplos", "La respuesta fue un poco confusa", "Gracias, pero necesito más información", "No fue lo que esperaba",
+    "Gracias, fue claro y útil", "¿Podrías darme más detalles?", "Me gustaría una explicación más profunda", "Gracias, pero no me convence del todo",
+    "Te agradezco, pero tengo más dudas", "La respuesta fue un poco difícil de entender", "Gracias, la respuesta fue directa", "Eso estuvo bien, pero necesito más",
+    "Estuvo claro, pero quiero más ejemplos", "Gracias, pero quiero saber más", "Muy buena la explicación", "La respuesta estuvo bien", "No me diste todo lo que quería",
+    "Eso no era lo que esperaba", "Podrías ser más claro", "Gracias por la ayuda, aunque necesito más detalles", "¿Podrías hacer la respuesta más detallada?",
+    "Fue útil, pero quiero más información", "Estoy satisfecho, aunque hay áreas de mejora", "Gracias, aunque necesito más detalles", "No me convenció del todo",
+    "Tu respuesta fue adecuada, pero podría mejorar", "Lo que dijiste fue útil, pero no lo entendí completamente", "La información fue adecuada, pero necesito más",
+    "Estoy de acuerdo con lo que me dijiste", "¿Puedes ser más claro con la respuesta?", "Gracias por la respuesta, aunque no era exactamente lo que quería",
+    "La respuesta fue útil, pero no completa", "Eso me ayuda, pero no resuelve todo", "Excelente respuesta, pero quiero saber más", "Buen trabajo, pero aún tengo dudas",
+    "La respuesta fue muy buena", "Gracias, me resolviste la mitad de la duda", "Bien hecho, pero quiero más ejemplos", "La explicación estuvo bien",
+    "Excelente, pero me gustaría más detalles", "Buen intento, pero me quedó una duda", "Gracias, eso lo solucionó, pero ¿puedes aclarar algo más?", "Tu explicación fue clara",
+    "Gracias, fue útil, pero aún tengo dudas", "Estuvo claro, pero necesito ejemplos prácticos", "Gracias, pero necesito más detalles", "Fue bastante útil",
+    "Gracias, pero me gustaría más información", "Estuvo bien, pero no era lo que esperaba", "La información estuvo buena, pero quiero más detalles", "Gracias, pero no era lo que buscaba",
+    "Gracias, pero tengo más preguntas", "Lo explicaste bien, pero quiero saber más", "Estuvo bien, pero falta información", "Gracias por la respuesta, pero tengo dudas",
+    "Fue útil, pero quiero que lo expliques más", "Me quedé con más dudas, pero gracias", "Eso estuvo bien, pero me gustaría más detalles", "Gracias por la respuesta clara",
+    "Fue una buena respuesta, pero necesito más ejemplos", "Gracias, fue lo que necesitaba", "Estuvo bien, pero aún tengo más preguntas", "La respuesta fue clara, gracias",
+    "No fue lo que pensaba, pero estuvo bien", "Gracias, pero quiero más ejemplos", "Eso estuvo muy claro, gracias", "Me ayudaste, pero necesito más detalles",
+    "Fue útil, pero quiero más ejemplos", "Me ayudaste, pero no resolví mi duda", "Fue una respuesta útil", "Gracias, pero quiero más detalles", "Lo entendí, pero quiero ejemplos",
+    "La respuesta fue precisa, pero quiero más detalles", "Fue suficiente, gracias", "Gracias por la ayuda, pero no era lo que buscaba", "No era exactamente lo que pensaba",
+    "Lo explicaste bien, pero quiero más detalles", "No estoy completamente satisfecho", "Gracias por la respuesta, pero tengo dudas", "La información fue útil, pero no suficiente",
+    "La respuesta fue adecuada, pero necesito más ejemplos", "Me ayudaste, pero me gustaría más detalles", "Eso fue útil, pero no completo", "La respuesta fue buena",
+    "Eso estuvo bien, pero quiero más ejemplos prácticos", "Me diste una buena respuesta, pero quiero saber más", "Fue útil, pero quiero ejemplos", "Estuvo bien, pero falta algo"
+  ],
+  "responses": [
+    "Gracias por tu feedback, lo tomaré en cuenta", "Agradezco tu comentario, haré mi mejor esfuerzo para mejorar", "Gracias, me alegra que te haya servido",
+    "Gracias por tus comentarios, los tomaré en cuenta", "Gracias, intentaré mejorar mi respuesta", "Te agradezco mucho tu opinión", "Gracias, seguiré trabajando en ello",
+    "Gracias por tu retroalimentación, la tendré en cuenta", "Te agradezco el feedback", "Gracias, me alegra saber que fue útil", "Aprecio tus comentarios",
+    "Gracias, trataré de hacer mejor la próxima vez", "Gracias, espero poder seguir ayudándote", "Gracias, tomaré tu comentario en cuenta", "Me alegra que haya sido útil, gracias",
+    "Gracias por decirlo, ¡seguiré mejorando!", "Gracias por la sugerencia, la tomaré en cuenta", "Te agradezco por compartir tu opinión", "Gracias, lo seguiré mejorando",
+    "Gracias, lo tendré en cuenta para futuras respuestas", "Gracias, espero poder ofrecerte una mejor ayuda la próxima vez", "Gracias por la sugerencia",
+    "Aprecio que lo hayas dicho, trataré de mejorar", "Gracias por tus palabras, seguiré trabajando para darte mejores respuestas", "Gracias, espero que la próxima vez sea aún más útil",
+    "Agradezco tus comentarios, ¡seguiré trabajando en ello!", "Gracias por la retroalimentación, me esforzaré más", "Aprecio tu opinión, la tomaré en cuenta para mejorar", "Gracias, voy a seguir mejorando",
+    "Gracias, tomaré tu opinión en cuenta", "Agradezco tus comentarios, ¡mejoraré en la siguiente!", "Te agradezco el tiempo para darme tu opinión", "Gracias por comentar, ¡mejoraré aún más!"
+  ]
+},
+{
+  "intent": "chistes",
+  "examples": [
+    "Cuéntame un chiste", "¿Me cuentas un chiste?", "Dime un chiste", "Cuéntame algo gracioso", "Hazme reír",
+    "¿Sabes algún chiste?", "Cuéntame un chiste corto", "¿Tienes algún chiste?", "Dime algo divertido",
+    "¿Qué tal un chiste?", "¿Tienes algún cuento?", "Cuéntame un cuento", "¿Me puedes contar un chiste?", 
+    "Hazme reír con un chiste", "¿Sabes algún chiste bueno?", "Dime un cuento corto", "¿Puedes contarme un chiste?"
+  ],
+  "responses": [
+    "Claro, ¿por qué los pájaros no usan Facebook? Porque ya tienen Twitter.",
+    "¿Cuál es el colmo de un electricista? No encontrar su corriente de trabajo.",
+    "¿Sabes cuál es el colmo de un jardinero? Que siempre lo dejen plantado.",
+    "¿Por qué el libro de matemáticas estaba triste? Porque tenía demasiados problemas.",
+    "¿Cuál es el colmo de un astronauta? Tener problemas espaciales.",
+    "¿Por qué los gatos no pueden hacer chistes? Porque siempre ronronean en los mejores momentos.",
+    "¿Qué le dijo un gusano a otro gusano? ¡Voy a dar una vuelta a la manzana!",
+    "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter.",
+    "¿Cuál es el colmo de un sastre? Perder el hilo de la conversación.",
+    "¿Cómo se llama un perro mago? Un labracadabrador.",
+    "¿Sabías que el sol nunca se pone triste? Porque siempre tiene un día brillante.",
+    "Un hombre va al médico y le dice: ‘Doctor, me duele todo el cuerpo’. El médico responde: ‘¿Ha probado a no tocarse?’",
+    "¿Cuál es el animal más divertido? El pingüino, porque siempre está en el centro de la atención.",
+    "¿Sabes por qué los vampiros no tienen amigos? Porque siempre están chupando energía.",
+    "¿Cuál es el colmo de un fotógrafo? No encontrar la imagen correcta.",
+    "Un niño le dice a su mamá: ‘Mamá, mamá, en el colegio me llaman espejo’. La mamá le pregunta: ‘¿Y qué les respondes?’ El niño responde: ‘Nada, me quedo callado’",
+    "¿Por qué el tomate no puede trabajar? Porque se descompone.",
+    "¿Cómo se llama un perro sin patas? No importa cómo se llama, porque no va a venir.",
+    "Un hombre le dice a su amigo: ‘Tengo una idea para un chiste’. El amigo le responde: ‘¿Ah, sí? Cuéntamelo’. Y el hombre responde: ‘No, no, es una idea, aún no está listo’",
+    "¿Cómo se llama un perro que hace magia? Labracadabrador.",
+    "¿Por qué las vacas no usan Internet? Porque no saben cómo conectar la vaca-pc.",
+    "¿Cuál es el animal más trabajador? La abeja, porque siempre está en acción."
+  ]
+},
+{
+  "intent": "consultas_academicas",
+  "examples": [
+    "¿Qué materias se cursan en el primer semestre?", 
+    "¿Qué es lo que se aprende en la carrera de ingeniería en sistemas?", 
+    "¿Cuáles son los temas que abarca la ingeniería en sistemas?"
+  ],
+  "responses": [
+    "En el primer semestre se cursan materias como matemáticas, programación básica, y fundamentos de la informática.", 
+    "La carrera de ingeniería en sistemas cubre temas como desarrollo de software, redes, seguridad informática y bases de datos.",
+    "En los primeros años aprenderás sobre lenguajes de programación, estructuras de datos y redes."
+  ]
+},
+{
+  "intent": "lenguajes_programacion",
+  "examples": [
+    "¿Qué lenguajes de programación se enseñan?", 
+    "¿Aprendemos Java en esta carrera?", 
+    "¿Se enseña Python?"
+  ],
+  "responses": [
+    "Se enseñan varios lenguajes de programación, incluyendo Java, Python, C++, y más.", 
+    "El plan de estudios incluye Java, Python y otros lenguajes importantes para el desarrollo de software.", 
+    "En la carrera aprenderás Python, Java y también otros lenguajes como C y C++."
+  ]
+},
+{
+  "intent": "proyectos_educativos",
+  "examples": [
+    "¿Qué tipo de proyectos puedo hacer en la carrera?", 
+    "¿Hay trabajos prácticos?", 
+    "¿Qué proyectos puedo desarrollar durante la carrera?"
+  ],
+  "responses": [
+    "Puedes hacer proyectos de software, aplicaciones móviles, páginas web y sistemas de bases de datos.", 
+    "A lo largo de la carrera, realizarás proyectos que incluyen aplicaciones web, desarrollo de software y bases de datos.", 
+    "La carrera incluye proyectos prácticos como aplicaciones móviles y sistemas de gestión de información."
+  ]
+},
+{
+  "intent": "oportunidades_laborales",
+  "examples": [
+    "¿Qué trabajos puedo conseguir con esta carrera?", 
+    "¿Cuánto gana un ingeniero en sistemas?", 
+    "¿Dónde puedo trabajar al graduarme?"
+  ],
+  "responses": [
+    "Con un título de ingeniería en sistemas, puedes trabajar en empresas de tecnología, desarrollo de software, administración de redes y más.", 
+    "El salario promedio de un ingeniero en sistemas varía, pero puede estar entre 20,000 y 40,000 USD al año dependiendo de la experiencia.", 
+    "Puedes trabajar en empresas de tecnología, en el sector bancario, de telecomunicaciones o como desarrollador freelance."
+  ]
+},
+{
+  "intent": "especializaciones",
+  "examples": [
+    "¿En qué me puedo especializar dentro de la carrera?", 
+    "¿Existen especialidades dentro de ingeniería en sistemas?", 
+    "¿Cómo me puedo especializar en inteligencia artificial?"
+  ],
+  "responses": [
+    "Puedes especializarte en áreas como inteligencia artificial, ciberseguridad, desarrollo de software o bases de datos.", 
+    "La carrera ofrece varias especializaciones como inteligencia artificial, ciencia de datos y seguridad informática.", 
+    "Una especialización en inteligencia artificial te permitirá trabajar en proyectos avanzados de machine learning y redes neuronales."
+  ]
+},
+{
+  "intent": "redes_informaticas",
+  "examples": [
+    "¿Qué es una red informática?", 
+    "¿Se aprende a configurar redes?", 
+    "¿Cómo se gestionan las redes en la carrera?"
+  ],
+  "responses": [
+    "En la carrera aprenderás sobre redes informáticas, configuración de redes y administración de servidores.", 
+    "Se te enseñará a gestionar redes informáticas, configurar routers y switches, así como administrar servidores.", 
+    "Las redes informáticas son un componente esencial de la carrera, y aprenderás sobre su instalación, configuración y seguridad."
+  ]
+},
+{
+  "intent": "bases_de_datos",
+  "examples": [
+    "¿Qué son las bases de datos?", 
+    "¿Cómo se administra una base de datos?", 
+    "¿Qué es SQL?"
+  ],
+  "responses": [
+    "Las bases de datos son sistemas organizados de datos que se gestionan con herramientas como MySQL, PostgreSQL o MongoDB.", 
+    "Aprenderás a administrar bases de datos, diseñar esquemas, realizar consultas SQL y optimizar su rendimiento.", 
+    "SQL es un lenguaje utilizado para gestionar bases de datos y realizar operaciones como consultas, inserciones y actualizaciones."
+  ]
+},
+{
+  "intent": "inteligencia_artificial",
+  "examples": [
+    "¿Qué es la inteligencia artificial?", 
+    "¿Se estudia IA en ingeniería en sistemas?", 
+    "¿Cómo se aplica la inteligencia artificial en proyectos?"
+  ],
+  "responses": [
+    "La inteligencia artificial es una rama de la informática que se dedica a la creación de sistemas que imitan la inteligencia humana.", 
+    "Sí, la inteligencia artificial se estudia en la carrera y se utiliza en áreas como machine learning, visión por computadora y automatización.", 
+    "En proyectos de IA, se aplican algoritmos y modelos para resolver problemas complejos, como la predicción de datos y el reconocimiento de patrones."
+  ]
+},
+{
+  "intent": "ciberseguridad",
+  "examples": [
+    "¿Qué es la ciberseguridad?", 
+    "¿Cómo proteger los datos personales?", 
+    "¿Qué se estudia sobre ciberseguridad?"
+  ],
+  "responses": [
+    "La ciberseguridad es la práctica de proteger sistemas informáticos y redes de ataques, accesos no autorizados y daños.", 
+    "En la carrera se enseña cómo proteger sistemas informáticos, detectar vulnerabilidades y gestionar la seguridad en redes y bases de datos.", 
+    "Se estudian técnicas de protección de datos, cifrado, autenticación, y prevención de ataques como el hacking ético."
+  ]
+},
+{
+  "intent": "consultas_generales",
+  "examples": [
+    "¿Qué es ingeniería en sistemas?", 
+    "¿Qué se necesita para estudiar ingeniería en sistemas?", 
+    "¿Qué carreras están relacionadas con ingeniería en sistemas?"
+  ],
+  "responses": [
+    "Ingeniería en Sistemas es una carrera que se enfoca en el diseño, desarrollo, implementación y gestión de sistemas informáticos y redes.", 
+    "Para estudiar Ingeniería en Sistemas, necesitas tener conocimientos básicos en matemáticas, programación y computación.", 
+    "Carreras relacionadas son ingeniería de software, ciencias de la computación, redes y telecomunicaciones."
+  ]
+},
+
+{
+  "intent": "consultas_software",
+  "examples": [
+    "¿Qué programas utilizamos para desarrollar software?",
+    "¿Qué IDEs son recomendables?",
+    "¿Cuál es el mejor editor de código?",
+    "¿Se enseña Visual Studio en esta carrera?",
+    "¿Qué software necesitamos para programar?",
+    "¿Es importante aprender a usar Git?",
+    "¿Cómo configurar un entorno de desarrollo?",
+    "¿Qué herramientas de desarrollo son esenciales?"
+  ],
+  "responses": [
+    "Se utilizan herramientas como Visual Studio Code, Eclipse, y NetBeans para desarrollar software.",
+    "Los editores recomendados son Visual Studio Code, IntelliJ IDEA y Sublime Text.",
+    "Git es una herramienta fundamental para la gestión de código fuente, y sí, se enseña en la carrera.",
+    "Te enseñaremos a configurar entornos de desarrollo con herramientas como Docker, Vagrant y VirtualBox.",
+    "Los principales programas que se usan en desarrollo son IDEs como Visual Studio, Eclipse y herramientas de control de versiones como Git."
+  ]
+},
+{
+  "intent": "consultas_tecnologia",
+  "examples": [
+    "¿Cuáles son las últimas tecnologías en programación?",
+    "¿Qué nuevas tendencias hay en desarrollo de software?",
+    "¿Cómo está la inteligencia artificial cambiando la industria?",
+    "¿Qué es el desarrollo de aplicaciones móviles?",
+    "¿Cuál es el futuro de la programación?",
+    "¿Cómo afectan las nuevas tecnologías a los sistemas informáticos?"
+  ],
+  "responses": [
+    "Algunas de las últimas tecnologías son la inteligencia artificial, el aprendizaje automático, blockchain y la programación en la nube.",
+    "Las tendencias más recientes incluyen el uso de IA, la computación en la nube y el desarrollo de software para dispositivos móviles.",
+    "La inteligencia artificial está revolucionando la automatización, el análisis de datos y la interacción con los usuarios.",
+    "El desarrollo de aplicaciones móviles es el proceso de crear aplicaciones para dispositivos como smartphones y tabletas.",
+    "El futuro de la programación incluye la inteligencia artificial, la automatización del código, y el uso de lenguajes funcionales."
+  ]
+},
+{
+  "intent": "consultas_caracteristicas_profesor",
+  "examples": [
+    "¿Qué características debe tener un buen profesor de ingeniería en sistemas?",
+    "¿Cómo son los profesores en esta carrera?",
+    "¿Qué tipo de metodologías usan los docentes?",
+    "¿Se enfocan en enseñanza práctica o teórica?",
+    "¿Son los profesores accesibles fuera de clase?"
+  ],
+  "responses": [
+    "Un buen profesor de ingeniería en sistemas debe ser accesible, tener conocimientos prácticos y habilidades de comunicación.",
+    "Los profesores de esta carrera suelen tener una buena combinación de experiencia académica y profesional en tecnología.",
+    "Los docentes usan metodologías activas, enfocándose en problemas reales de la industria y el uso de tecnologías actuales.",
+    "Se enfocan en el aprendizaje práctico, pero también dan una base teórica sólida para entender los conceptos fundamentales.",
+    "Sí, los profesores están disponibles fuera de clase para resolver dudas y ayudar con proyectos."
+  ]
+},
+{
+  "intent": "consultas_extracurriculares",
+  "examples": [
+    "¿Qué actividades extracurriculares se pueden hacer en ingeniería en sistemas?",
+    "¿Hay clubes de robótica en la carrera?",
+    "¿Puedo participar en hackatones?",
+    "¿Existen eventos sobre programación?",
+    "¿Hay oportunidades para hacer voluntariado?"
+  ],
+  "responses": [
+    "Puedes participar en hackatones, ferias de tecnología, conferencias y talleres relacionados con la informática.",
+    "Sí, hay varios clubes de robótica y desarrollo de software donde puedes unirte para aprender y competir.",
+    "Sí, los hackatones son muy populares y puedes participar en eventos organizados por la universidad o empresas.",
+    "Existen muchos eventos como conferencias, webinars y competencias de programación que ayudan a expandir tu red profesional.",
+    "Además de los eventos, también hay oportunidades de voluntariado en proyectos tecnológicos y ONG relacionadas con la educación."
+  ]
+},
+{
+  "intent": "consultas_bibliografia",
+  "examples": [
+    "¿Qué libros puedo leer para mejorar en programación?",
+    "¿Hay alguna bibliografía recomendada?",
+    "¿Cuáles son los mejores recursos para aprender sobre bases de datos?",
+    "¿Dónde puedo encontrar buenos tutoriales sobre inteligencia artificial?",
+    "¿Qué recursos me recomiendas para estudiar más sobre redes?"
+  ],
+  "responses": [
+    "Para aprender más sobre programación, te recomiendo libros como 'Clean Code' de Robert C. Martin y 'Eloquent JavaScript'.",
+    "Hay varios libros y recursos en línea, por ejemplo, 'Introduction to Algorithms' para estructuras de datos y 'Design Patterns'.",
+    "Puedes encontrar tutoriales en sitios como Coursera, edX, y libros como 'Database System Concepts'.",
+    "Para IA, te sugiero 'Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow'.",
+    "Para redes, puedes estudiar el libro 'Computer Networking: A Top-Down Approach'."
+  ]
+},
+{
+  "intent": "consultas_proyectos_finales",
+  "examples": [
+    "¿Qué es un proyecto final en ingeniería en sistemas?",
+    "¿Cómo me preparo para el proyecto de grado?",
+    "¿Qué tipo de proyectos finales son comunes en esta carrera?",
+    "¿Es necesario hacer un trabajo de investigación?",
+    "¿Qué requisitos debo cumplir para presentar mi proyecto final?"
+  ],
+  "responses": [
+    "El proyecto final es una oportunidad para demostrar los conocimientos adquiridos durante la carrera, a menudo incluye la creación de un software o sistema.",
+    "Para el proyecto de grado, debes preparar una propuesta, seguir una metodología de desarrollo y presentar resultados en un informe y presentación.",
+    "Los proyectos finales suelen involucrar la creación de aplicaciones web, sistemas de gestión de bases de datos o proyectos de ciberseguridad.",
+    "Sí, algunos proyectos finales requieren un componente de investigación, dependiendo de la especialización.",
+    "Para presentar el proyecto final, debes cumplir con los requisitos establecidos por el programa, como la presentación de un informe completo y defensa ante un tribunal."
+  ]
+},
+{
+  "intent": "consultas_tiempos_de_estudio",
+  "examples": [
+    "¿Cuántas horas al día se necesita estudiar para esta carrera?",
+    "¿Es difícil la carrera de ingeniería en sistemas?",
+    "¿Cómo puedo organizar mi tiempo de estudio?",
+    "¿Qué tan demandante es esta carrera?",
+    "¿Cuántas horas de estudio por semana se requieren?"
+  ],
+  "responses": [
+    "El tiempo de estudio depende del semestre, pero en promedio se recomienda dedicar entre 3 a 4 horas diarias para las materias.",
+    "La carrera tiene una carga de trabajo significativa, pero con buena organización puedes manejar las asignaturas.",
+    "Una buena organización es clave. Utiliza horarios, establece prioridades y no dejes todo para último minuto.",
+    "Es una carrera desafiante, pero si te apasiona la informática, te resultará muy satisfactoria.",
+    "Se recomienda estudiar al menos 15-20 horas por semana, dependiendo de los exámenes y proyectos."
+  ]
+},
+{
+  "intent": "consultas_nivel_de_dificultad",
+  "examples": [
+    "¿Es difícil estudiar ingeniería en sistemas?",
+    "¿Qué tan complicada es la carrera?",
+    "¿Cómo puedo hacer para aprobar las materias difíciles?",
+    "¿Qué asignaturas son las más difíciles?",
+    "¿Es una carrera exigente?"
+  ],
+  "responses": [
+    "La carrera puede ser desafiante, pero con dedicación y organización, puedes tener éxito.",
+    "Algunas materias como matemáticas, algoritmos y estructuras de datos pueden resultar difíciles, pero son fundamentales para el desarrollo.",
+    "Para aprobar las materias difíciles, te recomiendo estudiar con antelación, asistir a clases, y practicar mucho.",
+    "Las asignaturas más difíciles suelen ser las que implican programación avanzada y matemáticas, pero con práctica todo mejora.",
+    "Sí, es una carrera exigente, pero la satisfacción de resolver problemas complejos es muy gratificante."
+  ]
+}
+  ]
+}
