@@ -27,3 +27,7 @@ dist-ssr
 # FASEII
 FASEII/chatbot-universal/node_modules
 FASEII/frontend/node_modules
+
+
+# FASEII
+fase3_tensor/venv
