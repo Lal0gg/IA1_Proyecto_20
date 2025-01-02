@@ -1,5 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
+from chatbot import predict_intent, get_response  # Importa las funciones del chatbot
 
 class ChatBubble(tk.Frame):
     def __init__(self, parent, text, is_user):
@@ -15,7 +16,7 @@ class ChatBubble(tk.Frame):
             bg=bubble_color,
             fg="white",
             font=("Helvetica", 12),
-            wraplength=300,  # Ajusta el ancho máximo del texto
+            wraplength=300,
             justify=tk.LEFT,
             padx=12,
             pady=8,
@@ -98,8 +99,12 @@ class ChatGPTUI:
             # Limpiar entrada
             self.input_box.delete(0, tk.END)
             
-            # Simular respuesta
-            ChatBubble(self.message_frame, "Esta es una respuesta de ejemplo que muestra cómo se ajusta el texto automáticamente.", False)
+            # Obtener respuesta del chatbot
+            intent = predict_intent(message)  # Predice la intención
+            response = get_response(intent)  # Obtiene la respuesta basada en la intención
+            
+            # Mensaje de respuesta
+            ChatBubble(self.message_frame, response, False)
             
             # Scroll al final
             self.canvas.update_idletasks()
