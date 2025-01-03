@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import ttk
-from chatbot import predict_intent, get_response  # Importa las funciones del chatbot
+from chatbot import predict_class, get_response  # Importa las funciones del chatbot
 
 class ChatBubble(tk.Frame):
     def __init__(self, parent, text, is_user):
@@ -100,7 +100,7 @@ class ChatGPTUI:
             self.input_box.delete(0, tk.END)
             
             # Obtener respuesta del chatbot
-            intent = predict_intent(message)  # Predice la intención
+            intent = predict_class(message)  # Predice la intención
             response = get_response(intent)  # Obtiene la respuesta basada en la intención
             
             # Mensaje de respuesta

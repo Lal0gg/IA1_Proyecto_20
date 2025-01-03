@@ -1,0 +1,26 @@
+{
+    "intents": [
+        {
+            "tag": "responder_en_errores",
+            "patterns": [
+                " Perdón, no sé cómo responder a eso.",
+                "Lo siento, no tengo información sobre ese tema."
+            ],
+            "responses": [
+                "Lo siento, no tengo una respuesta para eso.",
+                "Disculpa, no puedo ayudarte con esa información."
+            ]
+        },
+        {
+            "tag": "claridad",
+            "patterns": [
+                "¿Podrías darme más detalles, por favor?",
+                "¿Puedes ser más específico?"
+            ],
+            "responses": [
+                "¿Podrías darme más contexto para ayudarte mejor?",
+                "Lo siento, no entiendo completamente. ¿Puedes ser más claro?"
+            ]
+        }
+    ]
+}

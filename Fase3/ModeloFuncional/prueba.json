@@ -1,0 +1,156 @@
+{
+    "intents": [
+        {
+            "tag": "variables_python",
+            "patterns": [
+                "cómo declarar variables en python",
+                "ejemplos de variables python",
+                "tipos de variables en python",
+                "declaración de variables python",
+                "asignación de variables python"
+            ],
+            "responses": [
+                {
+                    "basic_assignment": "# Asignación básica de variables\nname = 'Juan'     # String\nage = 25         # Integer\nheight = 1.75    # Float\nis_student = True # Boolean\n\n# Asignación múltiple\nx, y, z = 1, 2, 3\n\n# Constantes (por convención en mayúsculas)\nPI = 3.14159\nMAX_VALUE = 100",
+                    "data_types": "# Tipos de datos básicos\ntext = 'Hola'           # str\nnumber = 42            # int\ndecimal = 3.14         # float\nis_active = True       # bool\nmy_list = [1, 2, 3]    # list\nmy_tuple = (1, 2, 3)   # tuple\nmy_dict = {'a': 1}     # dict\nmy_set = {1, 2, 3}     # set"
+                }
+            ]
+        },
+        {
+            "tag": "variables_javascript",
+            "patterns": [
+                "cómo declarar variables en javascript",
+                "ejemplos de variables javascript",
+                "tipos de variables en javascript",
+                "declaración de variables javascript",
+                "asignación de variables javascript"
+            ],
+            "responses": [
+                {
+                    "basic_assignment": "// Variables con let (recomendado)\nlet name = 'Juan';\nlet age = 25;\nlet height = 1.75;\nlet isStudent = true;\n\n// Constantes\nconst PI = 3.14159;\nconst MAX_VALUE = 100;\n\n// Variables con var (antiguo)\nvar score = 90;\n\n// Destructuring\nlet [x, y, z] = [1, 2, 3];",
+                    "data_types": "// Tipos de datos básicos\nlet text = 'Hola';         // String\nlet number = 42;          // Number\nlet decimal = 3.14;       // Number\nlet isActive = true;      // Boolean\nlet myArray = [1, 2, 3];  // Array\nlet myObject = {a: 1};    // Object\nlet empty = null;         // Null\nlet notDefined;          // Undefined"
+                }
+            ]
+        },
+        {
+            "tag": "loops_python",
+            "patterns": [
+                "cómo hacer ciclos en python",
+                "ejemplos de bucles python",
+                "ciclos for en python",
+                "ciclos while en python",
+                "bucles python ejemplos"
+            ],
+            "responses": [
+                {
+                    "for_loop": "# For básico con range\nfor i in range(5):\n    print(i)  # Imprime 0, 1, 2, 3, 4\n\n# For con lista\nfruits = ['apple', 'banana', 'orange']\nfor fruit in fruits:\n    print(fruit)\n\n# For con enumerate\nfor index, value in enumerate(fruits):\n    print(f'{index}: {value}')\n\n# For con diccionario\nuser = {'name': 'Juan', 'age': 25}\nfor key, value in user.items():\n    print(f'{key}: {value}')",
+                    "while_loop": "# While básico\ncount = 0\nwhile count < 5:\n    print(count)\n    count += 1\n\n# While con break\nwhile True:\n    if count >= 10:\n        break\n    count += 1\n\n# While con continue\nnum = 0\nwhile num < 5:\n    num += 1\n    if num == 3:\n        continue\n    print(num)"
+                }
+            ]
+        },
+        {
+            "tag": "loops_javascript",
+            "patterns": [
+                "cómo hacer ciclos en javascript",
+                "ejemplos de bucles javascript",
+                "ciclos for en javascript",
+                "ciclos while en javascript",
+                "bucles javascript ejemplos"
+            ],
+            "responses": [
+                {
+                    "for_loop": "// For clásico\nfor (let i = 0; i < 5; i++) {\n    console.log(i);\n}\n\n// For...of (para arrays)\nconst fruits = ['apple', 'banana', 'orange'];\nfor (const fruit of fruits) {\n    console.log(fruit);\n}\n\n// For...in (para objetos)\nconst user = {name: 'Juan', age: 25};\nfor (const key in user) {\n    console.log(`${key}: ${user[key]}`);\n}\n\n// forEach\nfruits.forEach((fruit, index) => {\n    console.log(`${index}: ${fruit}`);\n});",
+                    "while_loop": "// While básico\nlet count = 0;\nwhile (count < 5) {\n    console.log(count);\n    count++;\n}\n\n// Do...while\nlet num = 0;\ndo {\n    console.log(num);\n    num++;\n} while (num < 5);\n\n// While con break\nwhile (true) {\n    if (count >= 10) break;\n    count++;\n}\n\n// While con continue\nwhile (num < 5) {\n    num++;\n    if (num === 3) continue;\n    console.log(num);\n}"
+                }
+            ]
+        },
+        {
+            "tag": "operators_python",
+            "patterns": [
+                "operadores en python",
+                "operaciones aritméticas python",
+                "operadores lógicos python",
+                "operadores de comparación python"
+            ],
+            "responses": [
+                {
+                    "arithmetic": "# Operadores aritméticos\na = 10\nb = 3\n\nsuma = a + b          # 13\nresta = a - b         # 7\nmultiplicacion = a * b # 30\ndivision = a / b      # 3.333...\ndiv_entera = a // b   # 3\nmodulo = a % b        # 1\npotencia = a ** b     # 1000\n\n# Operadores de asignación\nx = 5\nx += 3  # x = x + 3\nx -= 2  # x = x - 2\nx *= 4  # x = x * 4\nx /= 2  # x = x / 2",
+                    "comparison": "# Operadores de comparación\nx = 5\ny = 10\n\nigual = x == y        # False\ndiferente = x != y    # True\nmayor = x > y         # False\nmenor = x < y         # True\nmayor_igual = x >= y  # False\nmenor_igual = x <= y  # True",
+                    "logical": "# Operadores lógicos\na = True\nb = False\n\nand_op = a and b  # False\nor_op = a or b    # True\nnot_op = not a    # False\n\n# Operadores de identidad\nx = [1, 2, 3]\ny = [1, 2, 3]\nz = x\n\nis_same = x is z      # True\nis_not_same = x is y  # False"
+                }
+            ]
+        },
+        {
+            "tag": "operators_javascript",
+            "patterns": [
+                "operadores en javascript",
+                "operaciones aritméticas javascript",
+                "operadores lógicos javascript",
+                "operadores de comparación javascript"
+            ],
+            "responses": [
+                {
+                    "arithmetic": "// Operadores aritméticos\nlet a = 10;\nlet b = 3;\n\nlet suma = a + b;          // 13\nlet resta = a - b;         // 7\nlet multiplicacion = a * b; // 30\nlet division = a / b;      // 3.333...\nlet modulo = a % b;        // 1\nlet potencia = a ** b;     // 1000\n\n// Operadores de incremento/decremento\nlet x = 5;\nx++;  // x = x + 1\nx--;  // x = x - 1\n\n// Operadores de asignación\nlet y = 5;\ny += 3;  // y = y + 3\ny -= 2;  // y = y - 2\ny *= 4;  // y = y * 4\ny /= 2;  // y = y / 2",
+                    "comparison": "// Operadores de comparación\nlet x = 5;\nlet y = '5';\n\nlet igual = x == y;         // true (comparación débil)\nlet estricto = x === y;     // false (comparación estricta)\nlet diferente = x != y;     // false\nlet estricto_dif = x !== y; // true\nlet mayor = x > y;          // false\nlet menor = x < y;          // false\nlet mayor_igual = x >= y;   // true\nlet menor_igual = x <= y;   // true",
+                    "logical": "// Operadores lógicos\nlet a = true;\nlet b = false;\n\nlet and_op = a && b;   // false\nlet or_op = a || b;    // true\nlet not_op = !a;       // false\n\n// Operador nullish\nlet valor = null;\nlet default_val = valor ?? 'default';  // 'default'\n\n// Operador ternario\nlet edad = 20;\nlet mensaje = edad >= 18 ? 'Adulto' : 'Menor';"
+                }
+            ]
+        },
+        {
+            "tag": "conditionals_python",
+            "patterns": [
+                "condicionales en python",
+                "if else python",
+                "estructuras de control python",
+                "ejemplos if python"
+            ],
+            "responses": [
+                {
+                    "if_else": "# If básico\nage = 18\nif age >= 18:\n    print('Eres mayor de edad')\n\n# If-else\nif age >= 18:\n    print('Eres mayor de edad')\nelse:\n    print('Eres menor de edad')\n\n# If-elif-else\nscore = 85\nif score >= 90:\n    print('A')\nelif score >= 80:\n    print('B')\nelif score >= 70:\n    print('C')\nelse:\n    print('D')\n\n# Operador ternario\nstatus = 'adulto' if age >= 18 else 'menor'",
+                    "nested_if": "# If anidados\nuser_type = 'admin'\nis_active = True\n\nif user_type == 'admin':\n    if is_active:\n        print('Acceso total')\n    else:\n        print('Cuenta inactiva')\nelse:\n    print('Acceso denegado')"
+                }
+            ]
+        },
+        {
+            "tag": "conditionals_javascript",
+            "patterns": [
+                "condicionales en javascript",
+                "if else javascript",
+                "estructuras de control javascript",
+                "ejemplos if javascript"
+            ],
+            "responses": [
+                {
+                    "if_else": "// If básico\nlet age = 18;\nif (age >= 18) {\n    console.log('Eres mayor de edad');\n}\n\n// If-else\nif (age >= 18) {\n    console.log('Eres mayor de edad');\n} else {\n    console.log('Eres menor de edad');\n}\n\n// If-else if-else\nlet score = 85;\nif (score >= 90) {\n    console.log('A');\n} else if (score >= 80) {\n    console.log('B');\n} else if (score >= 70) {\n    console.log('C');\n} else {\n    console.log('D');\n}\n\n// Operador ternario\nlet status = age >= 18 ? 'adulto' : 'menor';",
+                    "switch": "// Switch statement\nlet day = 2;\nswitch (day) {\n    case 1:\n        console.log('Lunes');\n        break;\n    case 2:\n        console.log('Martes');\n        break;\n    case 3:\n        console.log('Miércoles');\n        break;\n    default:\n        console.log('Otro día');\n}"
+                }
+            ]
+        }
+    ],
+    "concept_metadata": {
+        "variables": {
+            "python": {
+                "scope": "Las variables en Python tienen alcance de función o global",
+                "naming_rules": [
+                    "Pueden contener letras, números y guiones bajos",
+                    "Deben comenzar con letra o guion bajo",
+                    "Son case-sensitive"
+                ],
+                "types": [
+                    "str", "int", "float", "bool", "list", "tuple", "dict", "set"
+                ]
+            },
+            "javascript": {
+                "scope": "let y const tienen alcance de bloque, var tiene alcance de función",
+                "naming_rules": [
+                    "Pueden contener letras, números, $ y _",
+                    "Deben comenzar con letra, $ o _",
+                    "Son case-sensitive"
+                ],
+                "types": [
+                    "String", "Number", "Boolean", "Array", "Object", "null", "undefined"
+                ]
+            }
+        }
+    }
+}
