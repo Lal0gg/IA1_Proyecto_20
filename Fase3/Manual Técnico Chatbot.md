@@ -1,8 +1,3 @@
----
-title: Manual Técnico Chatbot
-
----
-
 # Manual Técnico Chatbot
 
 ## Integrantes
