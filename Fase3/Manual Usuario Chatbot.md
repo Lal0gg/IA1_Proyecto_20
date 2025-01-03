@@ -1,8 +1,3 @@
----
-title: Untitled
-
----
-
 # Manual de Usuario: Chatbot UsacGPT
 
 ## Integrantes
