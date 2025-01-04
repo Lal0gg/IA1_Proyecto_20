@@ -1,0 +1,2688 @@
+{
+    "intents": [
+        {
+            "tag": "consulta_saludo",
+            "patterns": [
+                "Hello",
+                "Hi how are things?",
+                "Good morning!",
+                "Good afternoon!",
+                "Good night!",
+                "Hey!",
+                "How are you!",
+                "What's happening?",
+                "What's up!",
+                "How are you?",
+                "How's it going?",
+                "What's new!",
+                "Hello good morning!",
+                "How's everything going?",
+                "How's everything?",
+                "Greetings!",
+                "Hey! How are you?",
+                "What about you!",
+                "How's life going?",
+                "How's it going there?",
+                "All good?",
+                "How's everything going on your side?",
+                "How are you spending your day?",
+                "Hello! How's the family?",
+                "Hello, how are you?",
+                "How was your week?",
+                "How are you? How are you feeling?",
+                "How was your day?",
+                "Hello, good morning! How are you?",
+                "Everything okay there?",
+                "How are you? How are you feeling?",
+                "Hello, everything cool?",
+                "How's everything over there?",
+                "What's up! Everything okay?",
+                "How was your day?",
+                "Hello, how's everything?",
+                "How was your week?",
+                "How's everything going there?",
+                "How's life?",
+                "How are things with you?",
+                "Hello! How's your day going?",
+                "What's up! Everything okay?",
+                "Everything quiet?",
+                "What's up! How are you?",
+                "Hello! How are you feeling?",
+                "Hello, nice to see you!",
+                "Hello! How's everything in your world?",
+                "Hey! How are you?",
+                "How's everything in your world?",
+                "Hello! Everything okay?",
+                "How are you feeling today?",
+                "How are you doing over there?",
+                "How was your day today?",
+                "Hello! Everything okay there?",
+                "Greetings! How are you?",
+                "How's it going there?",
+                "Everything okay over there?",
+                "How was your day?",
+                "Hello! How are you?",
+                "Hello, nice to see you!",
+                "How are you? How are you doing?",
+                "Hey! How's it going?",
+                "How was your weekend?",
+                "How's it going over there?",
+                "Hello! How's life?",
+                "How's everything here?",
+                "See you, how are you?",
+                "How's life today?",
+                "How was your day?",
+                "How's everything? Everything okay?",
+                "Hello! How are you spending your day?",
+                "Hello! How's everything here?",
+                "Hello! How are you?",
+                "How's your day going?",
+                "How's everything, is everything okay?",
+                "What's up! How's everything going?",
+                "Hello! How's everything going on your side?",
+                "How's everything! Everything okay?",
+                "How's the family?",
+                "Hello! What's new?",
+                "How are you? How's everything going?",
+                "Hello! How are you spending your day?",
+                "How's your day going today?",
+                "Hello! Everything quiet there?",
+                "How are you? How are you doing?",
+                "How was your weekend? Everything okay?",
+                "How are you? Everything okay there?",
+                "Hello! Everything cool?",
+                "Hello! How are things today?",
+                "How was your day today?",
+                "Hello! Everything okay here?",
+                "Hey! Everything okay over there?",
+                "Hello! Is everything okay?",
+                "Hello! Is everything okay?",
+                "How was your morning?",
+                "Hello! Everything okay on your side?",
+                "Hello! Everything okay over there?",
+                "Hello! How are you feeling today?",
+                "How are you feeling now?",
+                "Hello! How are you today?",
+                "Hello! How are you doing with everything?",
+                "How's everything going there?",
+                "Hello! How's everything going on your end?",
+                "How are you? Everything in order?",
+                "Hello! How's everything going today?",
+                "Everything okay there?",
+                "Hello! How's everything going?",
+                "How are you? How is your day going?",
+                "Hello! Is everything okay?",
+                "How are you? Everything okay?",
+                "How are you? How are you doing?",
+                "Hello! How is your day?",
+                "How are you? How is your day going?",
+                "Hello! How's everything?",
+                "Hello! How's life going for you?",
+                "Hello! How's everything going over there?",
+                "How was your day?",
+                "Hello! How's everything over there?",
+                "Hello! How are you?",
+                "Hello! Everything okay?",
+                "How are you? How's everything going?",
+                "Hello! Everything okay here?",
+                "How was your day?",
+                "Hello! How are you feeling today?",
+                "Hello! How's everything going on your end?",
+                "Hello! Is everything okay?",
+                "How are you? How are you?",
+                "Hello! How's everything?",
+                "Hello! Everything okay here?",
+                "Hello! How's everything here?",
+                "How are you? How are you feeling?",
+                "Hello! How is your day?",
+                "Hello! How are you?",
+                "How are you? Everything okay on your side?",
+                "Hello! How are you?",
+                "How are you? Everything okay today?",
+                "Hello! Is everything okay?",
+                "What's up! How are you?",
+                "Hello! How is your day going?",
+                "How are you? How's everything going over there?",
+                "Hello! How are you today?",
+                "Hello! Everything okay here?",
+                "Hello! How is your day?",
+                "Hello! How are things over there?",
+                "Hello! How are you?",
+                "Hello! Everything okay? How are you?",
+                "Hello! How's everything going?",
+                "How are you? Everything quiet?",
+                "Hello! How's everything going?",
+                "Hello! How are you doing there?",
+                "Hello! How's everything going?",
+                "How's everything?",
+                "Hello! Is everything okay?",
+                "How's everything?",
+                "Hello! How's everything?",
+                "Hello! How are things today?",
+                "Hello! How's your day going?",
+                "Hello! How's everything going over there?",
+                "Hello! How's life?",
+                "Hello! Is everything okay?"
+            ],
+            "responses": [
+                "Hello! How can I help you?",
+                "Hello how are you?",
+                "Hello! How can I help you?",
+                "Hello, nice to meet you!",
+                "Nice to see you here!",
+                "Welcome! How can I help you?",
+                "Hello, how are you?",
+                "How are you? How can I help you?",
+                "Hello! Everything okay?",
+                "Greetings! How can I help you?",
+                "Hello! How's everything?",
+                "Nice to see you! How can I help you?",
+                "How are you? Everything okay?",
+                "Hello! How are you?",
+                "Hello! How's everything going?",
+                "Hello! How is your day?",
+                "How are you? Everything okay there?",
+                "Hey! How can I help you?",
+                "How are you? How are you doing today?",
+                "Hello! Is everything okay?",
+                "Hello! How can I help you?",
+                "Hello! How is your day?",
+                "What's up! How's everything going?",
+                "Hello, is everything okay?",
+                "Good afternoon! How are you?",
+                "How are you? How can I help you?",
+                "Hello! How are things?",
+                "How's everything? Do you need anything?",
+                "Hello! How are you feeling?",
+                "Hello! How can I help you today?",
+                "How's everything, is everything okay?",
+                "Hello! Can I help you with something?",
+                "What's up! Can I help you?",
+                "Hello! Everything quiet here?",
+                "How are you? Everything in order?",
+                "What's up! How's your day going?",
+                "Hello! How are you today?",
+                "Hello! Everything okay here?",
+                "Hello! Can I help you with something?",
+                "Hello! How are you?",
+                "Hello! How can I help you now?",
+                "How's everything! Everything okay?",
+                "Hello! How's everything going on your end?",
+                "Hello! Can I help you with anything else?",
+                "How's it going! How can I help you?",
+                "What's up! Can I help you with something?",
+                "Hello! Is everything okay?",
+                "How are you? How can I help you?",
+                "What's up! Everything okay?",
+                "Hello! How can I help you?",
+                "Hello! Everything okay there?",
+                "How are you? How are you doing?",
+                "Hello! Can I help you?",
+                "Greetings! How can I help you?",
+                "Hello! How are you feeling today?",
+                "How are you? How can I help you?",
+                "Hello! Everything okay over there?",
+                "Hello! How's life?",
+                "What's up! Everything okay?",
+                "How are you? How are you today?",
+                "Hello! How's everything going on your side?",
+                "Hello! How are you?",
+                "Hello! Everything okay?",
+                "What's up! How's your day going?",
+                "How are you? How can I help you?",
+                "Hello! How is your week going?",
+                "Hello! How are you?",
+                "What's up! How's everything going?",
+                "Hello! Is there anything else I can help you with?",
+                "Greetings! How's everything going?",
+                "Hello! Is everything okay?",
+                "How are you? How is your day going?",
+                "Hello! How can I help you?",
+                "How are you? Everything quiet?",
+                "Hello! Everything okay there?",
+                "Hello! Can I help you?",
+                "Hello! Everything okay?",
+                "Hello! How are you?",
+                "Hello! Everything okay?",
+                "What's up! Is everything okay?",
+                "Hello! Can I help you?",
+                "Hello! How is your day going?",
+                "How are you? Everything okay here?",
+                "How are you? How's everything going?",
+                "Hello! Can I help you with something?",
+                "Hello! Everything okay over there?",
+                "Hello! How's everything going today?",
+                "How are you? Everything in order?",
+                "Hello! How are you?",
+                "Hello! How's everything there?",
+                "Hello! How is your day?",
+                "Hello! How can I help you?",
+                "What's up! Is everything okay here?",
+                "Hello! How's everything going?",
+                "Hello! Can I help you with anything else?",
+                "Hello! Everything okay?",
+                "How are you? How are you doing?",
+                "Hello! Is everything okay?",
+                "Hello! Can I help you with something?",
+                "Hello how are you?"
+            ]
+        },
+        {
+            "tag": "consulta_despedida",
+            "patterns": [
+                "bye",
+                "see you later",
+                "see you",
+                "bye",
+                "see you soon",
+                "I have to go",
+                "I say goodbye",
+                "See you next time",
+                "Bye",
+                "See you later",
+                "See you",
+                "Bye",
+                "Take care of yourself!",
+                "See you soon",
+                "See you around",
+                "See you later",
+                "Goodbye, have a nice day",
+                "See you!",
+                "See you next time!",
+                "Until next time",
+                "Have a good day!",
+                "See you later, take care!",
+                "Until next time!",
+                "See you another time",
+                "Goodbye! Have a nice day!",
+                "See you soon, friend!",
+                "Stay well!",
+                "Take care of yourself!",
+                "See you soon! Have a good time!",
+                "Goodbye, have a good trip!",
+                "See you later",
+                "See you later, rest well!",
+                "Until next time!",
+                "See you tomorrow!",
+                "See you later!",
+                "Take care of yourself, friend!",
+                "See you soon, have a good one!",
+                "Goodbye! I send you a hug",
+                "See you, take care of yourself!",
+                "See you soon, friend!",
+                "See you later!",
+                "See you, take care!",
+                "See you another time!",
+                "Farewell!",
+                "Stay well, bye!",
+                "See you very soon!",
+                "Have a nice day!",
+                "Goodbye! See you soon",
+                "Goodbye, may everything go well for you!",
+                "See you later, take care",
+                "See you later, all the best!",
+                "See you soon, take care of yourself!",
+                "See you later, take care of yourself!",
+                "Bye, have a nice day!",
+                "Goodbye, rest well!",
+                "Goodbye, have a great day!",
+                "See you soon, see you later!",
+                "See you, take care!",
+                "Goodbye, may everything go well for you!",
+                "See you soon, have a good one!",
+                "Take care of yourself!",
+                "See you, have a nice day!",
+                "See you soon, take care!",
+                "See you, hugs!",
+                "See you next time! Take care",
+                "See you soon, take care of yourself!",
+                "See you soon, bye",
+                "See you later! See you later!",
+                "Take care! See you later",
+                "See you later, take care",
+                "See you, get some rest!",
+                "See you soon, be well!",
+                "See you soon! Take care",
+                "See you soon! I wish you the best",
+                "See you later! See you later!",
+                "See you soon, may everything go well for you!",
+                "See you later! Take care of yourself",
+                "See you soon, have a great day!",
+                "Goodbye, all the best!",
+                "See you later, may everything go well for you!",
+                "See you soon! Take care of yourself",
+                "See you after a while!",
+                "See you soon!",
+                "See you later! I wish you the best",
+                "See you soon! Take care of yourself",
+                "See you soon, be well!",
+                "See you later! I hope everything goes well for you!",
+                "See you soon! Take care",
+                "See you soon! See you soon!",
+                "See you soon, take care of yourself",
+                "See you soon! I send you a hug",
+                "See you later!",
+                "Goodbye, have a nice day!",
+                "See you later! Have a good rest",
+                "See you soon! Until next time",
+                "See you later! I hope everything goes well!",
+                "See you soon! Take care of yourself",
+                "See you next time!",
+                "See you soon! I wish you the best",
+                "See you soon! Take care",
+                "See you later, have a good one!",
+                "See you later, take care!",
+                "See you later! Have a good time!",
+                "See you later, take care of yourself!",
+                "See you later, take care of yourself",
+                "See you soon, take care!",
+                "See you later, may everything go well for you!",
+                "See you later! Have a good time!",
+                "See you soon, take care of yourself!",
+                "See you, get some rest!",
+                "See you soon! Take care of yourself",
+                "See you soon, take care of yourself!",
+                "See you later, have a good one!",
+                "Until next time!",
+                "See you soon! Have a good time!",
+                "Goodbye, may everything go well for you!",
+                "See you soon! See you later",
+                "See you soon, have a good rest!",
+                "See you later!",
+                "See you, take care of yourself",
+                "See you soon! Take care of yourself",
+                "See you later, all the best!",
+                "See you, get some rest!",
+                "See you soon, see you later!",
+                "See you, take care of yourself!",
+                "See you later! I hope everything goes well for you.",
+                "See you later",
+                "See you, hope everything goes well!",
+                "See you later!",
+                "See you, take care of yourself!",
+                "See you later!",
+                "See you later, get some rest!",
+                "See you later, rest well!",
+                "See you later!",
+                "See you soon! Take care",
+                "See you next time!",
+                "See you later, may everything go well for you!",
+                "See you soon! Have a good time!",
+                "See you after a while!",
+                "See you soon! Take care of yourself",
+                "See you soon, I hope everything goes well for you!",
+                "See you soon! See you soon",
+                "See you soon! Take care",
+                "See you later, hope everything goes well",
+                "See you later!",
+                "See you soon, all the best!",
+                "See you soon, have a good rest!",
+                "See you later, take care!",
+                "See you after a while!",
+                "See you, take care of yourself!",
+                "See you later, rest well!",
+                "See you later, have a good one!",
+                "See you soon, until next time!",
+                "See you soon! Take care",
+                "See you! I send you a hug",
+                "See you soon, have a good rest!",
+                "See you soon! Take care of yourself",
+                "See you soon!"
+            ],
+            "responses": [
+                "See you later! Have a great day!",
+                "See you soon! Take care of yourself",
+                "Goodbye! I hope to see you again",
+                "Have a great time! See you next time!",
+                "Take care! I'll be here when you need me",
+                "See you soon!",
+                "Have a good day!",
+                "See you soon!",
+                "Take care of yourself!",
+                "See you later!",
+                "See you!",
+                "See you next time!",
+                "Bye! Take care",
+                "See you around!",
+                "Goodbye, have a nice day!"
+            ]
+        },
+        {
+            "tag": "consulta_agradecimiento",
+            "patterns": [
+                "thank you",
+                "thank you so much",
+                "I apreciate it",
+                "thanks",
+                "Thank you very much",
+                "very kind",
+                "you're very kind",
+                "I appreciate your help",
+                "Thank you",
+                "Thank you so much",
+                "I apreciate it",
+                "Thanks for your help",
+                "Thank you so much",
+                "Thank you very much",
+                "I thank you",
+                "Many thanks for everything",
+                "I am very grateful to you",
+                "Thank you with all my heart",
+                "Thank you for everything you have done",
+                "I am very grateful",
+                "I really appreciate it",
+                "Thank you for your time",
+                "I really appreciate your help",
+                "I am infinitely grateful to you",
+                "I thank you very much",
+                "I don't know how to thank you",
+                "I thank you from the bottom of my heart",
+                "Thank you for everything you have done for me",
+                "Thanks for the support",
+                "Thank you for being there",
+                "I thank you for your help",
+                "Thank you for your patience",
+                "Thank you for your generosity",
+                "I sincerely thank you",
+                "I really appreciate your support",
+                "Thanks a lot",
+                "I thank you deeply",
+                "Thank you for your understanding",
+                "I appreciate you helping me",
+                "Thank you for everything you do",
+                "I thank you for being so kind",
+                "Thank you for your solidarity",
+                "Thank you for the help provided",
+                "Thank you so much for your support",
+                "I appreciate you listening to me.",
+                "Thank you for being so understanding",
+                "Thanks for the advice",
+                "Thank you for all your effort",
+                "Thank you so much for being so patient.",
+                "Thanks for joining me on this",
+                "I appreciate everything you do",
+                "Thank you for your collaboration",
+                "Thank you for your kindness",
+                "I really appreciate your time",
+                "Thank you for offering me your help",
+                "Thank you for being so generous",
+                "I thank you for your unconditional support",
+                "I thank you for your sincerity",
+                "Thank you for always being there",
+                "Thank you very much for your effort",
+                "Thank you for your dedication",
+                "Thank you for your commitment",
+                "I thank you for being so attentive.",
+                "Thank you for your contribution",
+                "Thank you for your dedication",
+                "I thank you for your effort and dedication",
+                "Thank you so much for everything you have done for me",
+                "Thank you for your generosity and support",
+                "I thank you for trusting me",
+                "I thank you with all my heart for your help.",
+                "Thank you for being so kind and considerate",
+                "I thank you for your compassion",
+                "Thank you for your time and patience",
+                "Thank you for everything you have taught me",
+                "I thank you for being by my side",
+                "Thank you for your work and effort",
+                "I deeply thank you for everything you have done.",
+                "I thank you for always being willing to help.",
+                "Thank you for your guidance",
+                "Thank you for your kindness and patience",
+                "Thank you very much for your constant support.",
+                "I thank you for your tireless help",
+                "Thank you for your understanding and patience.",
+                "I thank you for your support during this time.",
+                "Thank you for being there when I needed you most",
+                "Thank you for everything you have done for me",
+                "I thank you for not giving up on me",
+                "Thank you for all your effort and dedication",
+                "I thank you with all my heart for being by my side",
+                "Thank you for helping me improve",
+                "I thank you for your constant and sincere support.",
+                "Thank you for giving me the opportunity to learn",
+                "Thank you very much for your understanding.",
+                "Thank you for your attention",
+                "I appreciate your time and patience.",
+                "Thank you for being so generous with me",
+                "I thank you for everything you have done for us",
+                "Thank you for supporting me at all times",
+                "Thank you very much for your help",
+                "Thank you for your wise words",
+                "I thank you for your company",
+                "Thank you for giving me your time",
+                "I thank you for your willingness",
+                "Thank you for always being there for me",
+                "I thank you very much for everything you have done",
+                "I thank you for being so understanding.",
+                "Thank you for your kindness and patience",
+                "I appreciate you being so generous with your time.",
+                "I thank you for your constant support",
+                "Thank you for making this possible",
+                "I really appreciate your effort",
+                "Thank you for your commitment and dedication",
+                "I thank you for your work",
+                "I thank you from the bottom of my heart for your support",
+                "Thank you for your time and effort",
+                "Thank you very much for everything",
+                "Thank you for doing all this for me",
+                "Thank you for your good heart",
+                "I thank you for everything you have done for us",
+                "I thank you for being so supportive.",
+                "Thank you for your generosity and support",
+                "I appreciate you being so considerate.",
+                "Thank you for everything you have taught me",
+                "I thank you for your kindness and for everything you do.",
+                "I really appreciate you being here",
+                "Thank you for your patience and support",
+                "I thank you very much for everything you have given me.",
+                "Thank you for your dedication and effort",
+                "I thank you for being so constant",
+                "Thank you for helping me at all times",
+                "I thank you for everything you have contributed",
+                "Thank you for your continued support",
+                "I thank you very much for what you do for me",
+                "I sincerely thank you for your dedication.",
+                "Thank you for your unconditional support",
+                "I thank you for sharing your time",
+                "Thank you for your understanding and support",
+                "I thank you for every step you have taken for me.",
+                "I deeply appreciate you for all your efforts.",
+                "Thank you for everything you do to make things go well.",
+                "I thank you from the bottom of my heart",
+                "Thank you very much for your time and for being so generous.",
+                "Thank you for your generosity and patience",
+                "I thank you for not giving up",
+                "Thank you for being so generous",
+                "I thank you for being so kind",
+                "Thank you for all the effort you have put in",
+                "I thank you for your wise words",
+                "Thank you for your love and support",
+                "I thank you for every opportunity",
+                "Thank you for being such a great support to me",
+                "Thank you very much for everything",
+                "Thank you for being so attentive",
+                "I thank you for being so understanding.",
+                "Thank you for giving me your support",
+                "I thank you for being so dedicated",
+                "Thank you for your trust and support",
+                "I thank you for always being available",
+                "Thank you for your friendship",
+                "I thank you for being my mentor",
+                "Thank you for helping me grow",
+                "I thank you for your sincere help",
+                "Thank you for always being willing to help",
+                "I thank you for your moral support",
+                "Thank you for your effort",
+                "I thank you for helping me in everything",
+                "Thank you for your willingness",
+                "I thank you for your good advice",
+                "Thank you for always being by my side",
+                "I thank you for your kindness",
+                "Thank you for giving me the opportunity to learn",
+                "I thank you very much for all your work",
+                "Thank you for sharing your time with me",
+                "I thank you for your positive attitude",
+                "Thank you for always being there to support me",
+                "Thank you very much for being so kind.",
+                "Thank you for everything you do for me and others.",
+                "I thank you for your unparalleled support",
+                "Thank you for giving me your unconditional help",
+                "I thank you for sharing your knowledge",
+                "Thank you for your emotional support",
+                "I thank you for being available when I needed you.",
+                "Thank you for your sincerity",
+                "I thank you for giving me the time I needed",
+                "Thanks for the love",
+                "I thank you for your empathy",
+                "Thank you for your good judgment",
+                "I thank you for your patience and for always being available.",
+                "Thank you for always being so reliable",
+                "I thank you for being a constant source of support."
+            ],
+            "responses": [
+                "You're welcome! I'm here to help",
+                "I'm glad I could help you",
+                "You're welcome, it's always a pleasure",
+                "It's a pleasure to be able to help!",
+                "There is nothing to be thankful for",
+                "With pleasure!",
+                "You are welcome!",
+                "It's a pleasure to help you!",
+                "Glad to help!",
+                "It's a pleasure!",
+                "With great pleasure!",
+                "You're welcome! I'm always here to help!",
+                "I'm glad I could help you!",
+                "Gladly! Anything else, please feel free to ask."
+            ]
+        },
+        {
+            "tag": "consulta_saludorespuesta",
+            "patterns": [
+                "good and you ?",
+                "all good and you",
+                "very well and you ?",
+                "Good and how are you?",
+                "everything is fine and you?",
+                "very well and you",
+                "good and you ?",
+                "everything is fine and how are you?",
+                "very well and how are you?"
+            ],
+            "responses": [
+                "All right, thanks for asking. How can I help you?",
+                "Very well, thank you. How can I help you?",
+                "All right, how can I help you?",
+                "Okay, how can I help you?",
+                "All right, thank you. How can I help you?",
+                "Very well, thank you. How can I help you?",
+                "All right, how can I help you?",
+                "Okay, how can I help you?",
+                "All right, thank you. How can I help you?"
+            ]
+        },
+        {
+            "tag": "consulta_feedback",
+            "patterns": [
+                "I like",
+                "I don't like",
+                "Good job",
+                "Excellent",
+                "It was not helpful",
+                "I didn't like it",
+                "It was very helpful",
+                "Thank you, you helped me a lot",
+                "Excellent response",
+                "I loved it",
+                "Very good",
+                "Very useful",
+                "It wasn't bad",
+                "You helped me a lot",
+                "It was all clear",
+                "The answer was not helpful",
+                "Thanks for the help",
+                "Can you help me better?",
+                "It was a correct answer",
+                "Very good",
+                "I liked it a lot",
+                "It wasn't what I expected",
+                "Very useful information",
+                "It didn't help me",
+                "I couldn't understand the answer",
+                "Very bad answer",
+                "The response was good",
+                "They did not resolve my doubt",
+                "The answer was helpful",
+                "I am satisfied with the answer",
+                "I'm not convinced by the answer",
+                "Could you improve this?",
+                "Very clear answer",
+                "Thanks, it was helpful",
+                "That was very helpful",
+                "I don't know if it helped me much",
+                "It wasn't what I expected",
+                "The answer was unclear",
+                "The response was very quick.",
+                "You didn't help me in what I expected",
+                "Can you explain a little more?",
+                "I'm not sure of the answer",
+                "I was confused with the answer",
+                "I was left with more doubts",
+                "You explained it well, thank you.",
+                "Could you give me more details?",
+                "Thanks, but I'm not entirely sure.",
+                "Excellent explanation",
+                "Thanks for your help, although it wasn't what I expected.",
+                "It wasn't as helpful as I thought",
+                "Nice try, but it wasn't enough",
+                "Thanks for trying",
+                "You helped me, but it could be better",
+                "I liked the answer",
+                "I didn't understand the answer",
+                "Good service, but can improve",
+                "Very well explained",
+                "Excellent, but something was missing",
+                "The answer was half-hearted",
+                "I like how you explain",
+                "I didn't quite understand the solution.",
+                "It was more or less useful",
+                "The information was not enough",
+                "Excellent, but I need more details",
+                "It wasn't exactly what I was looking for",
+                "It was good, but I can look for more",
+                "Very useful, thanks",
+                "It wasn't so clear",
+                "It was clear, thank you.",
+                "Thank you, although not everything was clear",
+                "Good job, but I may need more details",
+                "It was great, but can you give more information?",
+                "I still have doubts, but it was good",
+                "I wasn't sure what you said",
+                "The answer was very general",
+                "That helps me, but I want to know more",
+                "The answer was a bit vague.",
+                "It's not clear what you said.",
+                "What you said was good, but I want more details.",
+                "I feel confused by the answer",
+                "Very good, but better if you give me more examples",
+                "Good, but you can improve the explanation",
+                "What you told me is clear",
+                "It helped me a little",
+                "It was a good explanation",
+                "It wasn't exactly what I needed",
+                "You gave me a good answer, but it wasn't my question.",
+                "Could you be more specific?",
+                "The answer was good, but not so clear",
+                "I understand, but I want more details.",
+                "What you said helped me a lot.",
+                "You helped me, but I need more examples",
+                "The answer was a little confusing",
+                "Thank you, but I need more information.",
+                "It wasn't what I expected",
+                "Thank you, it was clear and helpful.",
+                "Could you give me more details?",
+                "I would like a deeper explanation",
+                "Thanks, but I'm not entirely convinced.",
+                "Thank you, but I have more questions.",
+                "The answer was a little difficult to understand",
+                "Thank you, the answer was direct",
+                "That was good, but I need more",
+                "It was clear, but I want more examples",
+                "Thank you, but I want to know more",
+                "Very good explanation",
+                "The answer was good",
+                "You didn't give me everything I wanted",
+                "That wasn't what I expected",
+                "Could you be more clear?",
+                "Thanks for the help, but I need more details.",
+                "Could you make the answer more detailed?",
+                "It was helpful, but I want more information",
+                "I am satisfied, although there are areas for improvement.",
+                "Thanks, but I need more details.",
+                "I was not entirely convinced",
+                "Your answer was adequate, but it could be improved.",
+                "What you said was helpful, but I didn't fully understand it.",
+                "The information was adequate, but I need more",
+                "I agree with what you told me.",
+                "Can you be more clear with the answer?",
+                "Thanks for the reply, although it wasn't exactly what I wanted.",
+                "The answer was helpful, but not complete.",
+                "That helps me, but it doesn't solve everything.",
+                "Excellent answer, but I want to know more",
+                "Good job, but I still have doubts",
+                "The response was very good",
+                "Thanks, you solved half of my doubts.",
+                "Well done, but I want more examples",
+                "The explanation was good.",
+                "Excellent, but I would like more details",
+                "Nice try, but I have a question.",
+                "Thanks, that fixed it, but can you clarify anything else?",
+                "Your explanation was clear.",
+                "Thanks, it was helpful, but I still have questions.",
+                "It was clear, but I need practical examples",
+                "Thank you, but I need more details.",
+                "It was quite useful",
+                "Thank you, but I would like more information.",
+                "It was okay, but it wasn't what I expected.",
+                "The information was good, but I want more details",
+                "Thanks, but that wasn't what I was looking for.",
+                "Thank you, but I have more questions.",
+                "You explained it well, but I want to know more.",
+                "It was good, but there is a lack of information.",
+                "Thanks for the reply, but I have some doubts.",
+                "It was helpful, but I want you to explain it further.",
+                "I was left with more doubts, but thanks",
+                "That was good, but I would like more details.",
+                "Thanks for the clear answer",
+                "It was a good answer, but I need more examples.",
+                "Thank you, that's what I needed",
+                "It was good, but I still have more questions",
+                "The answer was clear, thank you.",
+                "It wasn't what I thought, but it was good.",
+                "Thanks, but I want more examples",
+                "That was very clear, thank you.",
+                "You helped me, but I need more details",
+                "It was helpful, but I want more examples",
+                "You helped me, but I didn't solve my doubt",
+                "It was a helpful response",
+                "Thank you, but I want more details.",
+                "I understand, but I want examples",
+                "The answer was accurate, but I want more details.",
+                "It was enough, thank you.",
+                "Thanks for the help, but it wasn't what I was looking for.",
+                "It wasn't exactly what I thought",
+                "You explained it well, but I want more details.",
+                "I'm not completely satisfied",
+                "Thanks for the reply, but I have some doubts.",
+                "The information was useful, but not enough",
+                "The answer was adequate, but I need more examples.",
+                "You helped me, but I would like more details",
+                "That was helpful, but not complete.",
+                "The response was good",
+                "That was good, but I want more practical examples.",
+                "You gave me a good answer, but I want to know more.",
+                "It was helpful, but I want examples",
+                "It was good, but something is missing"
+            ],
+            "responses": [
+                "Thanks for your feedback, I will take it into account.",
+                "I appreciate your comment, I will do my best to improve.",
+                "Thanks, I'm glad it was helpful to you.",
+                "Thank you for your comments, I will take them into account.",
+                "Thanks, I'll try to improve my answer.",
+                "I really appreciate your opinion.",
+                "Thanks, I'll keep working on it.",
+                "Thanks for your feedback, I will take it into account.",
+                "I appreciate the feedback",
+                "Thanks, I'm glad to hear it was helpful.",
+                "I appreciate your comments",
+                "Thanks, I'll try to do better next time.",
+                "Thank you, I hope I can continue helping you.",
+                "Thank you, I will take your comment into account.",
+                "I'm glad it was helpful, thanks",
+                "Thanks for saying that, I'll keep improving!",
+                "Thanks for the suggestion, I will take it into account.",
+                "Thank you for sharing your opinion",
+                "Thank you, I will continue to improve it.",
+                "Thanks, I'll keep that in mind for future answers.",
+                "Thank you, I hope I can offer you better help next time.",
+                "Thanks for the suggestion",
+                "I appreciate you saying that, I will try to improve.",
+                "Thank you for your words, I will continue working to give you better answers.",
+                "Thank you, I hope it will be even more useful next time.",
+                "I appreciate your feedback, I'll keep working on it!",
+                "Thanks for the feedback, I will try harder.",
+                "I appreciate your opinion, I will take it into account to improve.",
+                "Thank you, I will continue to improve.",
+                "Thank you, I will take your opinion into account.",
+                "I appreciate your comments, I will improve on the next one!",
+                "I appreciate you taking the time to give me your opinion.",
+                "Thanks for commenting, I will improve further!"
+            ]
+        },
+        {
+            "tag": "consulta_chistes",
+            "patterns": [
+                "tell me a joke",
+                "tell me something funny",
+                "do you know any jokes",
+                "make me laugh",
+                "Tell me something funny",
+                "tell me a joke",
+                "Do you know any riddles?",
+                "Tell me a difficult riddle",
+                "I'm curious to hear a joke",
+                "Tell me an animal joke",
+                "Do you know any children's jokes?",
+                "Do you have any riddles for me?",
+                "Play a joke on me",
+                "Tell me a funny story",
+                "Can you tell me an easy riddle?",
+                "How about a dark humor joke?",
+                "I want to hear something funny",
+                "Do you have a joke for today?",
+                "Tell me a funny joke",
+                "Tell me something to laugh about",
+                "Do you know any math jokes?",
+                "Tell me a classic riddle",
+                "Do you have any jokes to cheer me up?",
+                "Do you know any office jokes?",
+                "Make me think with a riddle",
+                "Can you tell me an animal joke?",
+                "Tell me a short and funny joke",
+                "I want to hear a food joke",
+                "Do you know any jokes about school?",
+                "Tell me a Christmas riddle",
+                "Can you tell me a joke for kids?",
+                "Tell me a joke about work",
+                "Tell me a doctor joke",
+                "Do you have a technology joke?",
+                "Make me laugh with a riddle",
+                "Do you have any jokes about friends?",
+                "Can you tell me a joke about teachers?",
+                "Do you know any animal riddles?",
+                "Tell me a sports joke",
+                "Tell me a joke about work",
+                "Make me think with a difficult riddle",
+                "Do you have any jokes to tell me?",
+                "Tell me an adult joke",
+                "Can you tell me a fun riddle?",
+                "Make me laugh with a short joke",
+                "Tell me a funny riddle",
+                "Do you have a Christmas joke?",
+                "Tell me a light joke",
+                "Tell me a party joke",
+                "Tell me a fruit joke",
+                "Tell me a new joke",
+                "Do you have a funny riddle?",
+                "Do you know any tech jokes?",
+                "Tell me a funny animal joke",
+                "Do you know a fun riddle?",
+                "I want to laugh, do you have a joke?",
+                "Tell me a trick riddle",
+                "Tell me something to laugh about",
+                "Make me laugh with a clever joke",
+                "Do you have any bad but funny jokes?",
+                "Tell me a riddle that will surprise me",
+                "Tell me a silly joke",
+                "Do you know any riddles about food?",
+                "Tell me a short and bad joke",
+                "Tell me a joke for kids",
+                "Do you know a logic riddle?",
+                "Make me think with an original riddle",
+                "Do you have a joke to break the ice?",
+                "Tell me a short and funny story",
+                "Tell me a sports joke",
+                "Do you know a riddle about nature?",
+                "Tell me a joke about scientists",
+                "Tell me a complicated riddle",
+                "Make me a joke that makes me laugh a lot",
+                "Tell me an office joke",
+                "Do you know a riddle for little kids?",
+                "Tell me a silly animal joke",
+                "Tell me something funny about food",
+                "Do you know a joke about inventions?",
+                "Tell me an engineering joke",
+                "Tell me a riddle about animals",
+                "Do you know any short but funny jokes?",
+                "Tell me a math joke",
+                "Make me laugh with something unexpected",
+                "Tell me a birthday joke",
+                "Do you have a riddle about everyday objects?",
+                "Tell me a classic joke",
+                "Do you know any riddles about the weather?",
+                "Tell me something fun about sports",
+                "Make me laugh with a cooking joke",
+                "Do you have a joke for children?",
+                "Tell me a riddle that is difficult",
+                "Tell me a joke about friends",
+                "Do you know a joke about doctors?",
+                "Tell me a riddle to think about",
+                "Tell me a travel joke",
+                "Do you know any jokes about weird animals?",
+                "Tell me a joke about school",
+                "Ask me a fun question",
+                "Tell me a joke about professions",
+                "Do you know any fun logic riddles?",
+                "Tell me a joke that involves food",
+                "Tell me something funny about the office",
+                "Make me laugh with something unexpected",
+                "Do you know a riddle about mysterious things?",
+                "Tell me a joke related to nature",
+                "Tell me a riddle about space",
+                "Make me a joke about technology",
+                "Tell me a joke about things at home"
+            ],
+            "responses": [
+                "What does one jaguar say to another jaguar? Jaguar you",
+                "Why do circus seals always look up? Because that's where the spotlights are.",
+                "What does an iguana say to its twin sister? We are little iguanas",
+                "Why don't birds use Facebook? Because they already have Twitter",
+                "What does a dog do with a drill? Drilling",
+                "Why do programmers prefer dark nights? Because bugs are better visible in dark mode.",
+                "What does one bit say to the other? Don't get all stale with me!",
+                "What does an astronaut do after eating? He goes to the digestive space.",
+                "Why was the math book sad? Because it had too many problems.",
+                "What is the oldest animal? The zebra, because it is black and white.",
+                "Why can't the turkey play football? Because he's always on the bench.",
+                "What does one worm say to another worm? I'm going for a walk around the block!",
+                "What does a bee do in the gym? Buzz!",
+                "Why doesn't the elephant use a computer? Because he's afraid of the mouse.",
+                "What is the worst thing for an electrician? Not finding his current work.",
+                "Why don't birds use Facebook? Because they already have Twitter.",
+                "What do you call a boomerang that doesn't come back? A stick.",
+                "Why are history books so heavy? Because they are full of the past.",
+                "What does one printer say to another? That page is mine.",
+                "What do you call a dog without legs? No matter what you call it, it's not going to come.",
+                "Why don't fish use Facebook? Because they're already on social media.",
+                "Do you know what the funniest fruit is? The orange, because it always makes you smile.",
+                "What does a dog do with a drill? Drilling.",
+                "What do you call a mouse who becomes a rock star? Mick Ratson!",
+                "Why don't cows use cell phones? Because they already have cow-ness.",
+                "Do you know what a baker's worst nightmare is? Not having any dough.",
+                "What do you call a dinosaur with a large vocabulary? A Thesaurus.",
+                "What does an iguana say to its twin sister? We are little iguanas.",
+                "Do you know what is the worst thing for a gardener? Not knowing where the root of the problem is.",
+                "What is the most dangerous coffee? The ex-convict.",
+                "Do you know which is the most intelligent animal? The dolphin, because it is always looking for answers.",
+                "Guess, guess: I am light as a feather, but even the strongest man cannot hold me up for long. What am I?",
+                "I have a riddle: The more you take away from it, the bigger it gets. What is it?",
+                "I'm small, round, and I don't like being squashed. What am I?",
+                "Guess: It's as tall as a house, but it's as light as a feather. What is it?",
+                "I have needles but I don't know how to sew. What am I?",
+                "I am invisible, but you can feel me. I have no form, but I am always present. What am I?",
+                "Guess: What has a head but no body?",
+                "Guess: I am the beginning of everything, but you will never see me. Who am I?",
+                "Guess: It has teeth but never bites. What is it?",
+                "I am small, white and slippery. What am I?",
+                "Guess: It's yours, but other people use it more than you. What is it?",
+                "Guess: It has leaves but it is not a tree. What is it?",
+                "Why don't zombies eat vegetarian meat? Because they can't resist human flesh.",
+                "Guess: He has keys but he can't open doors. What is it?",
+                "What did one to ten say? To be like me, you have to be honest.",
+                "Guess what the worst thing is for a mailman? Not having good letters.",
+                "Guess who has the key to everything but never lets himself be seen?",
+                "Guess: If I'm the king of the jungle, what am I?",
+                "I am something that when you share it, you have it more. What am I?",
+                "I am a box, but I don't keep things. What am I?",
+                "Guess: It has many parts but it can't move. What is it?",
+                "Guess: It can go everywhere, but it never moves. What is it?",
+                "I am a key that does not open doors. What am I?",
+                "I am something you can't see but it makes you feel. What am I?",
+                "Guess: What has a face but no eyes?",
+                "I am something that always changes shape but does not move. What am I?",
+                "I have many teeth but I don't bite. What am I?",
+                "Why do grapes never fight? Because they always come in bunches.",
+                "What does a banana do at the gym? It gets you fit!",
+                "Why did the computer go to the doctor? Because it had a virus.",
+                "What did the cow say to the cricket? Moo-o-o!",
+                "What's the worst thing for a snail? Being late to its own party.",
+                "Guess: What goes up but never goes down? Your age.",
+                "Why are brooms good friends? Because they always sweep away your problems.",
+                "What does one screw say to another? Don't get on my nerves!",
+                "Why doesn't the tomato laugh? Because it's in sauce.",
+                "What does a scientist do on the beach? He experiments with waves!",
+                "Why are clocks so punctual? Because they always have time.",
+                "Guess: What is something that walks but has no legs? A shadow.",
+                "What is a chair doing in public speaking? It's giving a lecture!",
+                "Why don't trees wear hats? Because they have branches to protect themselves.",
+                "What happens if you mix a scientist and a comedian? A hilarious experiment!",
+                "Guess: I have eyes but I can't see, what am I? A needle.",
+                "What is a crocodile doing reading a book? He's devouring the story!",
+                "Why are athletes always happy? Because they're on a roll.",
+                "Guess what you can catch but never throw? A cold.",
+                "What does the grass say to the gardener? Mow it in style!",
+                "Why are musicians good at guessing? Because they always get things right.",
+                "Guess: It has legs but it doesn't run, what is it? A table.",
+                "Why don't the stars tell secrets? Because they always shine.",
+                "What does ice cream do at a party? It melts with excitement!",
+                "Guess: What has teeth but doesn't eat? A comb.",
+                "What makes a happy phone? Good coverage.",
+                "Why don't computers dream? Because they only process data.",
+                "What does an orange do when it's hot? It squeezes!",
+                "Why are bees always busy? Because they work with honey.",
+                "Guess: What has one eye but can't see? A needle.",
+                "Why is the geometry book always happy? Because it has many positive angles!",
+                "What did one dog say to another? Wow, what a day!",
+                "Why are numbers always cold? Because they are on a straight line.",
+                "What did one volcano say to another? I love you, lava time!",
+                "Why did the bread go to the doctor? Because it felt crumbly.",
+                "Guess: It has wings but it doesn't fly, what is it? A fan.",
+                "What does a bird do when it is scared? It calls for help from the net!",
+                "Why are astronauts bad at telling jokes? Because they always need space.",
+                "What is a fish doing in the library? Nothing.",
+                "Why can't bikes stand up? Because they're tired!",
+                "What did the computer say to the keyboard? Don't push me so hard!",
+                "What has feathers and writes? A bird pen!",
+                "Why did the melon marry the watermelon? Because they made a great couple!",
+                "Guess: I have leaves but I'm not a tree, what am I? A book.",
+                "Why do students love traffic lights? Because they tell them when to stop.",
+                "What does a chicken do with a camera? It takes extraordinary photos of eggs!",
+                "Why are clocks so wise? Because they always have a good time.",
+                "What did the pencil say to the paper? I am at your service!",
+                "Guess: I am something that never stays still and is always changing, what am I? Time.",
+                "Why don't zebras wear pajamas? Because they already have stripes.",
+                "What's a tomato doing in a race? Ketchup!",
+                "Why did the scientist cross the road? To find another hypothesis!",
+                "What does the oven say to the cake? You're on point!",
+                "Why do elephants never forget? Because they have an elephantine memory.",
+                "Guess: It's round and sometimes flat, but it always lights up the sky. What is it? The moon.",
+                "What does a crocodile do with a car? He turns it into a convertible!",
+                "Why don't sheep send emails? They prefer woolly messages!",
+                "What does a cloud do at a party? It brings lightning and thunder of excitement!",
+                "Why do penguins never get lost? Because they are always in the polar cold!",
+                "What is a carrot doing at a concert? Musical roots!"
+            ]
+        },
+        {
+            "tag": "consulta_frases",
+            "patterns": [
+                "Tell me an inspiring phrase",
+                "phrase",
+                "some phrase",
+                "give me some phrase",
+                "I need motivation",
+                "a phrase to reflect on",
+                "tell me something inspiring",
+                "a motivational phrase",
+                "Give me an inspiring phrase",
+                "Do you have any motivational quotes?",
+                "Tell me a phrase that inspires me",
+                "I want to read a phrase that motivates me",
+                "Do you have any personal improvement quotes?",
+                "Give me a phrase that makes me think",
+                "I want a positive phrase",
+                "Tell me something that gives me hope",
+                "Do you know any phrases about success?",
+                "Can you give me a quote that inspires me to keep going?",
+                "Tell me a phrase about life",
+                "Do you have any phrases that help me become stronger?",
+                "Give me a phrase that makes me feel better",
+                "Do you have a quote about perseverance?",
+                "Tell me a phrase that motivates me to improve",
+                "I want a phrase of encouragement",
+                "Give me a phrase that motivates me not to give up",
+                "Can you give me a quote about effort?",
+                "I want to hear a phrase about hard work",
+                "Do you know any phrase that talks about courage?",
+                "Tell me a phrase about courage",
+                "Do you have any quotes about change?",
+                "Give me a quote from someone famous",
+                "Can you tell me a sentence about hope?",
+                "I want to read a sentence about the future",
+                "Do you have any quotes about trust?",
+                "Give me a quote about resilience",
+                "Can you give me a quote about daily motivation?",
+                "I want a phrase about life and love",
+                "Tell me a phrase about strength",
+                "Give me a phrase that helps me move forward",
+                "Do you have any phrases that inspire peace?",
+                "I want a phrase about optimism",
+                "Do you know any phrases about personal success?",
+                "Give me a phrase that makes me reflect",
+                "Can you give me a quote that inspires me to be better?",
+                "I want to hear a phrase about overcoming",
+                "Tell me a phrase that gives me energy",
+                "Do you have a quote about personal growth?",
+                "Give me a quote about learning from mistakes",
+                "I want a phrase about achieving goals",
+                "Do you know any phrases about patience?",
+                "Give me a phrase that helps me find inner peace",
+                "Tell me a phrase about happiness",
+                "Give me a phrase that makes me feel inspired",
+                "Do you have a quote that talks about the value of continuing to fight?"
+            ],
+            "responses": [
+                "Life is not measured by the number of breaths we take, but by the moments that take our breath away. George Carlin",
+                "Don't give up, every failure is a lesson to achieve success. Albert Einstein",
+                "The only thing that is impossible is what you don't try. Jeanette Coron",
+                "Happiness is not something ready-made. It comes from your own actions. Dalai Lama",
+                "The future belongs to those who believe in the beauty of their dreams. Eleanor Roosevelt",
+                "What doesn't kill you makes you stronger. Friedrich Nietzsche",
+                "Do today what others do not want to do, do tomorrow what others cannot do. Jerry Rice",
+                "The only way to do great work is to love what you do. Steve Jobs",
+                "Success is the sum of small efforts repeated day after day. Robert Collier",
+                "It doesn't matter how many times you fall, what matters is how many times you get up. Nelson Mandela",
+                "The only place where success comes before work is in the dictionary. Vidal Sassoon",
+                "Be the change you wish to see in the world. Mahatma Gandhi",
+                "If you can dream it, you can do it. Walt Disney",
+                "The best way to predict the future is to create it. Abraham Lincoln",
+                "There is no path to happiness, happiness is the path. Buddha",
+                "Perseverance is the key to success. Charlie Chaplin",
+                "When one door closes, another opens. Alexander Graham Bell",
+                "Everything you can imagine is real. Pablo Picasso",
+                "The only way to do great work is to love what you do. Steve Jobs",
+                "Pain is temporary, glory is forever. Lance Armstrong",
+                "Life is like riding a bicycle. To keep your balance, you must keep moving forward. Albert Einstein",
+                "Our greatest fear is not that we are inadequate, our greatest fear is that we are powerful beyond measure. Marianne Williamson",
+                "The man who moves mountains begins by carrying small stones. Confucius",
+                "It is during our darkest moments that we must focus to see the light. Aristotle",
+                "The key to success is starting before you are ready. Marie Forleo",
+                "The best way to predict your future is to create it. Abraham Lincoln",
+                "Life is 10% what happens to us and 90% how we react to it. Charles R. Swindoll",
+                "The biggest mistake you can make is to be afraid of making mistakes. Elbert Hubbard",
+                "Only those who dare to fail greatly will succeed greatly. Robert F. Kennedy",
+                "Success is the ability to go from failure to failure without losing enthusiasm. - Winston Churchill",
+                "The only limit to our achievement tomorrow is our doubts and hesitations today. Franklin D. Roosevelt",
+                "Do what you can, with what you have, where you are. Theodore Roosevelt",
+                "Life is short, don't waste your time living someone else's life. Steve Jobs",
+                "Remember that not getting what you want is sometimes a wonderful stroke of luck. Dalai Lama",
+                "Peace begins with a smile. Mother Teresa",
+                "Your life doesn't get better by chance, it gets better by change. Jim Rohn",
+                "Don't look at the clock; do what it does, keep going. Sam Levenson",
+                "Strength does not come from bodily capacity, but from the will of the soul. Mahatma Gandhi",
+                "Make your life a dream, and your dream a reality. Antoine de Saint Exupéry"
+            ]
+        },
+        {
+            "tag": "consulta_recomendacion_libros",
+            "patterns": [
+                "Recommend me a book",
+                "What book do you suggest me?",
+                "what can i read",
+                "I'm looking for a good book",
+                "Recommended books",
+                "What book should I read?",
+                "Recommend me a book",
+                "What book do you suggest I read?"
+            ],
+            "responses": [
+                "I recommend '100 Years of Solitude' by Gabriel García Márquez, it is a classic of literature",
+                "Antoine de Saint-Exupéry's 'The Little Prince' is a read that everyone should enjoy",
+                "Gabriel García Márquez's 'One Hundred Years of Solitude' is a masterpiece",
+                "George Orwell's '1984' is a must-read",
+                "'Don Quixote of La Mancha' is considered the best work of Spanish literature",
+                "If you like mystery books, I recommend 'The Girl on the Train' by Paula Hawkins.",
+                "For a classic read, Jane Austen's 'Pride and Prejudice' is an excellent choice.",
+                "If you're looking for a science fiction book, Frank Herbert's 'Dune' is a masterpiece of the genre.",
+                "I recommend 'The Alchemist' by Paulo Coelho, a book about following your dreams.",
+                "For an epic fantasy read, George R.R. Martin's 'Game of Thrones' is a popular choice."
+            ]
+        },
+        {
+            "tag": "consulta_recomendacion_peliculas",
+            "patterns": [
+                "Recommend me a movie",
+                "What movie can I watch?",
+                "recommended movie",
+                "I'm looking for a good movie",
+                "What movie do you suggest me?",
+                "Which movie should I watch?",
+                "Recommend me a movie",
+                "What movie could I watch?",
+                "Do you recommend me to watch some animated series?"
+            ],
+            "responses": [
+                "I recommend 'The Godfather', it's a classic film that you can't miss.",
+                "'The Lord of the Rings' is an epic trilogy that you will love",
+                "'Forrest Gump' is an emotional and entertaining film",
+                "'Matrix' is a film that revolutionized the science fiction genre",
+                "'City of God' is a striking and very well-made Brazilian film",
+                "Film: 'Inception' directed by Christopher Nolan.",
+                "Film: 'Schindler's List' directed by Steven Spielberg.",
+                "Film: 'Fight Club' directed by David Fincher.",
+                "Film: 'The Dark Knight' directed by Christopher Nolan.",
+                "Film: 'Interstellar' directed by Christopher Nolan.",
+                "I recommend 'The Amazing Life of Walter Mitty', it's an inspiring and adventurous movie",
+                "I recommend you watch both seasons of Arcane, it's a Netflix animated series that is very good."
+            ]
+        },
+        {
+            "tag": "consulta_recomendacion_pelisChristopherNolan",
+            "patterns": [
+                "Recommend me a Christopher Nolan movie",
+                "What Christopher Nolan movie do you suggest?",
+                "Any Christopher Nolan movie you recommend?",
+                "Christopher Nolan movie",
+                "What Christopher Nolan movie do you recommend?",
+                "Recommend me a Christopher Nolan movie",
+                "Any Christopher Nolan movie you recommend?"
+            ],
+            "responses": [
+                "I recommend the movie: 'Inception' directed by Christopher Nolan.",
+                "I recommend the movie: 'Schindler's List' directed by Steven Spielberg.",
+                "I recommend the movie: 'Fight Club' directed by David Fincher.",
+                "I recommend the movie: 'The Dark Knight' directed by Christopher Nolan.",
+                "I recommend the movie: 'Interstellar' directed by Christopher Nolan."
+            ]
+        },
+        {
+            "tag": "consulta_recomendacion_pelinavidad",
+            "patterns": [
+                "Recommend me a movie to watch at Christmas",
+                "What movie do you suggest I watch at Christmas?",
+                "Any movie you recommend me to watch at Christmas?",
+                "movie to watch at christmas",
+                "What Christmas movie do you recommend?",
+                "Recommend me a movie to watch at Christmas",
+                "Any Christmas movie you recommend me?"
+            ],
+            "responses": [
+                "I recommend Home Alone 1 and 2, they are classic Christmas movies."
+            ]
+        },
+        {
+            "tag": "consulta_recomendacion_pelishallowen",
+            "patterns": [
+                "Recommend me a movie to watch on Halloween",
+                "What movie do you suggest I watch on Halloween?",
+                "Any movie you recommend me to watch on Halloween?",
+                "movie to watch on halloween",
+                "What Halloween movie do you recommend?",
+                "Recommend me a movie to watch on Halloween",
+                "Any Halloween movie you recommend me?"
+            ],
+            "responses": [
+                "You could watch 'Nightmare Before Christmas' is a perfect animated movie for Halloween"
+            ]
+        },
+        {
+            "tag": "consulta_recomendacion_musica",
+            "patterns": [
+                "recommend me music",
+                "What music do you suggest me?",
+                "Recommended artists",
+                "good albums",
+                "recommended songs",
+                "what can i hear new",
+                "Something you recommend me to listen to",
+                "Any song you recommend me?"
+            ],
+            "responses": [
+                "I recommend you listen to 'Dark Side of the Moon' by Pink Floyd, it's a legendary album",
+                "Michael Jackson's 'Thriller' Album Is The Best-Selling Album Of All Time For Good Reason",
+                "Queen's 'Bohemian Rhapsody' is a song everyone should listen to",
+                "If you like rock in Spanish, Soda Stereo has great albums like 'Canción Animal'",
+                "The Beatles have masterpieces like 'Abbey Road' that are worth listening to",
+                "I recommend you listen to 'From Zero' by Linkin Park, it is a very interesting album because the new vocalist named Emily Armstrong sings on it.",
+                "I recommend you listen to the song 'Ma Meilleure Ennemie' by Stromae and Pomme, it is a very romantic and melodic song that was recently released for the second season of Arcane.",
+                "If you like electronic music, I recommend listening to 'Wake me up' by Avicci, it's a very good and melancholic song."
+            ]
+        },
+        {
+            "tag": "consulta_recomendacion_musicaelp",
+            "patterns": [
+                "Recommend me a song from From Zero",
+                "What song from From Zero do you suggest?",
+                "Any song from From Zero that you recommend me?",
+                "song from From Zero",
+                "What song from From Zero do you recommend?",
+                "Recommend me a song from From Zero",
+                "Any song from From Zero that you recommend me?",
+                "Recommend me a Linkin Park song"
+            ],
+            "responses": [
+                "From Linkin Park's latest album From Zero, I recommend listening to 'The Emptiness Machine', it's a very good song.",
+                "I also recommend listening to 'Heavy Is the Crown', it's a song that will remind you of the old Linkin Park, and it was also the song for the 2024 League of Legends Worlds."
+            ]
+        },
+        {
+            "tag": "consulta_estado_animo",
+            "patterns": [
+                "I'm sad",
+                "I don't feel well",
+                "I'm happy",
+                "I'm worried",
+                "I'm afraid",
+                "I feel alone"
+            ],
+            "responses": [
+                "I understand how you feel. Remember that all feelings are temporary.",
+                "It's normal to feel this way sometimes. Do you want to talk about it?",
+                "I'm glad you share your feelings with me.",
+                "I'm here to listen to you",
+                "Your feelings are valid and important."
+            ]
+        },
+        {
+            "tag": "consulta_clima",
+            "patterns": [
+                "what's the weather like",
+                "It's going to rain",
+                "it's hot",
+                "It's cold",
+                "how is the weather",
+                "what time is it"
+            ],
+            "responses": [
+                "Sorry, I don't have access to real-time weather information.",
+                "I suggest you consult a local weather service.",
+                "I can't give you accurate information about the current weather.",
+                "To know the weather, it is better to check a weather app.",
+                "I don't have any updated data on the weather.",
+                "Sorry, I don't have any information about the hours."
+            ]
+        },
+        {
+            "tag": "consulta_información_general",
+            "patterns": [
+                "What can you do?",
+                "What are you good for?",
+                "How can you help me?",
+                "What is your role?",
+                "How can you help me?",
+                "What kind of things do you recommend?",
+                "In what languages ​​can you respond?",
+                "can you answer in english"
+            ],
+            "responses": [
+                "I can help you with information, answer questions, recommend content, and much more.",
+                "I'm here to answer your questions, chat, or simply make your day more enjoyable.",
+                "My role is to be your virtual assistant, ready to help you with whatever you need.",
+                "From recommendations to jokes, you can ask me anything you want!",
+                "I can help you with book, movie, and music recommendations, I can tell you jokes, I can give you a quote, I can also generate code in Python and JavaScript, and importantly, in English.",
+                "I can recommend you books, movies, music, inspirational quotes",
+                "I can answer in Spanish and English",
+                "Yes, I can answer in English"
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesgeorgecarlin",
+            "patterns": [
+                "Who is George Carlin?",
+                "Who is George Carlin?",
+                "who is george carlin?",
+                "Who is George Carlin?"
+            ],
+            "responses": [
+                "George Carlin was a comedian, actor, and author known for his incisive humor and reflections on life."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesalberteinstein",
+            "patterns": [
+                "Who is Albert Einstein?",
+                "Who is Albert Einstein",
+                "Who is Albert Einstein?",
+                "Who is Albert Einstein",
+                "Who is Albert Einstein?",
+                "Who is Albert Einstein?"
+            ],
+            "responses": [
+                "Albert Einstein was a German theoretical physicist known for developing the theory of relativity."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesjeanettecoron",
+            "patterns": [
+                "Who is Jeanette Coron?",
+                "Who is Jeanette Coron?",
+                "Who is Jeanette Coron?",
+                "Who is Jeanette Coron?",
+                "who is jeanette coron",
+                "Who is Jeanette Coron?"
+            ],
+            "responses": [
+                "Jeanette Coron is known for her inspirational and motivational quotes."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesdalailama",
+            "patterns": [
+                "Who is the Dalai Lama?",
+                "Who is the Dalai Lama?",
+                "who is the dalai lama?",
+                "Who is the Dalai Lama?",
+                "Who is the Dalai Lama?",
+                "Who is the Dalai Lama?"
+            ],
+            "responses": [
+                "The Dalai Lama is the spiritual leader of Tibetan Buddhism and an advocate of peace and compassion."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_fraseseleanorroosevelt",
+            "patterns": [
+                "Who is Eleanor Roosevelt?",
+                "Who is Eleanor Roosevelt?",
+                "Who is Eleanor Roosevelt?",
+                "Who is Eleanor Roosevelt",
+                "Who is Eleanor Roosevelt?",
+                "Who is Eleanor Roosevelt?"
+            ],
+            "responses": [
+                "Eleanor Roosevelt was a diplomat, activist, and First Lady of the United States."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesfriedrichnietzsche",
+            "patterns": [
+                "Who is Friedrich Nietzsche?",
+                "Who is Friedrich Nietzsche",
+                "Who is Friedrich Nietzsche?",
+                "Who is Friedrich Nietzsche",
+                "Who is Friedrich Nietzsche?",
+                "Who is Friedrich Nietzsche?"
+            ],
+            "responses": [
+                "Friedrich Nietzsche was a German philosopher known for his works on existentialism and morality."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesjerryrice",
+            "patterns": [
+                "Who is Jerry Rice?",
+                "Who is Jerry Rice?",
+                "who is jerry rice?",
+                "Who is Jerry Rice?",
+                "who is jerry rice",
+                "Who is Jerry Rice?"
+            ],
+            "responses": [
+                "Jerry Rice is a former professional American football player considered one of the best receivers in the NFL."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesstevejobs",
+            "patterns": [
+                "Who is Steve Jobs?",
+                "Who is Steve Jobs?",
+                "who is steve jobs?",
+                "Who is Steve Jobs",
+                "who is steve jobs",
+                "Who is Steve Jobs?"
+            ],
+            "responses": [
+                "Steve Jobs was an American businessman and inventor, co-founder of Apple Inc."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesrobertcollier",
+            "patterns": [
+                "Who is Robert Collier?",
+                "Who is Robert Collier?",
+                "Who is Robert Collier?",
+                "Who is Robert Collier",
+                "Who is Robert Collier?",
+                "Who is Robert Collier?"
+            ],
+            "responses": [
+                "Robert Collier was an American author and editor specializing in self-help books."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesnelsonmandela",
+            "patterns": [
+                "Who is Nelson Mandela?",
+                "Who is Nelson Mandela?",
+                "who is nelson mandela?",
+                "Who is Nelson Mandela",
+                "who is nelson mandela",
+                "Who is Nelson Mandela?"
+            ],
+            "responses": [
+                "Nelson Mandela was a South African political leader and a global symbol of the fight against apartheid."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesnealedonaldwalsch",
+            "patterns": [
+                "Who is Neale Donald Walsch?",
+                "Who is Neale Donald Walsch?",
+                "Who is Neale Donald Walsch?",
+                "Who is Neale Donald Walsch",
+                "who is neale donald walsch",
+                "Who is Neale Donald Walsch?"
+            ],
+            "responses": [
+                "Neale Donald Walsch is an author known for his spirituality and self-help books."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesvidalsassoon",
+            "patterns": [
+                "Who is Vidal Sassoon?",
+                "Who is Vidal Sassoon?",
+                "Who is Vidal Sassoon?",
+                "Who is Vidal Sassoon?",
+                "Who is Vidal Sassoon?",
+                "Who is Vidal Sassoon?"
+            ],
+            "responses": [
+                "Vidal Sassoon was a British stylist and businessman who was revolutionary in the world of hairdressing."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesmahatmagandhi",
+            "patterns": [
+                "Who is Mahatma Gandhi?",
+                "Who is Mahatma Gandhi?",
+                "Who is Mahatma Gandhi?",
+                "Who is Mahatma Gandhi",
+                "who is mahatma gandhi",
+                "Who is Mahatma Gandhi?"
+            ],
+            "responses": [
+                "Mahatma Gandhi was an Indian political and spiritual leader, known for his nonviolent resistance."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_fraseswaltDisney",
+            "patterns": [
+                "Who is Walt Disney?",
+                "Who is Walt Disney?",
+                "Who is Walt Disney?",
+                "Who is Walt Disney",
+                "who is walt disney",
+                "Who is Walt Disney?"
+            ],
+            "responses": [
+                "Walt Disney was an animator, businessman and founder of The Walt Disney Company."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesabrahamlincoln",
+            "patterns": [
+                "Who is Abraham Lincoln?",
+                "Who is Abraham Lincoln?",
+                "Who is Abraham Lincoln?",
+                "Who is Abraham Lincoln?",
+                "Who is Abraham Lincoln?",
+                "Who is Abraham Lincoln?"
+            ],
+            "responses": [
+                "Abraham Lincoln was the 16th President of the United States and an advocate for the abolition of slavery."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesbuddha",
+            "patterns": [
+                "Who is Buddha?",
+                "Who is Buddha?",
+                "Who is Buddha?",
+                "Who is Buddha",
+                "Who is Buddha?",
+                "Who is Buddha?"
+            ],
+            "responses": [
+                "Buddha was a philosopher, meditator and spiritual leader and founder of Buddhism."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasescharliechaplin",
+            "patterns": [
+                "Who is Charlie Chaplin?",
+                "Who is Charlie Chaplin?",
+                "Who is Charlie Chaplin?",
+                "Who is Charlie Chaplin?",
+                "Who is Charlie Chaplin?",
+                "Who is Charlie Chaplin?"
+            ],
+            "responses": [
+                "Charlie Chaplin was a British actor, comedian and filmmaker, an icon of silent film."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesalexandergrahambell",
+            "patterns": [
+                "Who is Alexander Graham Bell?",
+                "Who is Alexander Graham Bell?",
+                "Who is Alexander Graham Bell?",
+                "Who is Alexander Graham Bell",
+                "who is alexander graham bell",
+                "Who is Alexander Graham Bell?"
+            ],
+            "responses": [
+                "Alexander Graham Bell was a scientist and inventor known for patenting the telephone."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasespablopicasso",
+            "patterns": [
+                "Who is Pablo Picasso?",
+                "Who is Pablo Picasso?",
+                "Who is Pablo Picasso?",
+                "Who is Pablo Picasso?",
+                "Who is Pablo Picasso?",
+                "Who is Pablo Picasso?"
+            ],
+            "responses": [
+                "Pablo Picasso was a Spanish painter and sculptor, co-founder of Cubism."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_fraseslancesrmstrong",
+            "patterns": [
+                "Who is Lance Armstrong?",
+                "Who is Lance Armstrong?",
+                "Who is Lance Armstrong?",
+                "Who is Lance Armstrong",
+                "Who is Lance Armstrong?",
+                "Who is Lance Armstrong?"
+            ],
+            "responses": [
+                "Lance Armstrong is an American former cyclist known for his achievements and controversies in cycling."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesmarieanneWilliamson",
+            "patterns": [
+                "Who is Marianne Williamson?",
+                "Who is Marianne Williamson?",
+                "Who is Marianne Williamson?",
+                "Who is Marianne Williamson?",
+                "who is marianne williamson",
+                "who is marianne williamson"
+            ],
+            "responses": [
+                "Marianne Williamson is an American author, activist, and motivational speaker."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesconfucio",
+            "patterns": [
+                "Who is Confucius?",
+                "Who is Confucius?",
+                "Who is Confucius?",
+                "Who is Confucius",
+                "Who is Confucius",
+                "Who is Confucius?"
+            ],
+            "responses": [
+                "Confucius was a Chinese philosopher whose teachings influenced Asian culture and morality."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesaristoteles",
+            "patterns": [
+                "Who is Aristotle?",
+                "Who is Aristotle?",
+                "Who is Aristotle?",
+                "Who is Aristotle?",
+                "Who is Aristotle?",
+                "Who is Aristotle?"
+            ],
+            "responses": [
+                "Aristotle was a Greek philosopher, disciple of Plato and teacher of Alexander the Great."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesmarieforleo",
+            "patterns": [
+                "Who is Marie Forleo?",
+                "Who is Marie Forleo?",
+                "Who is Marie Forleo?",
+                "Who is Marie Forleo?",
+                "Who is Marie Forleo?",
+                "Who is Marie Forleo?"
+            ],
+            "responses": [
+                "Marie Forleo is an author and entrepreneur known for her motivational advice."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasescharlesrswindoll",
+            "patterns": [
+                "Who is Charles R. Swindoll?",
+                "Who is Charles R. Swindoll?",
+                "Who is Charles R. Swindoll?",
+                "Who is Charles R. Swindoll",
+                "who is charles r. swindoll",
+                "who is charles r. swindoll"
+            ],
+            "responses": [
+                "Charles R. Swindoll is a Christian author and pastor known for his self-help books."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_fraseselberthubbard",
+            "patterns": [
+                "Who is Elbert Hubbard?",
+                "Who is Elbert Hubbard?",
+                "Who is Elbert Hubbard?",
+                "Who is Elbert Hubbard",
+                "Who is Elbert Hubbard?",
+                "Who is Elbert Hubbard?"
+            ],
+            "responses": [
+                "Elbert Hubbard was an American writer, editor, and philosopher."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesrobertfkennedy",
+            "patterns": [
+                "Who is Robert F. Kennedy?",
+                "Who is Robert F. Kennedy?",
+                "Who is Robert F. Kennedy?",
+                "Who is Robert F. Kennedy?",
+                "Who is Robert F. Kennedy?",
+                "Who is Robert F. Kennedy?"
+            ],
+            "responses": [
+                "Robert F. Kennedy was an American politician and lawyer, brother of President John F. Kennedy."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_fraseswinstonchurchill",
+            "patterns": [
+                "Who is Winston Churchill?",
+                "Who is Winston Churchill?",
+                "Who is Winston Churchill?",
+                "Who is Winston Churchill",
+                "who is winston churchill",
+                "Who is Winston Churchill?"
+            ],
+            "responses": [
+                "Winston Churchill was a statesman, writer and Prime Minister of the United Kingdom during World War II."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesfranklindroosevelt",
+            "patterns": [
+                "Who is Franklin D. Roosevelt?",
+                "Who is Franklin D. Roosevelt",
+                "Who is Franklin D. Roosevelt?",
+                "Who is Franklin D. Roosevelt",
+                "Who is Franklin D. Roosevelt?",
+                "Who is Franklin D. Roosevelt?"
+            ],
+            "responses": [
+                "Franklin D. Roosevelt was the 32nd President of the United States, leading the country through the Great Depression and World War II."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasestheodoreroosevelt",
+            "patterns": [
+                "Who is Theodore Roosevelt?",
+                "Who is Theodore Roosevelt?",
+                "Who is Theodore Roosevelt?",
+                "Who is Theodore Roosevelt",
+                "Who is Theodore Roosevelt?",
+                "Who is Theodore Roosevelt?"
+            ],
+            "responses": [
+                "Theodore Roosevelt was the 26th President of the United States and an advocate of conservationism."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesmariateresa",
+            "patterns": [
+                "Who is Mother Teresa?",
+                "Who is Mother Teresa?",
+                "Who is Mother Teresa?",
+                "Who is Mother Teresa",
+                "Who is Mother Teresa?",
+                "Who is Mother Teresa?"
+            ],
+            "responses": [
+                "Mother Teresa was a Catholic nun and missionary, known for her humanitarian work."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasesjimrohn",
+            "patterns": [
+                "Who is Jim Rohn?",
+                "Who is Jim Rohn?",
+                "Who is Jim Rohn?",
+                "Who is Jim Rohn",
+                "who is jim rohn",
+                "who is jim rohn"
+            ],
+            "responses": [
+                "Jim Rohn was an entrepreneur and motivator known for his teachings on personal development."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_antetiores_frasesSamLevenson",
+            "patterns": [
+                "Who is Sam Levenson?",
+                "Who is Sam Levenson?",
+                "Who is Sam Levenson?",
+                "Who is Sam Levenson?",
+                "who is sam levenson",
+                "Who is Sam Levenson?"
+            ],
+            "responses": [
+                "Sam Levenson was an American comedian, writer, and professor."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_frasessaintexupery",
+            "patterns": [
+                "Who is Antoine de Saint Exupéry?",
+                "Who is Antoine de Saint Exupéry?",
+                "Who is Antoine de Saint Exupéry?",
+                "Who is Antoine de Saint Exupéry?",
+                "Who is Antoine de Saint Exupéry?",
+                "Who is Antoine de Saint Exupéry?"
+            ],
+            "responses": [
+                "Antoine de Saint Exupéry was a French writer and aviator, author of 'The Little Prince'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_libroscienaniosdesoledad",
+            "patterns": [
+                "What is 100 Years of Solitude about?",
+                "What is 100 Years of Solitude about?",
+                "What is 100 Years of Solitude about?",
+                "What is 100 years of solitude about?"
+            ],
+            "responses": [
+                "'100 Years of Solitude' is about the story of the Buendía family in the fictional town of Macondo. It is a masterpiece of magical realism."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosgabrielgarciamarquez",
+            "patterns": [
+                "Who is Gabriel García Márquez?",
+                "Who is Gabriel Garcia Marquez?",
+                "Who is Gabriel García Márquez?",
+                "Who is Gabriel Garcia Marquez?",
+                "Who is Gabriel Garcia Marquez?",
+                "Who is Gabriel Garcia Marquez?"
+            ],
+            "responses": [
+                "Gabriel García Márquez was a Colombian writer and Nobel Prize winner in Literature known for his unique style and iconic works."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_libroselprincipito",
+            "patterns": [
+                "What is The Little Prince about?",
+                "What is The Little Prince about?",
+                "What is The Little Prince about?",
+                "What is The Little Prince about?"
+            ],
+            "responses": [
+                "'The Little Prince' is a book by French writer Antoine de Saint-Exupéry, a classic work of children's literature. It is about a boy who travels to different planets and learns lessons about life."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librossaintexupery",
+            "patterns": [
+                "Who is Antoine de Saint-Exupéry?",
+                "Who is Antoine de Saint-Exupéry?",
+                "Who is Antoine de Saint-Exupéry?",
+                "Who is Antoine de Saint-Exupéry?",
+                "Who is Antoine de Saint-Exupéry?",
+                "Who is Antoine de Saint-Exupéry?"
+            ],
+            "responses": [
+                "Antoine de Saint-Exupéry was a French writer, aviator and philosopher known for his work 'The Little Prince'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosmilnovescientosochentaicuatro",
+            "patterns": [
+                "What is 1984 about?",
+                "What is 1984 about?",
+                "What is 1984 about?",
+                "What is 1984 about?"
+            ],
+            "responses": [
+                "'1984' is a dystopian novel by British writer George Orwell, which reflects on totalitarianism and state surveillance."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosgeorgeorwell",
+            "patterns": [
+                "Who is George Orwell?",
+                "Who is George Orwell?",
+                "Who is George Orwell?",
+                "Who is George Orwell",
+                "Who is George Orwell?",
+                "Who is George Orwell?"
+            ],
+            "responses": [
+                "George Orwell was a British writer and journalist known for his dystopian novels such as '1984' and 'Animal Farm'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosdonquijote",
+            "patterns": [
+                "What is Don Quixote of La Mancha about?",
+                "What is Don Quixote of La Mancha about?",
+                "What is Don Quixote of La Mancha about?",
+                "What is Don Quixote of La Mancha about?"
+            ],
+            "responses": [
+                "'Don Quixote de la Mancha' is a novel by the Spanish writer Miguel de Cervantes, considered one of the best works of universal literature."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosjaneausten",
+            "patterns": [
+                "Who is Jane Austen?",
+                "Who is Jane Austen?",
+                "Who is Jane Austen?",
+                "Who is Jane Austen",
+                "who is jane austen",
+                "Who is Jane Austen?"
+            ],
+            "responses": [
+                "Jane Austen was a British writer known for her romance and costuming novels such as 'Pride and Prejudice'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosdune",
+            "patterns": [
+                "What is Dune about?",
+                "What is Dune about?",
+                "What is Dune about?",
+                "What is Dune about?"
+            ],
+            "responses": [
+                "'Dune' is a science fiction novel by American writer Frank Herbert, considered a masterpiece of the genre."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_antetiores_librosfrankherbert",
+            "patterns": [
+                "Who is Frank Herbert?",
+                "Who is Frank Herbert",
+                "Who is Frank Herbert?",
+                "Who is Frank Herbert",
+                "Who is Frank Herbert?",
+                "Who is Frank Herbert?"
+            ],
+            "responses": [
+                "Frank Herbert was an American science fiction writer known for his 'Dune' saga."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosalquimista",
+            "patterns": [
+                "What is The Alchemist about?",
+                "What is The Alchemist about?",
+                "What is The Alchemist about?",
+                "What is The Alchemist about?"
+            ],
+            "responses": [
+                "'The Alchemist' is a novel by Brazilian writer Paulo Coelho, which reflects on destiny and personal quest."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_libroscoelho",
+            "patterns": [
+                "Who is Paulo Coelho?",
+                "Who is Paulo Coelho?",
+                "Who is Paulo Coelho?",
+                "Who is Paulo Coelho?",
+                "Who is Paulo Coelho?",
+                "Who is Paulo Coelho?"
+            ],
+            "responses": [
+                "Paulo Coelho is a Brazilian writer known for his work 'The Alchemist' and his self-help and spirituality books."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosjuegodetronos",
+            "patterns": [
+                "What is Game of Thrones about?",
+                "What is Game of Thrones about?",
+                "What is Game of Thrones about?",
+                "What is Game of Thrones about?"
+            ],
+            "responses": [
+                "'Game of Thrones' is a series of epic fantasy novels written by George R.R. Martin, which inspired the television series 'Game of Thrones'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosgeorgerrmartin",
+            "patterns": [
+                "Who is George R.R. Martin?",
+                "Who is George R.R. Martin?",
+                "Who is George R.R. Martin?",
+                "Who is George R.R. Martin",
+                "who is george r.r. martin",
+                "who is george r.r. martin"
+            ],
+            "responses": [
+                "George R.R. Martin is an American writer known for his 'A Song of Ice and Fire' series of novels, which includes 'Game of Thrones'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosorgulloyprejuicio",
+            "patterns": [
+                "What is Pride and Prejudice about?",
+                "What is Pride and Prejudice about?",
+                "What is Pride and Prejudice about?",
+                "What is Pride and Prejudice about?"
+            ],
+            "responses": [
+                "'Pride and Prejudice' is a novel by British writer Jane Austen, a classic work of romantic literature."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosmatararuisenor",
+            "patterns": [
+                "What is To Kill a Mockingbird about?",
+                "What is To Kill a Mockingbird about?",
+                "What is To Kill a Mockingbird about?",
+                "What is To Kill a Mockingbird about?"
+            ],
+            "responses": [
+                "'To Kill a Mockingbird' is a novel by American writer Harper Lee, which addresses themes such as racial injustice and childhood."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librosHarperLee",
+            "patterns": [
+                "Who is Harper Lee?",
+                "Who is Harper Lee?",
+                "Who is Harper Lee?",
+                "Who is Harper Lee?",
+                "who is harper lee",
+                "Who is Harper Lee?"
+            ],
+            "responses": [
+                "Harper Lee was an American writer best known for her Pulitzer Prize-winning novel To Kill a Mockingbird."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_libroschicatren",
+            "patterns": [
+                "What is The Girl on the Train about?",
+                "What is The Girl on the Train about?",
+                "What is the girl on the train about?",
+                "What is the girl on the train about?"
+            ],
+            "responses": [
+                "'The Girl on the Train' is a novel by British writer Paula Hawkins, a psychological thriller about a woman obsessed with a partner."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_librospauhawkins",
+            "patterns": [
+                "Who is Paula Hawkins?",
+                "Who is Paula Hawkins?",
+                "Who is Paula Hawkins?",
+                "Who is Paula Hawkins?",
+                "who is paula hawkins",
+                "who is paula hawkins"
+            ],
+            "responses": [
+                "Paula Hawkins is a British writer known for her novel 'The Girl on the Train', an international bestseller."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculaspadrino",
+            "patterns": [
+                "What is The Godfather about?",
+                "What is The Godfather about?",
+                "What is The Godfather about?",
+                "What is The Godfather about?"
+            ],
+            "responses": [
+                "'The Godfather' is a film directed by Francis Ford Coppola that tells the story of the Corleone family in the world of the mafia."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculasforrestgump",
+            "patterns": [
+                "What is Forrest Gump about?",
+                "What is Forrest Gump about?",
+                "What is Forrest Gump about?",
+                "What is Forrest Gump about?"
+            ],
+            "responses": [
+                "'Forrest Gump' is a film directed by Robert Zemeckis that follows the life of an intellectually disabled man in the United States."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculastomhanks",
+            "patterns": [
+                "Who is Tom Hanks?",
+                "Who is Tom Hanks?",
+                "who is tom hanks?",
+                "Who is Tom Hanks",
+                "who is tom hanks",
+                "Who is Tom Hanks?"
+            ],
+            "responses": [
+                "Tom Hanks is an American actor and producer known for his roles in films such as 'Forrest Gump' and 'Cast Away'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculasmatrix",
+            "patterns": [
+                "What is Matrix about?",
+                "What is Matrix about?",
+                "What is Matrix about?",
+                "What is Matrix about?"
+            ],
+            "responses": [
+                "'The Matrix' is a science fiction film written and directed by the Wachowski sisters, which reflects on reality and simulation."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculasciudaddios",
+            "patterns": [
+                "What is City of God about?",
+                "What is City of God about?",
+                "What is City of God about?",
+                "What is City of God about?"
+            ],
+            "responses": [
+                "'City of God' is a Brazilian film directed by Fernando Meirelles and Kátia Lund that portrays life in the favelas of Rio de Janeiro."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculaselorigen",
+            "patterns": [
+                "What is The Origin about?",
+                "What is The Origin about?",
+                "What is The Origin about?",
+                "What is The Origin about?"
+            ],
+            "responses": [
+                "'Inception' is a science fiction film written and directed by Christopher Nolan, which explores dreams and reality."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculaschristophernolan",
+            "patterns": [
+                "Who is Christopher Nolan?",
+                "Who is Christopher Nolan?",
+                "Who is Christopher Nolan?",
+                "Who is Christopher Nolan",
+                "who is christopher nolan",
+                "Who is Christopher Nolan?"
+            ],
+            "responses": [
+                "Christopher Nolan is a British film director known for films such as 'Inception', 'The Dark Knight' and 'Interstellar'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculaslistashindler",
+            "patterns": [
+                "What is Schindler's List about?",
+                "What is Schindler's List about?",
+                "What is Schindler's List about?",
+                "What is Schindler's List about?"
+            ],
+            "responses": [
+                "'Schindler's List' is a film directed by Steven Spielberg that tells the true story of a businessman who saved Jews during the Holocaust."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculasstevenspielberg",
+            "patterns": [
+                "Who is Steven Spielberg?",
+                "Who is Steven Spielberg?",
+                "Who is Steven Spielberg?",
+                "Who is Steven Spielberg",
+                "who is steven spielberg",
+                "who is steven spielberg"
+            ],
+            "responses": [
+                "Steven Spielberg is an American film director known for films such as 'Jaws', 'E.T.' and 'Jurassic Park'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculasclubpelea",
+            "patterns": [
+                "What is Fight Club about?",
+                "What is Fight Club about?",
+                "What is Fight Club about?",
+                "What is fight club about?"
+            ],
+            "responses": [
+                "'Fight Club' is a film directed by David Fincher that reflects on masculinity and consumerism in contemporary society."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculasdavidfincher",
+            "patterns": [
+                "Who is David Fincher?",
+                "Who is David Fincher?",
+                "Who is David Fincher?",
+                "Who is David Fincher?",
+                "who is david fincher",
+                "Who is David Fincher?"
+            ],
+            "responses": [
+                "David Fincher is an American film director known for films such as 'Fight Club' and 'Gone Girl'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculascaballeronoche",
+            "patterns": [
+                "What is The Dark Knight about?",
+                "What is The Dark Knight about?",
+                "What is The Dark Knight about?",
+                "What is The Dark Knight about?"
+            ],
+            "responses": [
+                "'The Dark Knight' is a film directed by Christopher Nolan that follows the story of the superhero Batman and his confrontation with the Joker."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculasheadledger",
+            "patterns": [
+                "Who is Heath Ledger?",
+                "Who is Heath Ledger",
+                "who is Heath Ledger?",
+                "Who is Heath Ledger",
+                "Who is Heath Ledger?",
+                "Who is Heath Ledger?"
+            ],
+            "responses": [
+                "Heath Ledger was an Australian actor best known for his role as the Joker in 'The Dark Knight', for which he won a posthumous Oscar."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculasinterstellar",
+            "patterns": [
+                "What is Interstellar about?",
+                "What is Interstellar about?",
+                "What is Interstellar about?",
+                "What is Interstellar about?"
+            ],
+            "responses": [
+                "'Interstellar' is a science fiction film directed by Christopher Nolan that explores interstellar travel and the relationship between time and space."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_películasenioranillos",
+            "patterns": [
+                "What is The Lord of the Rings about?",
+                "What is The Lord of the Rings about?",
+                "What is the Lord of the Rings about?",
+                "What is The Lord of the Rings about?"
+            ],
+            "responses": [
+                "'The Lord of the Rings' is a trilogy of films directed by Peter Jackson based on the work of J.R.R. Tolkien, which tells the story of the struggle for the One Ring."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculaspeterjackson",
+            "patterns": [
+                "Who is Peter Jackson?",
+                "Who is Peter Jackson?",
+                "who is peter jackson?",
+                "Who is Peter Jackson",
+                "Who is Peter Jackson?",
+                "Who is Peter Jackson?"
+            ],
+            "responses": [
+                "Peter Jackson is a New Zealand film director known for his work on 'The Lord of the Rings' trilogy and 'The Hobbit'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculatolkien",
+            "patterns": [
+                "Who is J.R.R. Tolkien?",
+                "Who is J.R.R. Tolkien?",
+                "Who is J.R.R. Tolkien?",
+                "Who is J.R.R. Tolkien?",
+                "who is j.r.r. tolkien",
+                "Who is J.R.R. Tolkien?"
+            ],
+            "responses": [
+                "J.R.R. Tolkien was a British writer and philologist known for his work 'The Lord of the Rings' and 'The Hobbit'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculaspobreangelito",
+            "patterns": [
+                "What is My Poor Little Angel about?",
+                "What is My Poor Little Angel about?",
+                "What is My Poor Little Angel about?",
+                "What is My Poor Little Angel about?"
+            ],
+            "responses": [
+                "'Home Alone' is a Christmas comedy film directed by Chris Columbus that follows the adventures of a boy who is left home alone."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculaspesadillnavidad",
+            "patterns": [
+                "What is The Nightmare Before Christmas about?",
+                "What is The Nightmare Before Christmas about?",
+                "What is the Nightmare Before Christmas about?",
+                "What is the Nightmare Before Christmas about?"
+            ],
+            "responses": [
+                "'The Nightmare Before Christmas' is an animated film directed by Henry Selick and produced by Tim Burton, which combines Halloween and Christmas in a unique story."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculaswaltermitty",
+            "patterns": [
+                "What is The Amazing Life of Walter Mitty about?",
+                "What is The Amazing Life of Walter Mitty about?",
+                "What is The Incredible Life of Walter Mitty about?",
+                "What is The Incredible Life of Walter Mitty about?"
+            ],
+            "responses": [
+                "'The Extraordinary Life of Walter Mitty' is a film directed by Ben Stiller that follows the life of a man who daydreams and seeks adventure."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculasbenstiller",
+            "patterns": [
+                "Who is Ben Stiller?",
+                "Who is Ben Stiller?",
+                "who is ben stiller?",
+                "Who is Ben Stiller",
+                "who is ben stiller",
+                "Who is Ben Stiller?"
+            ],
+            "responses": [
+                "Ben Stiller is an American actor, comedian and director known for films such as 'Zoolander' and 'The Extraordinary Life of Walter Mitty'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_peliculasarcane",
+            "patterns": [
+                "What is Arcane about?",
+                "What is Arcane about?",
+                "What is Arcane about?",
+                "What Arcane is about"
+            ],
+            "responses": [
+                "'Arcane' is a Netflix animated series based on the video game 'League of Legends', which combines action, drama and mystery."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicadarkside",
+            "patterns": [
+                "What is Dark Side of the Moon about?",
+                "What is Dark Side of the Moon about?",
+                "What is Dark Side of the Moon about?",
+                "What is Dark Side of the Moon about?"
+            ],
+            "responses": [
+                "'Dark Side of the Moon' is the eighth studio album by British band Pink Floyd, known for its psychedelic concept and sound."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicapinkfloyd",
+            "patterns": [
+                "Who is Pink Floyd?",
+                "Who is Pink Floyd?",
+                "who is pink floyd?",
+                "Who is Pink Floyd",
+                "who is pink floyd",
+                "Who is Pink Floyd?"
+            ],
+            "responses": [
+                "Pink Floyd is a British progressive and psychedelic rock band known for albums such as 'The Dark Side of the Moon' and 'The Wall'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicathriller",
+            "patterns": [
+                "What is Thriller about?",
+                "What is Thriller about?",
+                "What is Thriller about?",
+                "What is Thriller about?"
+            ],
+            "responses": [
+                "'Thriller' is Michael Jackson's sixth studio album, considered one of the best-selling in history."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicamichaeljackson",
+            "patterns": [
+                "Who is Michael Jackson?",
+                "Who is Michael Jackson?",
+                "who is michael jackson?",
+                "Who is Michael Jackson?",
+                "who is michael jackson",
+                "Who is Michael Jackson?"
+            ],
+            "responses": [
+                "Michael Jackson was an American singer, songwriter and dancer known as the 'King of Pop'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicabohemiarhapsody",
+            "patterns": [
+                "What is Bohemian Rhapsody about?",
+                "What is Bohemian Rhapsody about?",
+                "What is Bohemian Rhapsody about?",
+                "What is Bohemian Rhapsody about?"
+            ],
+            "responses": [
+                "'Bohemian Rhapsody' is a song by the British band Queen, known for its unique structure and commercial success."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicaqueen",
+            "patterns": [
+                "Who is Queen?",
+                "Who is Queen?",
+                "who is Queen?",
+                "Who is Queen",
+                "Who is queen",
+                "Who is queen?"
+            ],
+            "responses": [
+                "Queen is a British rock band formed by Freddie Mercury, Brian May, Roger Taylor and John Deacon, known for hits such as 'Bohemian Rhapsody'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicacancionanimal",
+            "patterns": [
+                "What is Animal Song about?",
+                "What is Animal Song about?",
+                "What is Animal Song about?",
+                "What Animal Song is about"
+            ],
+            "responses": [
+                "'Canción Animal' is the fourth studio album by the Argentine band Soda Stereo, considered one of the best in the history of Spanish rock."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicasodastereo",
+            "patterns": [
+                "Who is Soda Stereo?",
+                "Who is Soda Stereo?",
+                "Who is Soda Stereo?",
+                "Who is Soda Stereo",
+                "Who is Soda Stereo?",
+                "Who is Soda Stereo?"
+            ],
+            "responses": [
+                "Soda Stereo was an Argentine rock band formed by Gustavo Cerati, Zeta Bosio and Charly Alberti, known for their influence on Latin music."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicaabbeyroad",
+            "patterns": [
+                "What is Abbey Road about?",
+                "What is Abbey Road about?",
+                "What is Abbey Road about?",
+                "What is Abbey Road about?"
+            ],
+            "responses": [
+                "'Abbey Road' is the eleventh studio album by The Beatles, known for its iconic cover and songs such as 'Come Together' and 'Here Comes the Sun'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicabeatles",
+            "patterns": [
+                "Who are The Beatles?",
+                "Who is The Beatles",
+                "Who are The Beatles?",
+                "Who is The Beatles",
+                "who is the beatles",
+                "Who is the Beatles?"
+            ],
+            "responses": [
+                "The Beatles were a British rock band formed by John Lennon, Paul McCartney, George Harrison and Ringo Starr, considered one of the most influential in history."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicafromzero",
+            "patterns": [
+                "What is From Zero about?",
+                "What is From Zero about?",
+                "What is From Zero about?",
+                "What is From Zero about?"
+            ],
+            "responses": [
+                "'From Zero' is Linkin Park's seventh studio album, released in 2024 with new vocalist Emily Armstrong."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicalinkinpark",
+            "patterns": [
+                "Who is Linkin Park?",
+                "Who is Linkin Park?",
+                "Who is Linkin Park?",
+                "Who is Linkin Park",
+                "who is linkin park",
+                "Who is Linkin Park?"
+            ],
+            "responses": [
+                "Linkin Park is an American alternative rock and nu metal band known for hits such as 'In the End' and 'Numb'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicaemptinesmachine",
+            "patterns": [
+                "What is The Emptiness Machine about?",
+                "What is The Emptiness Machine about?",
+                "What is The Emptiness Machine about?",
+                "What is The Emptiness Machine about?"
+            ],
+            "responses": [
+                "'The Emptiness Machine' is a song from Linkin Park's album 'From Zero', which stands out for its energy and emotional lyrics."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicaheavysisthecrown",
+            "patterns": [
+                "What is Heavys Is the Crown about?",
+                "What is Heavys Is the Crown about?",
+                "What Heavys Is the Crown is about",
+                "What Heavys Is the Crown is about"
+            ],
+            "responses": [
+                "'Heavy Is the Crown' is a song from Linkin Park's album 'From Zero', which combines elements of rock and electronica."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicawakemeup",
+            "patterns": [
+                "What is Wake me up about?",
+                "What is Wake me up about?",
+                "What is Wake me up about?",
+                "What is Wake me up about?"
+            ],
+            "responses": [
+                "'Wake me up' is a song by Swedish DJ and producer Avicii, known for its mix of electronic and country music."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicavicci",
+            "patterns": [
+                "Who is Avicci?",
+                "Who is Avicci?",
+                "Who is Avicci?",
+                "Who is Avicci",
+                "who is avicci",
+                "who is avicci"
+            ],
+            "responses": [
+                "Avicii was a Swedish DJ and producer known for hits like 'Wake Me Up' and 'Hey Brother'."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicamameilleureennemie",
+            "patterns": [
+                "What is Ma Meilleure Ennemie about?",
+                "What is Ma Meilleure Ennemie about?",
+                "What is Ma Meilleure Ennemie about?",
+                "What is Ma Meilleure Ennemie about?"
+            ],
+            "responses": [
+                "'Ma Meilleure Ennemie' is a song by Stromae and Pomme, released for the second season of Arcane, it is a very romantic and melodic song."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicastromae",
+            "patterns": [
+                "Who is Stromae?",
+                "Who is Stromae?",
+                "Who is Stromae?",
+                "Who is Stromae?",
+                "who is stromae",
+                "who is stromae"
+            ],
+            "responses": [
+                "Stromae is a Belgian singer, songwriter and producer known for his eclectic style and thoughtful lyrics."
+            ]
+        },
+        {
+            "tag": "consulta_preguntas_anteriores_musicapomme",
+            "patterns": [
+                "Who is Pomme?",
+                "Who is Pomme?",
+                "Who is Pomme?",
+                "Who is Pomme?",
+                "who is pomme",
+                "who is pomme"
+            ],
+            "responses": [
+                "Pomme is a French singer-songwriter known for her indie and folk style."
+            ]
+        }
+    ]
+}

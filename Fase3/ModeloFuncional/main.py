@@ -15,7 +15,7 @@ class ChatBubble(tk.Frame):
             text=text,
             bg=bubble_color,
             fg="white",
-            font=("Helvetica", 12),
+            font=("Lucida Console", 12),
             wraplength=300,
             justify=tk.LEFT,
             padx=12,
@@ -47,9 +47,24 @@ class ChatGPTUI:
             text="USACgpt",
             bg="#1E1E1E",
             fg="white",
-            font=("Helvetica", 16, "bold")
+            font=("Lucida Console", 16, "bold")
         )
         title_label.pack()
+        
+        # Cuadro de advertencia
+        warning_frame = tk.Frame(main_frame, bg="#231e33", padx=10, pady=10)
+        warning_frame.pack(fill=tk.X, pady=(0, 10))
+        
+        warning_label = tk.Label(
+            warning_frame,
+            text="⚠️ USACgpt te puede ayudar con los siguientes temas: recomendaciones de musica, libros, peliculas, generacion de codigo en python y javascript y conversaciones normales. El idioma de comunicacion es inglés y español ⚠️",
+            bg="#231e33",
+            fg="white",
+            font=("Lucida Console", 12),
+            wraplength=450,
+            justify=tk.LEFT
+        )
+        warning_label.pack()
         
         # Área de chat
         self.chat_frame = tk.Frame(main_frame, bg="#1E1E1E")
@@ -75,7 +90,7 @@ class ChatGPTUI:
             input_frame,
             bg="#2D2D2D",
             fg="white",
-            font=("Helvetica", 12),
+            font=("Lucida Console", 12),
             insertbackground="white"
         )
         self.input_box.pack(side=tk.LEFT, fill=tk.X, expand=True, padx=(0, 10))

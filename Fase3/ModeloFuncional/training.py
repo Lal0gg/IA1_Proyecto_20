@@ -17,7 +17,7 @@ lemmatizer = WordNetLemmatizer()
 
 ignore_words = set(stopwords.words('spanish'))  
 
-with open('data.json') as file:
+with open('data2.json') as file:
     data = json.load(file)
 
 training_sentences = []
@@ -33,7 +33,6 @@ for intent in data['intents']:
         training_sentences.append(pattern)
         
         training_labels.append(intent['tag'])
-    
     classes.append(intent['tag'])
 
 words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words]
@@ -70,11 +69,11 @@ model.compile(loss='categorical_crossentropy', optimizer=SGD(learning_rate=0.01,
 
 model.fit(training_data, training_labels_one_hot, epochs=200, batch_size=5, verbose=1)
 
-model.save('chatbot_model.h5')
+model.save('modeloconversacionenglish/chatbot_model.h5')
 
 import pickle
-pickle.dump(label_encoder, open('label_encoder.pkl', 'wb'))
+pickle.dump(label_encoder, open('modeloconversacionenglish/label_encoder.pkl', 'wb'))
 
-pickle.dump(words, open('words.pkl', 'wb'))
+pickle.dump(words, open('modeloconversacionenglish/words.pkl', 'wb'))
 
 print("Modelo entrenado y guardado con éxito.")
