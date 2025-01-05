@@ -17,7 +17,7 @@ lemmatizer = WordNetLemmatizer()
 
 ignore_words = set(stopwords.words('spanish'))  
 
-with open('data2.json') as file:
+with open('data.json') as file:
     data = json.load(file)
 
 training_sentences = []

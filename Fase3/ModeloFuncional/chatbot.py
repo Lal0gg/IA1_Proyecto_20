@@ -8,13 +8,13 @@ from nltk.tokenize import word_tokenize
 
 lemmatizer = WordNetLemmatizer()
 
-model = load_model('modeloconversacionenglish/chatbot_model.h5')
+model = load_model('chatbot_model.h5')
 
-label_encoder = pickle.load(open('modeloconversacionenglish/label_encoder.pkl', 'rb'))
+label_encoder = pickle.load(open('label_encoder.pkl', 'rb'))
 
-words = pickle.load(open('modeloconversacionenglish/words.pkl', 'rb'))
+words = pickle.load(open('words.pkl', 'rb'))
 
-with open('data2.json') as file:
+with open('data.json') as file:
     data = json.load(file)
 
 def clean_up_sentence(sentence):

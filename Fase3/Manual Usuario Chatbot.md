@@ -14,7 +14,8 @@ UsacGPT es un chatbot diseñado para responder preguntas sobre una variedad de t
 
 La interfaz del chatbot está compuesta por una ventana principal donde podrás ver los mensajes tanto del usuario como del chatbot. Los elementos clave en la interfaz son:
 
-![image](https://hackmd.io/_uploads/rkz_gxB8Jg.png)
+
+![image](image.png)
 
 La interfaz está compuesta por:
 
